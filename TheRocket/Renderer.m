@@ -26,19 +26,15 @@
 - (void) loadContent {
 	spriteBatch = [[SpriteBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
 	
-	malletSprite = [[Sprite alloc] init];
-	malletSprite.texture = [self.game.content load:@"SceneItems"];
-	malletSprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:60 height:60];
-	malletSprite.origin = [Vector2 vectorWithX:30 y:30];
+	rocketSprite = [[Sprite alloc] init];
+	rocketSprite.texture = [self.game.content load:@"ME"];
+	rocketSprite.sourceRectangle = [Rectangle rectangleWithX:55 y:55 width:55 height:55];
+	rocketSprite.origin = [Vector2 vectorWithX:27.5 y:27.5];
 	
-	puckSprite = [[Sprite alloc] init];
-	puckSprite.texture = [self.game.content load:@"SceneItems"];
-	puckSprite.sourceRectangle = [Rectangle rectangleWithX:80 y:0 width:40 height:40];
-	puckSprite.origin = [Vector2 vectorWithX:20 y:20];
 }
 
 - (void) drawWithGameTime:(GameTime *)gameTime {
-	[self.graphicsDevice clearWithColor:[Color white]];
+	[self.graphicsDevice clearWithColor:[Color blue]];
 	
 	[spriteBatch begin];
 	
@@ -50,8 +46,8 @@
 		}
 		
 		Sprite *sprite;
-		if ([item isKindOfClass:[Mallet class]]) {
-			sprite = malletSprite;
+		if ([item isKindOfClass:[Rocket class]]) {
+			sprite = rocketSprite;
 		} 
 		
 		if (itemWithPosition && sprite) {
@@ -61,7 +57,7 @@
 				tintWithColor:[Color white]
 					 rotation:0
 					   origin:sprite.origin
-				 scaleUniform:2
+				 scaleUniform:1
 					  effects:SpriteEffectsNone
 				   layerDepth:0];
 		}

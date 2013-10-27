@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B1B8323181D73720056884F /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B8322181D73720056884F /* Renderer.m */; };
 		5B1B8326181D738A0056884F /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B8325181D738A0056884F /* Sprite.m */; };
-		5B1B8329181D739F0056884F /* Mallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B8328181D739E0056884F /* Mallet.m */; };
+		5B1B8329181D739F0056884F /* Rocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B8328181D739E0056884F /* Rocket.m */; };
 		5B1B832C181D73AE0056884F /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B832B181D73AD0056884F /* Scene.m */; };
 		5B1B832F181D73B80056884F /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B832E181D73B80056884F /* Level.m */; };
 		5B26DAE7181D65AA00E9A839 /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B26DAE6181D65AA00E9A839 /* libXNI.a */; };
@@ -30,10 +30,11 @@
 		5B4BE27D181D614400E0FEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4BE25E181D614300E0FEA9 /* Foundation.framework */; };
 		5B4BE285181D614400E0FEA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4BE283181D614400E0FEA9 /* InfoPlist.strings */; };
 		5B4BE288181D614400E0FEA9 /* TheRocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4BE287181D614400E0FEA9 /* TheRocketTests.m */; };
-		5BEF300F181D7894001F8B37 /* SceneItems.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF300E181D7894001F8B37 /* SceneItems.png */; };
 		5BEF3011181D7B4E001F8B37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF3010181D7B4E001F8B37 /* Default.png */; };
 		5BEF3013181D7B58001F8B37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF3012181D7B57001F8B37 /* Default@2x.png */; };
 		5BEF3015181D7B61001F8B37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF3014181D7B61001F8B37 /* Default-568h@2x.png */; };
+		5BEF3018181D8183001F8B37 /* ME.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF3016181D8183001F8B37 /* ME.png */; };
+		5BEF3019181D8183001F8B37 /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF3017181D8183001F8B37 /* other.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +54,8 @@
 		5B1B8322181D73720056884F /* Renderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
 		5B1B8324181D738A0056884F /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		5B1B8325181D738A0056884F /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
-		5B1B8327181D739E0056884F /* Mallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mallet.h; sourceTree = "<group>"; };
-		5B1B8328181D739E0056884F /* Mallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mallet.m; sourceTree = "<group>"; };
+		5B1B8327181D739E0056884F /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rocket.h; sourceTree = "<group>"; };
+		5B1B8328181D739E0056884F /* Rocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rocket.m; sourceTree = "<group>"; };
 		5B1B832A181D73AD0056884F /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
 		5B1B832B181D73AD0056884F /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
 		5B1B832D181D73B80056884F /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
@@ -84,10 +85,11 @@
 		5B4BE284181D614400E0FEA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4BE286181D614400E0FEA9 /* TheRocketTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheRocketTests.h; sourceTree = "<group>"; };
 		5B4BE287181D614400E0FEA9 /* TheRocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheRocketTests.m; sourceTree = "<group>"; };
-		5BEF300E181D7894001F8B37 /* SceneItems.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SceneItems.png; path = image/SceneItems.png; sourceTree = "<group>"; };
 		5BEF3010181D7B4E001F8B37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5BEF3012181D7B57001F8B37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5BEF3014181D7B61001F8B37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BEF3016181D8183001F8B37 /* ME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ME.png; path = image/ME.png; sourceTree = "<group>"; };
+		5BEF3017181D8183001F8B37 /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = other.png; path = image/other.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +165,8 @@
 		5B1B8313181D6BFC0056884F /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				5B1B8327181D739E0056884F /* Mallet.h */,
-				5B1B8328181D739E0056884F /* Mallet.m */,
+				5B1B8327181D739E0056884F /* Rocket.h */,
+				5B1B8328181D739E0056884F /* Rocket.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -259,7 +261,8 @@
 		5BEF300D181D7889001F8B37 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5BEF300E181D7894001F8B37 /* SceneItems.png */,
+				5BEF3016181D8183001F8B37 /* ME.png */,
+				5BEF3017181D8183001F8B37 /* other.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -336,10 +339,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4BE267181D614300E0FEA9 /* InfoPlist.strings in Resources */,
-				5BEF300F181D7894001F8B37 /* SceneItems.png in Resources */,
 				5BEF3011181D7B4E001F8B37 /* Default.png in Resources */,
 				5BEF3013181D7B58001F8B37 /* Default@2x.png in Resources */,
 				5BEF3015181D7B61001F8B37 /* Default-568h@2x.png in Resources */,
+				5BEF3018181D8183001F8B37 /* ME.png in Resources */,
+				5BEF3019181D8183001F8B37 /* other.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +382,7 @@
 				5B26DAF6181D66DB00E9A839 /* TheRocket.m in Sources */,
 				5B1B8323181D73720056884F /* Renderer.m in Sources */,
 				5B1B8326181D738A0056884F /* Sprite.m in Sources */,
-				5B1B8329181D739F0056884F /* Mallet.m in Sources */,
+				5B1B8329181D739F0056884F /* Rocket.m in Sources */,
 				5B1B832C181D73AE0056884F /* Scene.m in Sources */,
 				5B1B832F181D73B80056884F /* Level.m in Sources */,
 			);

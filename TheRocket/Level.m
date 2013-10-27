@@ -15,12 +15,11 @@
 {
 	self = [super init];
 	if (self != nil) {
-		player1Mallet = [[Mallet alloc] init];
-		player2Mallet = [[Mallet alloc] init];
+		player = [[Rocket alloc] init];
+        [player setPosition:[Vector2 vectorWithX:50 y:50]];
 		
 		scene = [[Scene alloc] init];
-		[scene addItem:player1Mallet];
-		[scene addItem:player2Mallet];
+		[scene addItem:player];
 	}
 	return self;
 }

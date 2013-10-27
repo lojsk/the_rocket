@@ -2,7 +2,7 @@
 
 @class Scene;
 
-@class Mallet;
+@class Rocket;
 
 @class Level;
 

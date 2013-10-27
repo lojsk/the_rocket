@@ -15,8 +15,7 @@
 
 @interface Renderer : DrawableGameComponent {
 	// Resources
-	Sprite *malletSprite;
-	Sprite *puckSprite;
+	Sprite *rocketSprite;
 	
 	// Graphics objects
 	SpriteBatch *spriteBatch;

@@ -10,7 +10,7 @@
 
 #import "Headers.TheRocket.h"
 
-@interface Mallet : NSObject <Position> {
+@interface Rocket : NSObject <Position> {
 	Vector2 *position;
 }
 

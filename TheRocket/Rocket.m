@@ -6,10 +6,10 @@
 //  Copyright 2010 Retronator. All rights reserved.
 //
 
-#import "Mallet.h"
+#import "Rocket.h"
 
 
-@implementation Mallet
+@implementation Rocket
 
 - (id) init
 {

@@ -13,8 +13,7 @@
 @interface Level : NSObject {
 	Scene *scene;
 	
-	Mallet *player1Mallet;
-	Mallet *player2Mallet;
+	Rocket *player;
 }
 
 @property (nonatomic, retain) Scene *scene;
