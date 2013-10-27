@@ -1,5 +1,5 @@
 //
-//  TheRocket.h
+//  Renderer.h
 //  TheRocket
 //
 //  Created by OdpiralniCasi on 27/10/13.
@@ -8,19 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Retronator.Xni.Framework.h"
 #import "Retronator.Xni.Framework.Graphics.h"
 #import "Retronator.Xni.Framework.Content.h"
-#import "Retronator.Xni.Framework.Input.Touch.h"
 
 #import "Headers.TheRocket.classes.h"
 
-@interface TheRocket : Game {
-    GraphicsDeviceManager *graphics;
-	Renderer *renderer;
-	Level *theLevel;
+@interface Renderer : DrawableGameComponent {
+	// Resources
+	Sprite *malletSprite;
+	Sprite *puckSprite;
+	
+	// Graphics objects
+	SpriteBatch *spriteBatch;
+	
+	// Level
+	Level *level;
 }
 
-- (void) loadLevel:(Level*) level;
+- (id) initWithGame:(Game*)theGame level:(Level*)theLevel;
 
 @end
