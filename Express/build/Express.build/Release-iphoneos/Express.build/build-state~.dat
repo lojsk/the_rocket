@@ -1,0 +1,2129 @@
+TExpress
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC110BE00000000000092AA
+t1287721150
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC110BE00000000000026AA
+t1287721150
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/AnimatedSprite.h
+c000000004CC7987E000000000000022D
+t1288149118
+s557
+i<Foundation/Foundation.h>
+i"Express.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/AnimatedSprite.m
+c000000004CF57E780000000000000661
+t1291157112
+s1633
+i"AnimatedSprite.h"
+i"Express.Graphics.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/AnimatedSpriteFrame.h
+c000000004CC78D96000000000000022A
+t1288146326
+s554
+i<Foundation/Foundation.h>
+i"Express.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/AnimatedSpriteFrame.m
+c000000004CC78E0800000000000002A2
+t1288146440
+s674
+i"AnimatedSpriteFrame.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/DebugRenderer.h
+c000000004CE266D20000000000000454
+t1289905874
+s1108
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.h"
+i"Artificial.Spectrum.h"
+i"Express.Scene.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/DebugRenderer.m
+c000000004D2C67E300000000000017E2
+t1294755811
+s6114
+i"DebugRenderer.h"
+i"Express.Math.h"
+i"Express.Scene.h"
+i"Express.Scene.Objects.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/Express.Graphics.classes.h
+c000000004CD9C3A8000000000000004A
+t1289339816
+s74
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/Express.Graphics.h
+c000000004CD9C3D20000000000000068
+t1289339858
+s104
+i"Sprite.h"
+i"AnimatedSprite.h"
+i"AnimatedSpriteFrame.h"
+i"DebugRenderer.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/Sprite.h
+c000000004CC6DF1900000000000001F8
+t1288101657
+s504
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.h"
+i"Artificial.Everywhere.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/Sprite.m
+c000000004CC6DCCA0000000000000161
+t1288101066
+s353
+i"Sprite.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/AAHalfPlane.h
+c000000004CEC36CE00000000000001EA
+t1290548942
+s490
+i<Foundation/Foundation.h>
+i"HalfPlane.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/AAHalfPlane.m
+c000000004CEC38690000000000000766
+t1290549353
+s1894
+i"AAHalfPlane.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/ConvexPolygon.h
+c000000004D2B7FB70000000000000217
+t1294696375
+s535
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/ConvexPolygon.m
+c000000004D2B8B1E000000000000055C
+t1294699294
+s1372
+i"ConvexPolygon.h"
+i"Express.Math.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/Express.Math.classes.h
+c000000004D2B72010000000000000044
+t1294692865
+s68
+i"MathEnums.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/Express.Math.h
+c000000004D2B71FB000000000000005F
+t1294692859
+s95
+i"MathEnums.h"
+i"HalfPlane.h"
+i"AAHalfPlane.h"
+i"ConvexPolygon.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/HalfPlane.h
+c000000004CD9DD5E0000000000000204
+t1289346398
+s516
+i<Foundation/Foundation.h>
+i"Express.Math.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/HalfPlane.m
+c000000004CD9EE9A000000000000031D
+t1289350810
+s797
+i"HalfPlane.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/MathEnums.h
+c000000004CD9DD330000000000000083
+t1289346355
+s131
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/AARectangleAAHalfPlaneCollision.h
+c000000004CEC3F690000000000000124
+t1290551145
+s292
+i<Foundation/Foundation.h>
+i"CollisionAlgorithm.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/AARectangleAAHalfPlaneCollision.m
+c000000004D2C76E20000000000000969
+t1294759650
+s2409
+i"AARectangleAAHalfPlaneCollision.h"
+i"Express.Scene.Objects.h"
+i"Express.Physics.h"
+i"Express.Math.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/AARectangleAARectangleCollision.h
+c000000004CEC3F690000000000000124
+t1290551145
+s292
+i<Foundation/Foundation.h>
+i"CollisionAlgorithm.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/AARectangleAARectangleCollision.m
+c000000004D2C76E200000000000009FB
+t1294759650
+s2555
+i"AARectangleAARectangleCollision.h"
+i"Express.Scene.Objects.h"
+i"Express.Physics.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/Collision.h
+c000000004D2C74A000000000000002AC
+t1294759072
+s684
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/Collision.m
+c000000004D3089390000000000002D02
+t1295026489
+s11522
+i"Collision.h"
+i"Express.Scene.Objects.h"
+i"Express.Physics.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/CollisionAlgorithm.h
+c000000004CEC3EF00000000000000117
+t1290551024
+s279
+i<Foundation/Foundation.h>
+i"ICollisionAlgorithm.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/CollisionAlgorithm.m
+c000000004CEC3F7B00000000000001EB
+t1290551163
+s491
+i"CollisionAlgorithm.h"
+i"Express.Physics.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/Express.Physics.classes.h
+c000000004D2B84BB0000000000000136
+t1294697659
+s310
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/Express.Physics.h
+c000000004D2B84C20000000000000172
+t1294697666
+s370
+i"MovementPhysics.h"
+i"ICollisionAlgorithm.h"
+i"Collision.h"
+i"ParticleParticleCollision.h"
+i"ParticleAAHalfPlaneCollision.h"
+i"ParticleAARectangleCollision.h"
+i"AARectangleAAHalfPlaneCollision.h"
+i"AARectangleAARectangleCollision.h"
+i"ParticleHalfPlaneCollision.h"
+i"ParticleConvexCollision.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ICollisionAlgorithm.h
+c000000004CEC3C980000000000000170
+t1290550424
+s368
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/MovementPhysics.h
+c000000004CDC1BFF0000000000000154
+t1289493503
+s340
+i<Foundation/Foundation.h>
+i"Express.Scene.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/MovementPhysics.m
+c000000004D2B6C9D00000000000002C5
+t1294691485
+s709
+i"Express.Scene.h"
+i"Express.Scene.Objects.h"
+i"MovementPhysics.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleAAHalfPlaneCollision.h
+c000000004CEC3F69000000000000011E
+t1290551145
+s286
+i<Foundation/Foundation.h>
+i"CollisionAlgorithm.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleAAHalfPlaneCollision.m
+c000000004D2CDCCE0000000000000AC1
+t1294785742
+s2753
+i"ParticleAAHalfPlaneCollision.h"
+i"Express.Scene.Objects.h"
+i"Express.Physics.h"
+i"Express.Math.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleAARectangleCollision.h
+c000000004CEC3F69000000000000011F
+t1290551145
+s287
+i<Foundation/Foundation.h>
+i"CollisionAlgorithm.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleAARectangleCollision.m
+c000000004D2C76E20000000000000E9D
+t1294759650
+s3741
+i"ParticleAARectangleCollision.h"
+i"Express.Physics.h"
+i"Express.Scene.Objects.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleConvexCollision.h
+c000000004D2B83CD0000000000000113
+t1294697421
+s275
+i<Foundation/Foundation.h>
+i"CollisionAlgorithm.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleConvexCollision.m
+c000000004D2DC98C0000000000001470
+t1294846348
+s5232
+i"ParticleConvexCollision.h"
+i"Express.Scene.Objects.h"
+i"Express.Physics.h"
+i"Express.Math.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleHalfPlaneCollision.h
+c000000004D2B70E10000000000000119
+t1294692577
+s281
+i<Foundation/Foundation.h>
+i"CollisionAlgorithm.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleHalfPlaneCollision.m
+c000000004D2CDBC40000000000000671
+t1294785476
+s1649
+i"ParticleHalfPlaneCollision.h"
+i"Express.Scene.Objects.h"
+i"Express.Physics.h"
+i"Express.Math.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleParticleCollision.h
+c000000004CEC3EF90000000000000117
+t1290551033
+s279
+i<Foundation/Foundation.h>
+i"CollisionAlgorithm.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleParticleCollision.m
+c000000004D2C774D00000000000006F0
+t1294759757
+s1776
+i"ParticleParticleCollision.h"
+i"Express.Scene.Objects.h"
+i"Express.Physics.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Express.Scene.classes.h
+c000000004CFECAB00000000000000049
+t1291766448
+s73
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Express.Scene.h
+c000000004CFECABF000000000000005C
+t1291766463
+s92
+i"IScene.h"
+i"SceneEventArgs.h"
+i"SimpleScene.h"
+i"GridScene.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/GridScene.h
+c000000004CFEF9D6000000000000022A
+t1291778518
+s554
+i<Foundation/Foundation.h>
+i"SimpleScene.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/GridScene.m
+c000000004CFEFA1F00000000000009EE
+t1291778591
+s2542
+i"GridScene.h"
+i"Express.Scene.h"
+i"Express.Scene.Objects.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/IScene.h
+c000000004CF593F40000000000000188
+t1291162612
+s392
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/Express.Scene.Objects.classes.h
+c000000004D2C6C230000000000000234
+t1294756899
+s564
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/Express.Scene.Objects.h
+c000000004D2C6C2F00000000000002AC
+t1294756911
+s684
+i"IPosition.h"
+i"IVelocity.h"
+i"IMovable.h"
+i"IRotation.h"
+i"IAngularVelocity.h"
+i"IRotatable.h"
+i"IRadius.h"
+i"IRectangleSize.h"
+i"IMass.h"
+i"IAngularMass.h"
+i"ICoefficientOfRestitution.h"
+i"ICoefficientOfFriction.h"
+i"IParticleCollider.h"
+i"IHalfPlaneCollider.h"
+i"IAAHalfPlaneCollider.h"
+i"IRectangleCollider.h"
+i"IAARectangleCollider.h"
+i"IConvexCollider.h"
+i"ICustomCollider.h"
+i"IParticle.h"
+i"IAARectangle.h"
+i"ICircle.h"
+i"ILifetime.h"
+i"Lifetime.h"
+i"ISceneUser.h"
+i"ICustomUpdate.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IAAHalfPlaneCollider.h
+c000000004D2B724F0000000000000131
+t1294692943
+s305
+i<UIKit/UIKit.h>
+i"Express.Math.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IAARectangle.h
+c000000004D2B56D20000000000000129
+t1294685906
+s297
+i<UIKit/UIKit.h>
+i"IMovable.h"
+i"IMass.h"
+i"IAARectangleCollider.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IAARectangleCollider.h
+c000000004CEC36740000000000000117
+t1290548852
+s279
+i<UIKit/UIKit.h>
+i"IPosition.h"
+i"IRectangleSize.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IAngularMass.h
+c000000004D2C6C0E00000000000000EE
+t1294756878
+s238
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IAngularVelocity.h
+c000000004CE2817000000000000000F0
+t1289912688
+s240
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/ICircle.h
+c000000004D2CC1050000000000000102
+t1294778629
+s258
+i<UIKit/UIKit.h>
+i"IParticle.h"
+i"IRotatable.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/ICoefficientOfFriction.h
+c000000004D2B5BF8000000000000010C
+t1294687224
+s268
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/ICoefficientOfRestitution.h
+c000000004D2B56B00000000000000115
+t1294685872
+s277
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IConvexCollider.h
+c000000004CD08ED20000000000000101
+t1288736466
+s257
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/ICustomCollider.h
+c000000004CEC32B50000000000000132
+t1290547893
+s306
+i<UIKit/UIKit.h>
+i"System.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/ICustomUpdate.h
+c000000004CEC4C4900000000000000F9
+t1290554441
+s249
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IHalfPlaneCollider.h
+c000000004D2B72490000000000000128
+t1294692937
+s296
+i<UIKit/UIKit.h>
+i"Express.Math.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/ILifetime.h
+c000000004CD0149E000000000000011C
+t1288705182
+s284
+i<UIKit/UIKit.h>
+i"Express.Scene.Objects.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IMass.h
+c000000004CD08ED400000000000000D9
+t1288736468
+s217
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IMovable.h
+c000000004CC77E2500000000000000F5
+t1288142373
+s245
+i<UIKit/UIKit.h>
+i"IPosition.h"
+i"IVelocity.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IParticle.h
+c000000004D2B565D000000000000011D
+t1294685789
+s285
+i<UIKit/UIKit.h>
+i"IMovable.h"
+i"IMass.h"
+i"IParticleCollider.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IParticleCollider.h
+c000000004CD013E10000000000000102
+t1288704993
+s258
+i<UIKit/UIKit.h>
+i"IRadius.h"
+i"IPosition.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IPosition.h
+c000000004CD0149400000000000000F1
+t1288705172
+s241
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IRadius.h
+c000000004CD08ED400000000000000DF
+t1288736468
+s223
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IRectangleCollider.h
+c000000004CE2835F0000000000000134
+t1289913183
+s308
+i<UIKit/UIKit.h>
+i"IPosition.h"
+i"IRotation.h"
+i"IRectangleSize.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IRectangleSize.h
+c000000004CEC4D7F0000000000000111
+t1290554751
+s273
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IRotatable.h
+c000000004CE281A00000000000000107
+t1289912736
+s263
+i<UIKit/UIKit.h>
+i"IRotation.h"
+i"IAngularVelocity.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IRotation.h
+c000000004CE2816200000000000000E0
+t1289912674
+s224
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/ISceneUser.h
+c000000004CEC54620000000000000175
+t1290556514
+s373
+i<UIKit/UIKit.h>
+i"Express.Scene.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/IVelocity.h
+c000000004CD0149800000000000000F1
+t1288705176
+s241
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/Lifetime.h
+c000000004CC783B500000000000002AA
+t1288143797
+s682
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/Lifetime.m
+c000000004CC78B6B00000000000002B2
+t1288145771
+s690
+i"Lifetime.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SceneAction.h
+c000000004CEBEC5A00000000000001EF
+t1290529882
+s495
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SceneAction.m
+c000000004CEBEC5D00000000000001F9
+t1290529885
+s505
+i"SceneAction.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SceneEventArgs.h
+c000000004CEBEDB50000000000000178
+t1290530229
+s376
+i<Foundation/Foundation.h>
+i"EventArgs.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SceneEventArgs.m
+c000000004CEBEEBF00000000000001C9
+t1290530495
+s457
+i"SceneEventArgs.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SimpleScene.h
+c000000004CF5B8770000000000000221
+t1291171959
+s545
+i<Foundation/Foundation.h>
+i"IScene.h"
+i"GameComponent.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SimpleScene.m
+c000000004CF5B95B0000000000000AA7
+t1291172187
+s2727
+i"SimpleScene.h"
+i"Express.Scene.h"
+i"Express.Scene.Objects.h"
+i"SceneAction.h"
+i"GameComponent.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Express_Prefix.pch
+c000000004CD295A800000000000000E2
+t1288869288
+s226
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AAHalfPlane.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AARectangleAAHalfPlaneCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AARectangleAARectangleCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AnimatedSprite.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AnimatedSpriteFrame.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/Collision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/CollisionAlgorithm.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ConvexPolygon.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/DebugRenderer.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/Express.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/GridScene.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/HalfPlane.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/Lifetime.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/MovementPhysics.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleAAHalfPlaneCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleAARectangleCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleConvexCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleHalfPlaneCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleParticleCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/SceneAction.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/SceneEventArgs.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/SimpleScene.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/Sprite.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/libExpress.a
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AAHalfPlane.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AARectangleAAHalfPlaneCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AARectangleAARectangleCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AnimatedSprite.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AnimatedSpriteFrame.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/Collision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/CollisionAlgorithm.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ConvexPolygon.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/DebugRenderer.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/Express.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/GridScene.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/HalfPlane.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/Lifetime.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/MovementPhysics.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleAAHalfPlaneCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleAARectangleCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleConvexCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleHalfPlaneCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleParticleCollision.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/SceneAction.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/SceneEventArgs.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/SimpleScene.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/Sprite.o
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/libExpress.a
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/libExpress.a
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/AAHalfPlane.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/AARectangleAAHalfPlaneCollision.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/AARectangleAARectangleCollision.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/AnimatedSprite.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/AnimatedSpriteFrame.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Collision.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/CollisionAlgorithm.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ConvexPolygon.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/DebugRenderer.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Graphics.classes.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Graphics.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Math.classes.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Math.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Physics.classes.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Physics.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Scene.Objects.classes.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Scene.Objects.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Scene.classes.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Express.Scene.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/GridScene.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/HalfPlane.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IAAHalfPlaneCollider.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IAARectangle.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IAARectangleCollider.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IAngularMass.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IAngularVelocity.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ICircle.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ICoefficientOfFriction.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ICoefficientOfRestitution.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ICollisionAlgorithm.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IConvexCollider.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ICustomCollider.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ICustomUpdate.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IHalfPlaneCollider.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ILifetime.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IMass.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IMovable.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IParticle.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IParticleCollider.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IPosition.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IRadius.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IRectangleCollider.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IRectangleSize.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IRotatable.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IRotation.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IScene.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ISceneUser.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/IVelocity.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Lifetime.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/MathEnums.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/MovementPhysics.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ParticleAAHalfPlaneCollision.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ParticleAARectangleCollision.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ParticleHalfPlaneCollision.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/ParticleParticleCollision.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/SceneEventArgs.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/SimpleScene.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/usr/local/include/Sprite.h
+t2
+s0
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/BasicEffect.h
+c000000004D05A33B000000000000078E
+t1292215099
+s1934
+i<Foundation/Foundation.h>
+i"Effect.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/BlendState.h
+c000000004D05A33B00000000000005A0
+t1292215099
+s1440
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Color.h
+c000000004D05A33A000000000000116E
+t1292215098
+s4462
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Delegate.h
+c000000004D05A33A00000000000001F9
+t1292215098
+s505
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/DepthStencilState.h
+c000000004D05A33B00000000000006E5
+t1292215099
+s1765
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/DirectionalLight.h
+c000000004D05A33B0000000000000227
+t1292215099
+s551
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/DrawableGameComponent.h
+c000000004D05A33B0000000000000276
+t1292215099
+s630
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GameComponent.h"
+i"IDrawable.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Effect.h
+c000000004D05A33B00000000000001A8
+t1292215099
+s424
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/EffectPass.h
+c000000004D05A33B00000000000001D3
+t1292215099
+s467
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/EffectTechnique.h
+c000000004D05A33B00000000000001A3
+t1292215099
+s419
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Event.h
+c000000004D05A33A00000000000001BE
+t1292215098
+s446
+i<Foundation/Foundation.h>
+i"System.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/EventArgs.h
+c000000004D05A33A00000000000000D9
+t1292215098
+s217
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/FrameworkEnums.h
+c000000004D05A33B00000000000000B1
+t1292215099
+s177
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Game.h
+c000000004D11F6740000000000000905
+t1293022836
+s2309
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"Retronator.Xni.Framework.Content.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameComponent.h
+c000000004D11F6740000000000000242
+t1293022836
+s578
+i<Foundation/Foundation.h>
+i"System.classes.h"
+i"Retronator.Xni.Framework.classes.h"
+i"IGameComponent.h"
+i"IUpdatable.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameComponentCollection.h
+c000000004D11F67400000000000002C5
+t1293022836
+s709
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameComponentCollectionEventArgs.h
+c000000004D05A33A000000000000022E
+t1292215098
+s558
+i<Foundation/Foundation.h>
+i"EventArgs.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameHost.h
+c000000004D05A33A00000000000001A0
+t1292215098
+s416
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameServiceContainer.h
+c000000004D05A33A0000000000000182
+t1292215098
+s386
+i<Foundation/Foundation.h>
+i"System.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameTime.h
+c000000004D05A33A00000000000003FE
+t1292215098
+s1022
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameWindow.h
+c000000004D05A33A00000000000003DA
+t1292215098
+s986
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GraphicsDevice.h
+c000000004D05A33A0000000000001055
+t1292215098
+s4181
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/glext.h>
+i"System.classes.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GraphicsDeviceManager.h
+c000000004D05A33A0000000000000585
+t1292215098
+s1413
+i<Foundation/Foundation.h>
+i"System.h"
+i"IGraphicsDeviceManager.h"
+i"IGraphicsDeviceService.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GraphicsEnums.h
+c000000004D05A33A00000000000017BE
+t1292215098
+s6078
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES2/gl.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GraphicsResource.h
+c000000004D05A33A0000000000000299
+t1292215098
+s665
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/HiDefGraphicsDevice.h
+c000000004D05A33A00000000000000FF
+t1292215098
+s255
+i<Foundation/Foundation.h>
+i"GraphicsDevice.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IDrawable.h
+c000000004D05A33A0000000000000132
+t1292215098
+s306
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IGameComponent.h
+c000000004D05A33A000000000000003F
+t1292215098
+s63
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IGraphicsDeviceManager.h
+c000000004D05A33A0000000000000064
+t1292215098
+s100
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IGraphicsDeviceService.h
+c000000004D05A33A000000000000018D
+t1292215098
+s397
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IServiceProvider.h
+c000000004D05A33B0000000000000045
+t1292215099
+s69
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IUpdatable.h
+c000000004D05A33A0000000000000139
+t1292215098
+s313
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IndexArray.h
+c000000004D05A33C0000000000000281
+t1292215100
+s641
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IndexBuffer.h
+c000000004D05A33B00000000000002EF
+t1292215099
+s751
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Matrix.h
+c000000004D05A33B0000000000000CC7
+t1292215099
+s3271
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/MatrixStruct.h
+c000000004D05A33B0000000000002DC4
+t1292215099
+s11716
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Model.h
+c000000004D05A33B00000000000002E7
+t1292215099
+s743
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelBone.h
+c000000004D05A33C0000000000000291
+t1292215100
+s657
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelBoneCollection.h
+c000000004D05A33C0000000000000204
+t1292215100
+s516
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelEffectCollection.h
+c000000004D05A33B000000000000016A
+t1292215099
+s362
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelMesh.h
+c000000004D05A33B000000000000029A
+t1292215099
+s666
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelMeshCollection.h
+c000000004D05A33B0000000000000206
+t1292215099
+s518
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelMeshPart.h
+c000000004D05A33B0000000000000337
+t1292215099
+s823
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelMeshPartCollection.h
+c000000004D05A33B0000000000000175
+t1292215099
+s373
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/PointStruct.h
+c000000004D05A33C0000000000000106
+t1292215100
+s262
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Protocols.h
+c000000004D05A33A0000000000000115
+t1292215098
+s277
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Quaternion.h
+c000000004D05A33B000000000000079A
+t1292215099
+s1946
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/RasterizerState.h
+c000000004D05A33B000000000000032C
+t1292215099
+s812
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ReachGraphicsDevice.h
+c000000004D05A33A00000000000000FF
+t1292215098
+s255
+i<Foundation/Foundation.h>
+i"GraphicsDevice.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ReadOnlyCollection.h
+c000000004D05A33C0000000000000209
+t1292215100
+s521
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Rectangle.h
+c000000004D11F6740000000000000469
+t1293022836
+s1129
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/RectangleStruct.h
+c000000004D05A33A00000000000001EF
+t1292215098
+s495
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.Content.classes.h
+c000000004D11F674000000000000014A
+t1293022836
+s330
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.Graphics.classes.h
+c000000004D11F67400000000000003C0
+t1293022836
+s960
+i"GraphicsEnums.h"
+i"VertexStructs.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.Graphics.h
+c000000004D11F6740000000000000555
+t1293022836
+s1365
+i"GraphicsEnums.h"
+i"GraphicsResource.h"
+i"Texture.h"
+i"Texture2D.h"
+i"Effect.h"
+i"EffectTechnique.h"
+i"EffectPass.h"
+i"BasicEffect.h"
+i"DirectionalLight.h"
+i"VertexStructs.h"
+i"VertexElement.h"
+i"VertexPositionColor.h"
+i"VertexPositionTexture.h"
+i"VertexPositionColorTexture.h"
+i"VertexPositionNormalTexture.h"
+i"VertexDeclaration.h"
+i"VertexArray.h"
+i"VertexPositionColorArray.h"
+i"VertexPositionTextureArray.h"
+i"VertexPositionColorTextureArray.h"
+i"VertexPositionNormalTextureArray.h"
+i"IndexArray.h"
+i"ShortIndexArray.h"
+i"VertexBuffer.h"
+i"VertexBufferBinding.h"
+i"IndexBuffer.h"
+i"Model.h"
+i"ModelMeshCollection.h"
+i"ModelMesh.h"
+i"ModelEffectCollection.h"
+i"ModelMeshPartCollection.h"
+i"ModelMeshPart.h"
+i"ModelBone.h"
+i"ModelBoneCollection.h"
+i"BlendState.h"
+i"DepthStencilState.h"
+i"RasterizerState.h"
+i"SamplerState.h"
+i"SamplerStateCollection.h"
+i"TextureCollection.h"
+i"Viewport.h"
+i"IGraphicsDeviceService.h"
+i"GraphicsDevice.h"
+i"ReachGraphicsDevice.h"
+i"HiDefGraphicsDevice.h"
+i"SpriteBatch.h"
+i"SpriteFont.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.classes.h
+c000000004D05A33A000000000000028E
+t1292215098
+s654
+i"FrameworkEnums.h"
+i"PointStruct.h"
+i"RectangleStruct.h"
+i"Vector2Struct.h"
+i"Vector3Struct.h"
+i"Vector4Struct.h"
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.h
+c000000004D05A33A00000000000002B2
+t1292215098
+s690
+i"FrameworkEnums.h"
+i"Protocols.h"
+i"XniPoint.h"
+i"Rectangle.h"
+i"Color.h"
+i"IGraphicsDeviceManager.h"
+i"Game.h"
+i"GameTime.h"
+i"GameServiceContainer.h"
+i"GraphicsDeviceManager.h"
+i"GameHost.h"
+i"GameWindow.h"
+i"IGameComponent.h"
+i"IUpdatable.h"
+i"IDrawable.h"
+i"GameComponent.h"
+i"DrawableGameComponent.h"
+i"GameComponentCollection.h"
+i"GameComponentCollectionEventArgs.h"
+i"Vector2.h"
+i"Vector3.h"
+i"Vector4.h"
+i"Quaternion.h"
+i"Matrix.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SamplerState.h
+c000000004D05A33B00000000000003E4
+t1292215099
+s996
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SamplerStateCollection.h
+c000000004D05A33B00000000000001EE
+t1292215099
+s494
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ShortIndexArray.h
+c000000004D05A33C0000000000000147
+t1292215100
+s327
+i<Foundation/Foundation.h>
+i"IndexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SpriteBatch.h
+c000000004D11F6740000000000000DE2
+t1293022836
+s3554
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SpriteFont.h
+c000000004D11F67400000000000002A6
+t1293022836
+s678
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/System.classes.h
+c000000004D05A33A0000000000000061
+t1292215098
+s97
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/System.h
+c000000004D05A33A000000000000007C
+t1292215098
+s124
+i"IServiceProvider.h"
+i"Delegate.h"
+i"Event.h"
+i"EventArgs.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Texture.h
+c000000004D05A33A000000000000022E
+t1292215098
+s558
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Texture2D.h
+c000000004D05A33A00000000000005BA
+t1292215098
+s1466
+i<Foundation/Foundation.h>
+i"Texture.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/TextureCollection.h
+c000000004D05A33B00000000000001CA
+t1292215099
+s458
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector2.h
+c000000004D05A33B000000000000063E
+t1292215099
+s1598
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector2Struct.h
+c000000004D05A33B000000000000081B
+t1292215099
+s2075
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector3.h
+c000000004D05A33B0000000000000743
+t1292215099
+s1859
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector3Struct.h
+c000000004D05A33B0000000000000BC3
+t1292215099
+s3011
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector4.h
+c000000004D05A33B000000000000060D
+t1292215099
+s1549
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector4Struct.h
+c000000004D05A33B0000000000000D2C
+t1292215099
+s3372
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexArray.h
+c000000004D05A33B0000000000000289
+t1292215099
+s649
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexBuffer.h
+c000000004D05A33B0000000000000301
+t1292215099
+s769
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexBufferBinding.h
+c000000004D05A33B0000000000000326
+t1292215099
+s806
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexDeclaration.h
+c000000004D05A33B00000000000001CD
+t1292215099
+s461
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexElement.h
+c000000004D05A33B00000000000004F4
+t1292215099
+s1268
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionColor.h
+c000000004D05A33B0000000000000128
+t1292215099
+s296
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionColorArray.h
+c000000004D05A33B0000000000000171
+t1292215099
+s369
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionColorTexture.h
+c000000004D05A33B0000000000000136
+t1292215099
+s310
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionColorTextureArray.h
+c000000004D05A33B0000000000000186
+t1292215099
+s390
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionNormalTexture.h
+c000000004D05A33C0000000000000139
+t1292215100
+s313
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionNormalTextureArray.h
+c000000004D05A33C000000000000018A
+t1292215100
+s394
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionTexture.h
+c000000004D05A33B000000000000012C
+t1292215099
+s300
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionTextureArray.h
+c000000004D05A33B0000000000000177
+t1292215099
+s375
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexStructs.h
+c000000004D05A33B0000000000000263
+t1292215099
+s611
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Viewport.h
+c000000004D05A33B0000000000000355
+t1292215099
+s853
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/XniPoint.h
+c000000004D05A33C0000000000000342
+t1292215100
+s834
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/var/folders/OX/OXygGssoFsiqj4cjIfJtzE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Express_Prefix-feczpawellexupdevdtnphftptdf/Express_Prefix.pch.gch
+t1291687365
+s11381644
+
+N/var/folders/OX/OXygGssoFsiqj4cjIfJtzE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Express_Prefix-hkrdkdcwoaqokdcvlgozbtmcuafq/Express_Prefix.pch.gch
+t1291687366
+s10926988
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AAHalfPlane.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/AAHalfPlane.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AARectangleAAHalfPlaneCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/AARectangleAAHalfPlaneCollision.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AARectangleAARectangleCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/AARectangleAARectangleCollision.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AnimatedSprite.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/AnimatedSprite.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/AnimatedSpriteFrame.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/AnimatedSpriteFrame.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/Collision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/Collision.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/CollisionAlgorithm.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/CollisionAlgorithm.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ConvexPolygon.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/ConvexPolygon.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/DebugRenderer.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/DebugRenderer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/GridScene.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/GridScene.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/HalfPlane.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/HalfPlane.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/Lifetime.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/Lifetime.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/MovementPhysics.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/MovementPhysics.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleAAHalfPlaneCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleAAHalfPlaneCollision.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleAARectangleCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleAARectangleCollision.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleConvexCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleConvexCollision.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleHalfPlaneCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleHalfPlaneCollision.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/ParticleParticleCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleParticleCollision.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/SceneAction.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SceneAction.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/SceneEventArgs.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SceneEventArgs.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/SimpleScene.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SimpleScene.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/Sprite.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/Sprite.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AAHalfPlane.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/AAHalfPlane.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AARectangleAAHalfPlaneCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/AARectangleAAHalfPlaneCollision.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AARectangleAARectangleCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/AARectangleAARectangleCollision.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AnimatedSprite.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/AnimatedSprite.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/AnimatedSpriteFrame.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/AnimatedSpriteFrame.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/Collision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/Collision.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/CollisionAlgorithm.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/CollisionAlgorithm.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ConvexPolygon.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/ConvexPolygon.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/DebugRenderer.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/DebugRenderer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/GridScene.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/GridScene.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/HalfPlane.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Math/HalfPlane.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/Lifetime.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/Objects/Lifetime.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/MovementPhysics.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/MovementPhysics.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleAAHalfPlaneCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleAAHalfPlaneCollision.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleAARectangleCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleAARectangleCollision.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleConvexCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleConvexCollision.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleHalfPlaneCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleHalfPlaneCollision.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/ParticleParticleCollision.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Physics/ParticleParticleCollision.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/SceneAction.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SceneAction.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/SceneEventArgs.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SceneEventArgs.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/SimpleScene.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Scene/SimpleScene.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/Sprite.o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/Classes/Express/Graphics/Sprite.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/AAHalfPlane.h Classes/Express/Math/AAHalfPlane.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/AARectangleAAHalfPlaneCollision.h Classes/Express/Physics/AARectangleAAHalfPlaneCollision.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/AARectangleAARectangleCollision.h Classes/Express/Physics/AARectangleAARectangleCollision.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/AnimatedSprite.h Classes/Express/Graphics/AnimatedSprite.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/AnimatedSpriteFrame.h Classes/Express/Graphics/AnimatedSpriteFrame.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Collision.h Classes/Express/Physics/Collision.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/CollisionAlgorithm.h Classes/Express/Physics/CollisionAlgorithm.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ConvexPolygon.h Classes/Express/Math/ConvexPolygon.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/DebugRenderer.h Classes/Express/Graphics/DebugRenderer.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Graphics.classes.h Classes/Express/Graphics/Express.Graphics.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Graphics.h Classes/Express/Graphics/Express.Graphics.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Math.classes.h Classes/Express/Math/Express.Math.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Math.h Classes/Express/Math/Express.Math.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Physics.classes.h Classes/Express/Physics/Express.Physics.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Physics.h Classes/Express/Physics/Express.Physics.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Scene.Objects.classes.h Classes/Express/Scene/Objects/Express.Scene.Objects.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Scene.Objects.h Classes/Express/Scene/Objects/Express.Scene.Objects.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Scene.classes.h Classes/Express/Scene/Express.Scene.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Express.Scene.h Classes/Express/Scene/Express.Scene.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/GridScene.h Classes/Express/Scene/GridScene.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/HalfPlane.h Classes/Express/Math/HalfPlane.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IAAHalfPlaneCollider.h Classes/Express/Scene/Objects/IAAHalfPlaneCollider.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IAARectangle.h Classes/Express/Scene/Objects/IAARectangle.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IAARectangleCollider.h Classes/Express/Scene/Objects/IAARectangleCollider.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IAngularMass.h Classes/Express/Scene/Objects/IAngularMass.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IAngularVelocity.h Classes/Express/Scene/Objects/IAngularVelocity.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ICircle.h Classes/Express/Scene/Objects/ICircle.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ICoefficientOfFriction.h Classes/Express/Scene/Objects/ICoefficientOfFriction.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ICoefficientOfRestitution.h Classes/Express/Scene/Objects/ICoefficientOfRestitution.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ICollisionAlgorithm.h Classes/Express/Physics/ICollisionAlgorithm.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IConvexCollider.h Classes/Express/Scene/Objects/IConvexCollider.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ICustomCollider.h Classes/Express/Scene/Objects/ICustomCollider.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ICustomUpdate.h Classes/Express/Scene/Objects/ICustomUpdate.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IHalfPlaneCollider.h Classes/Express/Scene/Objects/IHalfPlaneCollider.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ILifetime.h Classes/Express/Scene/Objects/ILifetime.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IMass.h Classes/Express/Scene/Objects/IMass.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IMovable.h Classes/Express/Scene/Objects/IMovable.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IParticle.h Classes/Express/Scene/Objects/IParticle.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IParticleCollider.h Classes/Express/Scene/Objects/IParticleCollider.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IPosition.h Classes/Express/Scene/Objects/IPosition.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IRadius.h Classes/Express/Scene/Objects/IRadius.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IRectangleCollider.h Classes/Express/Scene/Objects/IRectangleCollider.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IRectangleSize.h Classes/Express/Scene/Objects/IRectangleSize.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IRotatable.h Classes/Express/Scene/Objects/IRotatable.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IRotation.h Classes/Express/Scene/Objects/IRotation.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IScene.h Classes/Express/Scene/IScene.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ISceneUser.h Classes/Express/Scene/Objects/ISceneUser.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/IVelocity.h Classes/Express/Scene/Objects/IVelocity.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Lifetime.h Classes/Express/Scene/Objects/Lifetime.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/MathEnums.h Classes/Express/Math/MathEnums.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/MovementPhysics.h Classes/Express/Physics/MovementPhysics.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ParticleAAHalfPlaneCollision.h Classes/Express/Physics/ParticleAAHalfPlaneCollision.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ParticleAARectangleCollision.h Classes/Express/Physics/ParticleAARectangleCollision.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ParticleHalfPlaneCollision.h Classes/Express/Physics/ParticleHalfPlaneCollision.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/ParticleParticleCollision.h Classes/Express/Physics/ParticleParticleCollision.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/SceneEventArgs.h Classes/Express/Scene/SceneEventArgs.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/SimpleScene.h Classes/Express/Scene/SimpleScene.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Sprite.h Classes/Express/Graphics/Sprite.h
+r0
+
+CCreateUniversalBinary "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Release-iphoneos/libExpress.a" normal "armv6 armv7"
+r0
+
+CLibtool "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv6/libExpress.a" normal armv6
+r0
+
+CLibtool "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Express/build/Express.build/Release-iphoneos/Express.build/Objects-normal/armv7/libExpress.a" normal armv7
+r0
+
+CProcessPCH /var/folders/OX/OXygGssoFsiqj4cjIfJtzE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Express_Prefix-feczpawellexupdevdtnphftptdf/Express_Prefix.pch.gch Express_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/OX/OXygGssoFsiqj4cjIfJtzE+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Express_Prefix-hkrdkdcwoaqokdcvlgozbtmcuafq/Express_Prefix.pch.gch Express_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+

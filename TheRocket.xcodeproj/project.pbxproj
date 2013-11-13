@@ -45,6 +45,20 @@
 			remoteGlobalIDString = 5B4BE258181D614300E0FEA9;
 			remoteInfo = TheRocket;
 		};
+		5BE192FF1833E3D500112F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE192FA1833E3D500112F3F /* Express.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = Express;
+		};
+		5BE193021833E43100112F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE192FA1833E3D500112F3F /* Express.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = Express;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +99,7 @@
 		5B4BE284181D614400E0FEA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4BE286181D614400E0FEA9 /* TheRocketTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheRocketTests.h; sourceTree = "<group>"; };
 		5B4BE287181D614400E0FEA9 /* TheRocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheRocketTests.m; sourceTree = "<group>"; };
+		5BE192FA1833E3D500112F3F /* Express.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Express.xcodeproj; path = Express/Express.xcodeproj; sourceTree = "<group>"; };
 		5BEF3010181D7B4E001F8B37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5BEF3012181D7B57001F8B37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5BEF3014181D7B61001F8B37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -174,9 +189,8 @@
 		5B4BE250181D614200E0FEA9 = {
 			isa = PBXGroup;
 			children = (
-				5BEF3014181D7B61001F8B37 /* Default-568h@2x.png */,
-				5BEF3012181D7B57001F8B37 /* Default@2x.png */,
-				5BEF3010181D7B4E001F8B37 /* Default.png */,
+				5BE192FA1833E3D500112F3F /* Express.xcodeproj */,
+				5BE193011833E3EA00112F3F /* splash */,
 				5B4BE262181D614300E0FEA9 /* TheRocket */,
 				5B4BE280181D614400E0FEA9 /* TheRocketTests */,
 				5B4BE25B181D614300E0FEA9 /* Frameworks */,
@@ -258,6 +272,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5BE192FB1833E3D500112F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE193001833E3D500112F3F /* libExpress.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE193011833E3EA00112F3F /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF3014181D7B61001F8B37 /* Default-568h@2x.png */,
+				5BEF3012181D7B57001F8B37 /* Default@2x.png */,
+				5BEF3010181D7B4E001F8B37 /* Default.png */,
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
 		5BEF300D181D7889001F8B37 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +313,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5BE193031833E43100112F3F /* PBXTargetDependency */,
 			);
 			name = TheRocket;
 			productName = TheRocket;
@@ -325,6 +358,12 @@
 			mainGroup = 5B4BE250181D614200E0FEA9;
 			productRefGroup = 5B4BE25A181D614300E0FEA9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5BE192FB1833E3D500112F3F /* Products */;
+					ProjectRef = 5BE192FA1833E3D500112F3F /* Express.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5B4BE258181D614300E0FEA9 /* TheRocket */,
@@ -332,6 +371,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5BE193001833E3D500112F3F /* libExpress.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libExpress.a;
+			remoteRef = 5BE192FF1833E3D500112F3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5B4BE257181D614300E0FEA9 /* Resources */ = {
@@ -403,6 +452,11 @@
 			isa = PBXTargetDependency;
 			target = 5B4BE258181D614300E0FEA9 /* TheRocket */;
 			targetProxy = 5B4BE27E181D614400E0FEA9 /* PBXContainerItemProxy */;
+		};
+		5BE193031833E43100112F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Express;
+			targetProxy = 5BE193021833E43100112F3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -493,6 +547,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/XNI\"",
+					"\"$(SRCROOT)/Express/build/Release-iphonesimulator\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -513,6 +568,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/XNI\"",
+					"\"$(SRCROOT)/Express/build/Release-iphonesimulator\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",

@@ -1,0 +1,2640 @@
+TArtificial I
+v7
+r0
+t320594321.117334
+cCheck dependencies
+cCpHeader build/Release-iphonesimulator/usr/local/include/MirageEnums.h Classes/Artificial/Mirage/MirageEnums.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/FpsComponent.h Classes/Artificial/Everywhere/FpsComponent.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Everywhere.classes.h Classes/Artificial/Everywhere/Artificial.Everywhere.classes.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Everywhere.h Classes/Artificial/Everywhere/Artificial.Everywhere.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Random.h Classes/Artificial/Everywhere/Random.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Rectangle+Extensions.h Classes/Artificial/Everywhere/Rectangle+Extensions.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Spectrum.h Classes/Artificial/Spectrum/Artificial.Spectrum.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Spectrum.classes.h Classes/Artificial/Spectrum/Artificial.Spectrum.classes.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/PrimitiveBatch.h Classes/Artificial/Spectrum/PrimitiveBatch.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Control.classes.h Classes/Artificial/Control/Artificial.Control.classes.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Control.h Classes/Artificial/Control/Artificial.Control.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/TouchPanelHelper.h Classes/Artificial/Control/TouchPanelHelper.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Fader.h Classes/Artificial/Control/Fader.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Mirage.h Classes/Artificial/Mirage/Artificial.Mirage.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Mirage.classes.h Classes/Artificial/Mirage/Artificial.Mirage.classes.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Label.h Classes/Artificial/Mirage/Label.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/Image.h Classes/Artificial/Mirage/Image.h
+cCpHeader build/Release-iphonesimulator/usr/local/include/AccelerometerHelper.h Classes/Artificial/Control/AccelerometerHelper.h
+cProcessPCH /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-elgatlfhzwjhlthkuxhpkvovrujx/Artificial_I_Prefix.pch.gch Artificial_I_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/FpsComponent.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Random.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Rectangle+Extensions.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/PrimitiveBatch.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/TouchPanelHelper.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Fader.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Label.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Image.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/AccelerometerHelper.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLibtool "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/libArtificial.a" normal i386
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC110BE00000000000092AA
+t1287721150
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC110BE00000000000026AA
+t1287721150
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC1230800000000000092AA
+t1287725832
+s37546
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC1230800000000000026AA
+t1287725832
+s9898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Artificial_I_Prefix.pch
+c000000004CC6D8E30000000000000108
+t1288100067
+s264
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.h"
+i"Retronator.Xni.Framework.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.h
+c000000004D5AB0410000000000000196
+t1297788993
+s406
+i<Foundation/Foundation.h>
+i"Retronator.Devices.Sensors.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m
+c000000004D5BC82E00000000000006E8
+t1297860654
+s1768
+i"AccelerometerHelper.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Artificial.Control.classes.h
+c000000004D5AAEA2000000000000003C
+t1297788578
+s60
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Artificial.Control.h
+c000000004D5AB039000000000000004F
+t1297788985
+s79
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.h
+c000000004CFA72BE0000000000000305
+t1291481790
+s773
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m
+c000000004CFA73250000000000000520
+t1291481893
+s1312
+i"Fader.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.h
+c000000004CF5B1080000000000000137
+t1291170056
+s311
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Input.Touch.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m
+c000000004D5AAF0A0000000000000208
+t1297788682
+s520
+i"TouchPanelHelper.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Artificial.Everywhere.classes.h
+c000000004CBD736F0000000000000022
+t1287484271
+s34
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Artificial.Everywhere.h
+c000000004CCB0875000000000000005C
+t1288374389
+s92
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.h
+c000000004CD2F6270000000000000103
+t1288893991
+s259
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m
+c000000004CD9CE2500000000000002F1
+t1289342501
+s753
+i"FpsComponent.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.h
+c000000004CBD74020000000000000167
+t1287484418
+s359
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m
+c000000004CBD74CB0000000000000267
+t1287484619
+s615
+i"Random.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.h
+c000000004CD296340000000000000108
+t1288869428
+s264
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m
+c000000004CCB085B0000000000000188
+t1288374363
+s392
+i"Rectangle+Extensions.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Artificial.Mirage.classes.h
+c000000004D10B3CC000000000000002D
+t1292940236
+s45
+i"MirageEnums.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Artificial.Mirage.h
+c000000004D10B3CB000000000000003C
+t1292940235
+s60
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.h
+c000000004D10C238000000000000035B
+t1292943928
+s859
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m
+c000000004D10C2220000000000000344
+t1292943906
+s836
+i"Image.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.h
+c000000004D10B2FB0000000000000424
+t1292940027
+s1060
+i<Foundation/Foundation.h>
+i"Artificial.Mirage.classes.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m
+c000000004D10B314000000000000082E
+t1292940052
+s2094
+i"Label.h"
+i"Retronator.Xni.Framework.Graphics.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/MirageEnums.h
+c000000004D109CA300000000000000F2
+t1292934307
+s242
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/Artificial.Spectrum.classes.h
+c000000004CD9B5C20000000000000016
+t1289336258
+s22
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/Artificial.Spectrum.h
+c000000004CD9B5DF000000000000001A
+t1289336287
+s26
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.h
+c000000004D2B68F70000000000000928
+t1294690551
+s2344
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m
+c000000004D2B6A320000000000001DC8
+t1294690866
+s7624
+i"PrimitiveBatch.h"
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/AccelerometerHelper.o
+t1298895840
+s50968
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Artificial.LinkFileList
+c000000004D6B886A0000000000000621
+t1298892906
+s1569
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Fader.o
+t1298895839
+s13660
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/FpsComponent.o
+t1298895837
+s47000
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Image.o
+t1298895839
+s16720
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Label.o
+t1298895839
+s64020
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/PrimitiveBatch.o
+t1298895838
+s76528
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Random.o
+t1298895837
+s8692
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Rectangle+Extensions.o
+t1298895837
+s8064
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/TouchPanelHelper.o
+t1298895838
+s47056
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/libArtificial.a
+t1298895840
+s335832
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/AccelerometerHelper.o
+t1298895842
+s50744
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Artificial.LinkFileList
+c000000004D6B886A0000000000000621
+t1298892906
+s1569
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Fader.o
+t1298895841
+s12832
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/FpsComponent.o
+t1298895840
+s46940
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Image.o
+t1298895841
+s16772
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Label.o
+t1298895841
+s63912
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/PrimitiveBatch.o
+t1298895841
+s75524
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Random.o
+t1298895840
+s8368
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Rectangle+Extensions.o
+t1298895840
+s7580
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/TouchPanelHelper.o
+t1298895841
+s47052
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/libArtificial.a
+t1298895842
+s332856
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/AccelerometerHelper.o
+t1298895756
+s51476
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Artificial.LinkFileList
+c000000004D6B93860000000000000657
+t1298895750
+s1623
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Fader.o
+t1298895755
+s13784
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/FpsComponent.o
+t1298895755
+s46976
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Image.o
+t1298895756
+s17868
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Label.o
+t1298895756
+s65452
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/PrimitiveBatch.o
+t1298895755
+s79164
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Random.o
+t1298895755
+s8340
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Rectangle+Extensions.o
+t1298895755
+s7380
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/TouchPanelHelper.o
+t1298901177
+s47044
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/libArtificial.a
+t1298895842
+s668736
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/AccelerometerHelper.h
+t1298892906
+s406
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Artificial.Control.classes.h
+t1298892906
+s60
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Artificial.Control.h
+t1298892906
+s79
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Artificial.Everywhere.classes.h
+t1298892906
+s34
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Artificial.Everywhere.h
+t1298892906
+s92
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Artificial.Mirage.classes.h
+t1298892906
+s45
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Artificial.Mirage.h
+t1298892906
+s60
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Artificial.Spectrum.classes.h
+t1298892906
+s22
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Artificial.Spectrum.h
+t1298892906
+s26
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Fader.h
+t1298892906
+s773
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/FpsComponent.h
+t1298892906
+s259
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Image.h
+t1298892906
+s859
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Label.h
+t1298892906
+s1060
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/MirageEnums.h
+t1298892906
+s242
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/PrimitiveBatch.h
+t1298892906
+s2344
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Random.h
+t1298892906
+s359
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/Rectangle+Extensions.h
+t1298892906
+s264
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/usr/local/include/TouchPanelHelper.h
+t1298892906
+s311
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/libArtificial.a
+t1298901178
+s340624
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/AccelerometerHelper.h
+t1298895750
+s406
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Artificial.Control.classes.h
+t1298895750
+s60
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Artificial.Control.h
+t1298895750
+s79
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Artificial.Everywhere.classes.h
+t1298895750
+s34
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Artificial.Everywhere.h
+t1298895750
+s92
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Artificial.Mirage.classes.h
+t1298895750
+s45
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Artificial.Mirage.h
+t1298895750
+s60
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Artificial.Spectrum.classes.h
+t1298895750
+s22
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Artificial.Spectrum.h
+t1298895750
+s26
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Fader.h
+t1298895750
+s773
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/FpsComponent.h
+t1298895750
+s259
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Image.h
+t1298895750
+s859
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Label.h
+t1298895750
+s1060
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/MirageEnums.h
+t1298895750
+s242
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/PrimitiveBatch.h
+t1298895750
+s2344
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Random.h
+t1298895750
+s359
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/Rectangle+Extensions.h
+t1298895750
+s264
+
+N/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/usr/local/include/TouchPanelHelper.h
+t1298895750
+s311
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Accelerometer.h
+c000000004D5FCB3A00000000000001FC
+t1298123578
+s508
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Devices.Sensors.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/AccelerometerReadingEventArgs.h
+c000000004D5FCB3A000000000000019C
+t1298123578
+s412
+i<Foundation/Foundation.h>
+i"System.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/BasicEffect.h
+c000000004D05A33B000000000000078E
+t1292215099
+s1934
+i<Foundation/Foundation.h>
+i"Effect.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/BlendState.h
+c000000004D05A33B00000000000005A0
+t1292215099
+s1440
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Color.h
+c000000004D05A33A000000000000116E
+t1292215098
+s4462
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Delegate.h
+c000000004D05A33A00000000000001F9
+t1292215098
+s505
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/DepthStencilState.h
+c000000004D05A33B00000000000006E5
+t1292215099
+s1765
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/DirectionalLight.h
+c000000004D05A33B0000000000000227
+t1292215099
+s551
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/DrawableGameComponent.h
+c000000004D05A33B0000000000000276
+t1292215099
+s630
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GameComponent.h"
+i"IDrawable.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Effect.h
+c000000004D05A33B00000000000001A8
+t1292215099
+s424
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/EffectPass.h
+c000000004D05A33B00000000000001D3
+t1292215099
+s467
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/EffectTechnique.h
+c000000004D05A33B00000000000001A3
+t1292215099
+s419
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Event.h
+c000000004D05A33A00000000000001BE
+t1292215098
+s446
+i<Foundation/Foundation.h>
+i"System.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/EventArgs.h
+c000000004D05A33A00000000000000D9
+t1292215098
+s217
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/FrameworkEnums.h
+c000000004D05A33B00000000000000B1
+t1292215099
+s177
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Game.h
+c000000004D35ABD400000000000008AD
+t1295363028
+s2221
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"Retronator.Xni.Framework.Content.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameComponent.h
+c000000004D05A33B000000000000022D
+t1292215099
+s557
+i<Foundation/Foundation.h>
+i"System.classes.h"
+i"Retronator.Xni.Framework.classes.h"
+i"IGameComponent.h"
+i"IUpdatable.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameComponentCollection.h
+c000000004D35ABD400000000000002C5
+t1295363028
+s709
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameComponentCollectionEventArgs.h
+c000000004D05A33A000000000000022E
+t1292215098
+s558
+i<Foundation/Foundation.h>
+i"EventArgs.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameHost.h
+c000000004D05A33A00000000000001A0
+t1292215098
+s416
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameServiceContainer.h
+c000000004D05A33A0000000000000182
+t1292215098
+s386
+i<Foundation/Foundation.h>
+i"System.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameTime.h
+c000000004D05A33A00000000000003FE
+t1292215098
+s1022
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GameWindow.h
+c000000004D6B884300000000000003EE
+t1298892867
+s1006
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GestureSample.h
+c000000004D05A33B00000000000002F4
+t1292215099
+s756
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GraphicsDevice.h
+c000000004D05A33A0000000000001055
+t1292215098
+s4181
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/glext.h>
+i"System.classes.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GraphicsDeviceManager.h
+c000000004D05A33A0000000000000585
+t1292215098
+s1413
+i<Foundation/Foundation.h>
+i"System.h"
+i"IGraphicsDeviceManager.h"
+i"IGraphicsDeviceService.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GraphicsEnums.h
+c000000004D05A33A00000000000017BE
+t1292215098
+s6078
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES2/gl.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/GraphicsResource.h
+c000000004D05A33A0000000000000299
+t1292215098
+s665
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/HiDefGraphicsDevice.h
+c000000004D05A33A00000000000000FF
+t1292215098
+s255
+i<Foundation/Foundation.h>
+i"GraphicsDevice.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IAsyncResult.h
+c000000004D6B88430000000000000187
+t1298892867
+s391
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IDrawable.h
+c000000004D05A33A0000000000000132
+t1292215098
+s306
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IGameComponent.h
+c000000004D05A33A000000000000003F
+t1292215098
+s63
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IGraphicsDeviceManager.h
+c000000004D05A33A0000000000000064
+t1292215098
+s100
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IGraphicsDeviceService.h
+c000000004D05A33A000000000000018D
+t1292215098
+s397
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IServiceProvider.h
+c000000004D05A33B0000000000000045
+t1292215099
+s69
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IUpdatable.h
+c000000004D05A33A0000000000000139
+t1292215098
+s313
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IndexArray.h
+c000000004D05A33C0000000000000281
+t1292215100
+s641
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/IndexBuffer.h
+c000000004D05A33B00000000000002EF
+t1292215099
+s751
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/InputEnums.h
+c000000004D05A33B00000000000001D8
+t1292215099
+s472
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Matrix.h
+c000000004D05A33B0000000000000CC7
+t1292215099
+s3271
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/MatrixStruct.h
+c000000004D05A33B0000000000002DC4
+t1292215099
+s11716
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Model.h
+c000000004D05A33B00000000000002E7
+t1292215099
+s743
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelBone.h
+c000000004D05A33C0000000000000291
+t1292215100
+s657
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelBoneCollection.h
+c000000004D05A33C0000000000000204
+t1292215100
+s516
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelEffectCollection.h
+c000000004D05A33B000000000000016A
+t1292215099
+s362
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelMesh.h
+c000000004D05A33B000000000000029A
+t1292215099
+s666
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelMeshCollection.h
+c000000004D05A33B0000000000000206
+t1292215099
+s518
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelMeshPart.h
+c000000004D05A33B0000000000000337
+t1292215099
+s823
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ModelMeshPartCollection.h
+c000000004D05A33B0000000000000175
+t1292215099
+s373
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/PointStruct.h
+c000000004D05A33C0000000000000106
+t1292215100
+s262
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Protocols.h
+c000000004D05A33A0000000000000115
+t1292215098
+s277
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Quaternion.h
+c000000004D05A33B000000000000079A
+t1292215099
+s1946
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/RasterizerState.h
+c000000004D05A33B000000000000032C
+t1292215099
+s812
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ReachGraphicsDevice.h
+c000000004D05A33A00000000000000FF
+t1292215098
+s255
+i<Foundation/Foundation.h>
+i"GraphicsDevice.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ReadOnlyCollection.h
+c000000004D05A33C0000000000000209
+t1292215100
+s521
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Rectangle.h
+c000000004D35ABD30000000000000469
+t1295363027
+s1129
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/RectangleStruct.h
+c000000004D05A33A00000000000001EF
+t1292215098
+s495
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Devices.Sensors.classes.h
+c000000004D5FCB3A000000000000004E
+t1298123578
+s78
+i"SensorsEnums.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Devices.Sensors.h
+c000000004D5FCB3A000000000000005D
+t1298123578
+s93
+i"SensorsEnums.h"
+i"Accelerometer.h"
+i"AccelerometerReadingEventArgs.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.Content.classes.h
+c000000004D35ABD40000000000000156
+t1295363028
+s342
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.Graphics.classes.h
+c000000004D35ABD400000000000003C0
+t1295363028
+s960
+i"GraphicsEnums.h"
+i"VertexStructs.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.Graphics.h
+c000000004D35ABD40000000000000555
+t1295363028
+s1365
+i"GraphicsEnums.h"
+i"GraphicsResource.h"
+i"Texture.h"
+i"Texture2D.h"
+i"Effect.h"
+i"EffectTechnique.h"
+i"EffectPass.h"
+i"BasicEffect.h"
+i"DirectionalLight.h"
+i"VertexStructs.h"
+i"VertexElement.h"
+i"VertexPositionColor.h"
+i"VertexPositionTexture.h"
+i"VertexPositionColorTexture.h"
+i"VertexPositionNormalTexture.h"
+i"VertexDeclaration.h"
+i"VertexArray.h"
+i"VertexPositionColorArray.h"
+i"VertexPositionTextureArray.h"
+i"VertexPositionColorTextureArray.h"
+i"VertexPositionNormalTextureArray.h"
+i"IndexArray.h"
+i"ShortIndexArray.h"
+i"VertexBuffer.h"
+i"VertexBufferBinding.h"
+i"IndexBuffer.h"
+i"Model.h"
+i"ModelMeshCollection.h"
+i"ModelMesh.h"
+i"ModelEffectCollection.h"
+i"ModelMeshPartCollection.h"
+i"ModelMeshPart.h"
+i"ModelBone.h"
+i"ModelBoneCollection.h"
+i"BlendState.h"
+i"DepthStencilState.h"
+i"RasterizerState.h"
+i"SamplerState.h"
+i"SamplerStateCollection.h"
+i"TextureCollection.h"
+i"Viewport.h"
+i"IGraphicsDeviceService.h"
+i"GraphicsDevice.h"
+i"ReachGraphicsDevice.h"
+i"HiDefGraphicsDevice.h"
+i"SpriteBatch.h"
+i"SpriteFont.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.Input.Touch.classes.h
+c000000004D05A33B0000000000000061
+t1292215099
+s97
+i"InputEnums.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.Input.Touch.h
+c000000004D05A33B000000000000007F
+t1292215099
+s127
+i"InputEnums.h"
+i"TouchPanel.h"
+i"TouchCollection.h"
+i"TouchLocation.h"
+i"GestureSample.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.classes.h
+c000000004D05A33A000000000000028E
+t1292215098
+s654
+i"FrameworkEnums.h"
+i"PointStruct.h"
+i"RectangleStruct.h"
+i"Vector2Struct.h"
+i"Vector3Struct.h"
+i"Vector4Struct.h"
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Retronator.Xni.Framework.h
+c000000004D05A33A00000000000002B2
+t1292215098
+s690
+i"FrameworkEnums.h"
+i"Protocols.h"
+i"XniPoint.h"
+i"Rectangle.h"
+i"Color.h"
+i"IGraphicsDeviceManager.h"
+i"Game.h"
+i"GameTime.h"
+i"GameServiceContainer.h"
+i"GraphicsDeviceManager.h"
+i"GameHost.h"
+i"GameWindow.h"
+i"IGameComponent.h"
+i"IUpdatable.h"
+i"IDrawable.h"
+i"GameComponent.h"
+i"DrawableGameComponent.h"
+i"GameComponentCollection.h"
+i"GameComponentCollectionEventArgs.h"
+i"Vector2.h"
+i"Vector3.h"
+i"Vector4.h"
+i"Quaternion.h"
+i"Matrix.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SamplerState.h
+c000000004D05A33B00000000000003E4
+t1292215099
+s996
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SamplerStateCollection.h
+c000000004D05A33B00000000000001EE
+t1292215099
+s494
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SensorsEnums.h
+c000000004D5FCB3A00000000000000A8
+t1298123578
+s168
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/ShortIndexArray.h
+c000000004D05A33C0000000000000147
+t1292215100
+s327
+i<Foundation/Foundation.h>
+i"IndexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SpriteBatch.h
+c000000004D35ABD40000000000000DE2
+t1295363028
+s3554
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/SpriteFont.h
+c000000004D35ABD500000000000002A6
+t1295363029
+s678
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/System.classes.h
+c000000004D6B88430000000000000087
+t1298892867
+s135
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/System.h
+c000000004D6B884300000000000000A3
+t1298892867
+s163
+i"IServiceProvider.h"
+i"Delegate.h"
+i"Event.h"
+i"EventArgs.h"
+i"IAsyncResult.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Texture.h
+c000000004D05A33A000000000000022E
+t1292215098
+s558
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Texture2D.h
+c000000004D05A33A00000000000005BA
+t1292215098
+s1466
+i<Foundation/Foundation.h>
+i"Texture.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/TextureCollection.h
+c000000004D05A33B00000000000001CA
+t1292215099
+s458
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/TouchCollection.h
+c000000004D05A33B000000000000021E
+t1292215099
+s542
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/TouchLocation.h
+c000000004D05A33B0000000000000313
+t1292215099
+s787
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/TouchPanel.h
+c000000004D05A33B0000000000000403
+t1292215099
+s1027
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector2.h
+c000000004D05A33B000000000000063E
+t1292215099
+s1598
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector2Struct.h
+c000000004D05A33B000000000000081B
+t1292215099
+s2075
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector3.h
+c000000004D05A33B0000000000000743
+t1292215099
+s1859
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector3Struct.h
+c000000004D05A33B0000000000000BC3
+t1292215099
+s3011
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector4.h
+c000000004D05A33B000000000000060D
+t1292215099
+s1549
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Vector4Struct.h
+c000000004D05A33B0000000000000D2C
+t1292215099
+s3372
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexArray.h
+c000000004D05A33B0000000000000289
+t1292215099
+s649
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexBuffer.h
+c000000004D05A33B0000000000000301
+t1292215099
+s769
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexBufferBinding.h
+c000000004D05A33B0000000000000326
+t1292215099
+s806
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexDeclaration.h
+c000000004D05A33B00000000000001CD
+t1292215099
+s461
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexElement.h
+c000000004D05A33B00000000000004F4
+t1292215099
+s1268
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionColor.h
+c000000004D05A33B0000000000000128
+t1292215099
+s296
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionColorArray.h
+c000000004D05A33B0000000000000171
+t1292215099
+s369
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionColorTexture.h
+c000000004D05A33B0000000000000136
+t1292215099
+s310
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionColorTextureArray.h
+c000000004D05A33B0000000000000186
+t1292215099
+s390
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionNormalTexture.h
+c000000004D05A33C0000000000000139
+t1292215100
+s313
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionNormalTextureArray.h
+c000000004D05A33C000000000000018A
+t1292215100
+s394
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionTexture.h
+c000000004D05A33B000000000000012C
+t1292215099
+s300
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexPositionTextureArray.h
+c000000004D05A33B0000000000000177
+t1292215099
+s375
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/VertexStructs.h
+c000000004D05A33B0000000000000263
+t1292215099
+s611
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/Viewport.h
+c000000004D05A33B0000000000000355
+t1292215099
+s853
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include/XniPoint.h
+c000000004D05A33C0000000000000342
+t1292215100
+s834
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Accelerometer.h
+c000000004D5AAC4F00000000000001FC
+t1297787983
+s508
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Devices.Sensors.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/AccelerometerReadingEventArgs.h
+c000000004D5AADAB000000000000019C
+t1297788331
+s412
+i<Foundation/Foundation.h>
+i"System.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/BasicEffect.h
+c000000004D05A325000000000000078E
+t1292215077
+s1934
+i<Foundation/Foundation.h>
+i"Effect.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/BlendState.h
+c000000004D05A32500000000000005A0
+t1292215077
+s1440
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Color.h
+c000000004D05A325000000000000116E
+t1292215077
+s4462
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Delegate.h
+c000000004D05A32500000000000001F9
+t1292215077
+s505
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/DepthStencilState.h
+c000000004D05A32500000000000006E5
+t1292215077
+s1765
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/DirectionalLight.h
+c000000004D05A3250000000000000227
+t1292215077
+s551
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/DrawableGameComponent.h
+c000000004D05A3250000000000000276
+t1292215077
+s630
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GameComponent.h"
+i"IDrawable.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Effect.h
+c000000004D05A32500000000000001A8
+t1292215077
+s424
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/EffectPass.h
+c000000004D05A32500000000000001D3
+t1292215077
+s467
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/EffectTechnique.h
+c000000004D05A32500000000000001A3
+t1292215077
+s419
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Event.h
+c000000004D05A32500000000000001BE
+t1292215077
+s446
+i<Foundation/Foundation.h>
+i"System.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/EventArgs.h
+c000000004D05A32500000000000000D9
+t1292215077
+s217
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/FrameworkEnums.h
+c000000004D05A32500000000000000B1
+t1292215077
+s177
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Game.h
+c000000004D30F06700000000000008AD
+t1295052903
+s2221
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"Retronator.Xni.Framework.Content.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GameComponent.h
+c000000004D05A325000000000000022D
+t1292215077
+s557
+i<Foundation/Foundation.h>
+i"System.classes.h"
+i"Retronator.Xni.Framework.classes.h"
+i"IGameComponent.h"
+i"IUpdatable.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GameComponentCollection.h
+c000000004D35ABBC00000000000002C5
+t1295363004
+s709
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GameComponentCollectionEventArgs.h
+c000000004D05A325000000000000022E
+t1292215077
+s558
+i<Foundation/Foundation.h>
+i"EventArgs.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GameHost.h
+c000000004D05A32500000000000001A0
+t1292215077
+s416
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GameServiceContainer.h
+c000000004D05A3250000000000000182
+t1292215077
+s386
+i<Foundation/Foundation.h>
+i"System.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GameTime.h
+c000000004D05A32500000000000003FE
+t1292215077
+s1022
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GameWindow.h
+c000000004D6B933A00000000000003EE
+t1298895674
+s1006
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"System.h"
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GestureSample.h
+c000000004D05A32500000000000002F4
+t1292215077
+s756
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GraphicsDevice.h
+c000000004D05A3250000000000001055
+t1292215077
+s4181
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/glext.h>
+i"System.classes.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GraphicsDeviceManager.h
+c000000004D05A3250000000000000585
+t1292215077
+s1413
+i<Foundation/Foundation.h>
+i"System.h"
+i"IGraphicsDeviceManager.h"
+i"IGraphicsDeviceService.h"
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GraphicsEnums.h
+c000000004D05A32500000000000017BE
+t1292215077
+s6078
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES2/gl.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/GraphicsResource.h
+c000000004D05A3250000000000000299
+t1292215077
+s665
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/HiDefGraphicsDevice.h
+c000000004D05A32500000000000000FF
+t1292215077
+s255
+i<Foundation/Foundation.h>
+i"GraphicsDevice.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IAsyncResult.h
+c000000004D6B933A0000000000000187
+t1298895674
+s391
+i<UIKit/UIKit.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IDrawable.h
+c000000004D05A3250000000000000132
+t1292215077
+s306
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IGameComponent.h
+c000000004D05A325000000000000003F
+t1292215077
+s63
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IGraphicsDeviceManager.h
+c000000004D05A3250000000000000064
+t1292215077
+s100
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IGraphicsDeviceService.h
+c000000004D05A325000000000000018D
+t1292215077
+s397
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IServiceProvider.h
+c000000004D05A3250000000000000045
+t1292215077
+s69
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IUpdatable.h
+c000000004D05A3250000000000000139
+t1292215077
+s313
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IndexArray.h
+c000000004D05A3260000000000000281
+t1292215078
+s641
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/IndexBuffer.h
+c000000004D05A32500000000000002EF
+t1292215077
+s751
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/InputEnums.h
+c000000004D05A32500000000000001D8
+t1292215077
+s472
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Matrix.h
+c000000004D05A3250000000000000CC7
+t1292215077
+s3271
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/MatrixStruct.h
+c000000004D05A3250000000000002DC4
+t1292215077
+s11716
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Model.h
+c000000004D05A32500000000000002E7
+t1292215077
+s743
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ModelBone.h
+c000000004D05A3250000000000000291
+t1292215077
+s657
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ModelBoneCollection.h
+c000000004D05A3250000000000000204
+t1292215077
+s516
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ModelEffectCollection.h
+c000000004D05A325000000000000016A
+t1292215077
+s362
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ModelMesh.h
+c000000004D05A325000000000000029A
+t1292215077
+s666
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ModelMeshCollection.h
+c000000004D05A3250000000000000206
+t1292215077
+s518
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ModelMeshPart.h
+c000000004D05A3250000000000000337
+t1292215077
+s823
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ModelMeshPartCollection.h
+c000000004D05A3250000000000000175
+t1292215077
+s373
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"ReadOnlyCollection.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/PointStruct.h
+c000000004D05A3260000000000000106
+t1292215078
+s262
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Protocols.h
+c000000004D05A3250000000000000115
+t1292215077
+s277
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Quaternion.h
+c000000004D05A325000000000000079A
+t1292215077
+s1946
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/RasterizerState.h
+c000000004D05A325000000000000032C
+t1292215077
+s812
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ReachGraphicsDevice.h
+c000000004D05A32500000000000000FF
+t1292215077
+s255
+i<Foundation/Foundation.h>
+i"GraphicsDevice.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ReadOnlyCollection.h
+c000000004D05A3250000000000000209
+t1292215077
+s521
+i<Foundation/Foundation.h>
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Rectangle.h
+c000000004D35ABBC0000000000000469
+t1295363004
+s1129
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/RectangleStruct.h
+c000000004D05A32500000000000001EF
+t1292215077
+s495
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Devices.Sensors.classes.h
+c000000004D5AAC36000000000000004E
+t1297787958
+s78
+i"SensorsEnums.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Devices.Sensors.h
+c000000004D5AAC36000000000000005D
+t1297787958
+s93
+i"SensorsEnums.h"
+i"Accelerometer.h"
+i"AccelerometerReadingEventArgs.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Xni.Framework.Content.classes.h
+c000000004D35ABBC0000000000000156
+t1295363004
+s342
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Xni.Framework.Graphics.classes.h
+c000000004D35ABBC00000000000003C0
+t1295363004
+s960
+i"GraphicsEnums.h"
+i"VertexStructs.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Xni.Framework.Graphics.h
+c000000004D35ABBC0000000000000555
+t1295363004
+s1365
+i"GraphicsEnums.h"
+i"GraphicsResource.h"
+i"Texture.h"
+i"Texture2D.h"
+i"Effect.h"
+i"EffectTechnique.h"
+i"EffectPass.h"
+i"BasicEffect.h"
+i"DirectionalLight.h"
+i"VertexStructs.h"
+i"VertexElement.h"
+i"VertexPositionColor.h"
+i"VertexPositionTexture.h"
+i"VertexPositionColorTexture.h"
+i"VertexPositionNormalTexture.h"
+i"VertexDeclaration.h"
+i"VertexArray.h"
+i"VertexPositionColorArray.h"
+i"VertexPositionTextureArray.h"
+i"VertexPositionColorTextureArray.h"
+i"VertexPositionNormalTextureArray.h"
+i"IndexArray.h"
+i"ShortIndexArray.h"
+i"VertexBuffer.h"
+i"VertexBufferBinding.h"
+i"IndexBuffer.h"
+i"Model.h"
+i"ModelMeshCollection.h"
+i"ModelMesh.h"
+i"ModelEffectCollection.h"
+i"ModelMeshPartCollection.h"
+i"ModelMeshPart.h"
+i"ModelBone.h"
+i"ModelBoneCollection.h"
+i"BlendState.h"
+i"DepthStencilState.h"
+i"RasterizerState.h"
+i"SamplerState.h"
+i"SamplerStateCollection.h"
+i"TextureCollection.h"
+i"Viewport.h"
+i"IGraphicsDeviceService.h"
+i"GraphicsDevice.h"
+i"ReachGraphicsDevice.h"
+i"HiDefGraphicsDevice.h"
+i"SpriteBatch.h"
+i"SpriteFont.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Xni.Framework.Input.Touch.classes.h
+c000000004D05A3250000000000000061
+t1292215077
+s97
+i"InputEnums.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Xni.Framework.Input.Touch.h
+c000000004D05A325000000000000007F
+t1292215077
+s127
+i"InputEnums.h"
+i"TouchPanel.h"
+i"TouchCollection.h"
+i"TouchLocation.h"
+i"GestureSample.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Xni.Framework.classes.h
+c000000004D05A325000000000000028E
+t1292215077
+s654
+i"FrameworkEnums.h"
+i"PointStruct.h"
+i"RectangleStruct.h"
+i"Vector2Struct.h"
+i"Vector3Struct.h"
+i"Vector4Struct.h"
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Retronator.Xni.Framework.h
+c000000004D05A32500000000000002B2
+t1292215077
+s690
+i"FrameworkEnums.h"
+i"Protocols.h"
+i"XniPoint.h"
+i"Rectangle.h"
+i"Color.h"
+i"IGraphicsDeviceManager.h"
+i"Game.h"
+i"GameTime.h"
+i"GameServiceContainer.h"
+i"GraphicsDeviceManager.h"
+i"GameHost.h"
+i"GameWindow.h"
+i"IGameComponent.h"
+i"IUpdatable.h"
+i"IDrawable.h"
+i"GameComponent.h"
+i"DrawableGameComponent.h"
+i"GameComponentCollection.h"
+i"GameComponentCollectionEventArgs.h"
+i"Vector2.h"
+i"Vector3.h"
+i"Vector4.h"
+i"Quaternion.h"
+i"Matrix.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/SamplerState.h
+c000000004D05A32500000000000003E4
+t1292215077
+s996
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/SamplerStateCollection.h
+c000000004D05A32500000000000001EE
+t1292215077
+s494
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/SensorsEnums.h
+c000000004D5AAAFD00000000000000A8
+t1297787645
+s168
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/ShortIndexArray.h
+c000000004D05A3260000000000000147
+t1292215078
+s327
+i<Foundation/Foundation.h>
+i"IndexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/SpriteBatch.h
+c000000004D35ABBC0000000000000DE2
+t1295363004
+s3554
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/SpriteFont.h
+c000000004D35ABBC00000000000002A6
+t1295363004
+s678
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/System.classes.h
+c000000004D6B933A0000000000000087
+t1298895674
+s135
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/System.h
+c000000004D6B933A00000000000000A3
+t1298895674
+s163
+i"IServiceProvider.h"
+i"Delegate.h"
+i"Event.h"
+i"EventArgs.h"
+i"IAsyncResult.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Texture.h
+c000000004D05A325000000000000022E
+t1292215077
+s558
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Texture2D.h
+c000000004D05A32500000000000005BA
+t1292215077
+s1466
+i<Foundation/Foundation.h>
+i"Texture.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/TextureCollection.h
+c000000004D05A32500000000000001CA
+t1292215077
+s458
+i<Foundation/Foundation.h>
+i"System.h"
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/TouchCollection.h
+c000000004D05A325000000000000021E
+t1292215077
+s542
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/TouchLocation.h
+c000000004D05A3250000000000000313
+t1292215077
+s787
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/TouchPanel.h
+c000000004D6BA8B60000000000000417
+t1298901174
+s1047
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+i"Retronator.Xni.Framework.Input.Touch.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Vector2.h
+c000000004D05A325000000000000063E
+t1292215077
+s1598
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Vector2Struct.h
+c000000004D05A325000000000000081B
+t1292215077
+s2075
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Vector3.h
+c000000004D05A3250000000000000743
+t1292215077
+s1859
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Vector3Struct.h
+c000000004D05A3250000000000000BC3
+t1292215077
+s3011
+i"MatrixStruct.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Vector4.h
+c000000004D05A325000000000000060D
+t1292215077
+s1549
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Vector4Struct.h
+c000000004D05A3250000000000000D2C
+t1292215077
+s3372
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexArray.h
+c000000004D05A3250000000000000289
+t1292215077
+s649
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexBuffer.h
+c000000004D05A3250000000000000301
+t1292215077
+s769
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexBufferBinding.h
+c000000004D05A3250000000000000326
+t1292215077
+s806
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexDeclaration.h
+c000000004D05A32500000000000001CD
+t1292215077
+s461
+i<Foundation/Foundation.h>
+i"GraphicsResource.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexElement.h
+c000000004D05A32500000000000004F4
+t1292215077
+s1268
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.Graphics.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexPositionColor.h
+c000000004D05A3250000000000000128
+t1292215077
+s296
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexPositionColorArray.h
+c000000004D05A3250000000000000171
+t1292215077
+s369
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexPositionColorTexture.h
+c000000004D05A3250000000000000136
+t1292215077
+s310
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexPositionColorTextureArray.h
+c000000004D05A3250000000000000186
+t1292215077
+s390
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexPositionNormalTexture.h
+c000000004D05A3250000000000000139
+t1292215077
+s313
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexPositionNormalTextureArray.h
+c000000004D05A325000000000000018A
+t1292215077
+s394
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexPositionTexture.h
+c000000004D05A325000000000000012C
+t1292215077
+s300
+i<Foundation/Foundation.h>
+i"VertexElement.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexPositionTextureArray.h
+c000000004D05A3250000000000000177
+t1292215077
+s375
+i<Foundation/Foundation.h>
+i"VertexArray.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/VertexStructs.h
+c000000004D05A3250000000000000263
+t1292215077
+s611
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/Viewport.h
+c000000004D05A3250000000000000355
+t1292215077
+s853
+i<Foundation/Foundation.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include/XniPoint.h
+c000000004D05A3260000000000000342
+t1292215078
+s834
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Retronator.Xni.Framework.classes.h"
+
+N/var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch.gch
+t1298895836
+s10955744
+
+N/var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch.gch
+t1298895837
+s11422688
+
+N/var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-elgatlfhzwjhlthkuxhpkvovrujx/Artificial_I_Prefix.pch.gch
+t1298895753
+s16896656
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320594321#320594321#0(0"0(0#1#0"8654262848#0"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/AccelerometerHelper.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588639.864110
+e320588640.085555
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/AccelerometerHelper.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@134"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m320588639#320588640#0(0"0(0#0#126"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m4644019936#2524"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/AccelerometerHelper.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Fader.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588638.964409
+e320588639.231507
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Fader.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m320588638#320588639#0(0"0(0#0#112"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m4646515056#2496"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Fader.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/FpsComponent.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588637.316909
+e320588637.481680
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/FpsComponent.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m320588637#320588637#0(0"0(0#0#122"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m4652450560#2513"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/FpsComponent.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Image.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588639.688025
+e320588639.863746
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Image.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m320588639#320588639#0(0"0(0#0#111"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m4656339008#2495"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Image.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Label.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588639.234254
+e320588639.687675
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Label.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m320588639#320588639#0(0"0(0#0#111"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m4652153664#2495"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Label.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/PrimitiveBatch.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588637.777102
+e320588638.798217
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/PrimitiveBatch.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m320588637#320588638#0(0"0(0#0#122"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m4654278304#2515"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/PrimitiveBatch.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Random.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588637.482035
+e320588637.656991
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Random.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m320588637#320588637#0(0"0(0#0#116"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m4647158032#2501"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Random.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Rectangle+Extensions.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588637.657345
+e320588637.776743
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Rectangle+Extensions.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@138"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m320588637#320588637#0(0"0(0#0#130"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m4646536528#2529"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Rectangle+Extensions.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/TouchPanelHelper.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588638.798613
+e320588638.964060
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/TouchPanelHelper.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@131"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m320588638#320588638#0(0"0(0#0#123"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m4646509232#2518"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/TouchPanelHelper.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/AccelerometerHelper.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588641.819930
+e320588642.050282
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/AccelerometerHelper.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@134"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m320588641#320588642#0(0"0(0#0#126"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m4651711584#2524"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/AccelerometerHelper.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Fader.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588641.113221
+e320588641.271196
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Fader.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m320588641#320588641#0(0"0(0#0#112"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m4652494992#2496"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Fader.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/FpsComponent.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588640.122219
+e320588640.300987
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/FpsComponent.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m320588640#320588640#0(0"0(0#0#122"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m4646507232#2513"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/FpsComponent.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Image.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588641.605173
+e320588641.819543
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Image.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m320588641#320588641#0(0"0(0#0#111"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m4651675904#2495"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Image.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Label.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588641.271547
+e320588641.604817
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Label.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m320588641#320588641#0(0"0(0#0#111"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m4646483648#2495"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Label.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/PrimitiveBatch.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588640.467773
+e320588641.016130
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/PrimitiveBatch.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m320588640#320588641#0(0"0(0#0#122"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m4651488688#2515"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/PrimitiveBatch.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Random.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588640.301395
+e320588640.390519
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Random.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m320588640#320588640#0(0"0(0#0#116"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m4646531264#2501"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Random.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Rectangle+Extensions.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588640.390874
+e320588640.467416
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Rectangle+Extensions.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@138"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m320588640#320588640#0(0"0(0#0#130"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m4646510640#2529"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Rectangle+Extensions.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/TouchPanelHelper.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588641.016658
+e320588641.112867
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/TouchPanelHelper.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@131"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m320588641#320588641#0(0"0(0#0#123"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m4646481792#2518"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/TouchPanelHelper.o"0#
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/AccelerometerHelper.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/AccelerometerHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Fader.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/Fader.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/FpsComponent.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/FpsComponent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Image.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Image.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Label.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Mirage/Label.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/PrimitiveBatch.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Spectrum/PrimitiveBatch.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Random.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Random.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Rectangle+Extensions.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Everywhere/Rectangle+Extensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/TouchPanelHelper.o" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s320593976.710195
+e320593977.868660
+r1
+xCompileC
+xbuild/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/TouchPanelHelper.o
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@131"Compile /Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m320593976#320593977#0(0"0(0#0#123"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m8638400352#2611"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphonesimulator/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/DerivedSources/i386" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/DerivedSources" -include /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-elgatlfhzwjhlthkuxhpkvovrujx/Artificial_I_Prefix.pch -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Classes/Artificial/Control/TouchPanelHelper.m" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/TouchPanelHelper.o"0#
+
+CCpHeader build/Release-iphoneos/usr/local/include/AccelerometerHelper.h Classes/Artificial/Control/AccelerometerHelper.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Artificial.Control.classes.h Classes/Artificial/Control/Artificial.Control.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Artificial.Control.h Classes/Artificial/Control/Artificial.Control.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Artificial.Everywhere.classes.h Classes/Artificial/Everywhere/Artificial.Everywhere.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Artificial.Everywhere.h Classes/Artificial/Everywhere/Artificial.Everywhere.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Artificial.Mirage.classes.h Classes/Artificial/Mirage/Artificial.Mirage.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Artificial.Mirage.h Classes/Artificial/Mirage/Artificial.Mirage.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Artificial.Spectrum.classes.h Classes/Artificial/Spectrum/Artificial.Spectrum.classes.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Artificial.Spectrum.h Classes/Artificial/Spectrum/Artificial.Spectrum.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Fader.h Classes/Artificial/Control/Fader.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/FpsComponent.h Classes/Artificial/Everywhere/FpsComponent.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Image.h Classes/Artificial/Mirage/Image.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Label.h Classes/Artificial/Mirage/Label.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/MirageEnums.h Classes/Artificial/Mirage/MirageEnums.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/PrimitiveBatch.h Classes/Artificial/Spectrum/PrimitiveBatch.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Random.h Classes/Artificial/Everywhere/Random.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/Rectangle+Extensions.h Classes/Artificial/Everywhere/Rectangle+Extensions.h
+r0
+
+CCpHeader build/Release-iphoneos/usr/local/include/TouchPanelHelper.h Classes/Artificial/Control/TouchPanelHelper.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/AccelerometerHelper.h Classes/Artificial/Control/AccelerometerHelper.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Control.classes.h Classes/Artificial/Control/Artificial.Control.classes.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Control.h Classes/Artificial/Control/Artificial.Control.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Everywhere.classes.h Classes/Artificial/Everywhere/Artificial.Everywhere.classes.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Everywhere.h Classes/Artificial/Everywhere/Artificial.Everywhere.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Mirage.classes.h Classes/Artificial/Mirage/Artificial.Mirage.classes.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Mirage.h Classes/Artificial/Mirage/Artificial.Mirage.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Spectrum.classes.h Classes/Artificial/Spectrum/Artificial.Spectrum.classes.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Artificial.Spectrum.h Classes/Artificial/Spectrum/Artificial.Spectrum.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Fader.h Classes/Artificial/Control/Fader.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/FpsComponent.h Classes/Artificial/Everywhere/FpsComponent.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Image.h Classes/Artificial/Mirage/Image.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Label.h Classes/Artificial/Mirage/Label.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/MirageEnums.h Classes/Artificial/Mirage/MirageEnums.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/PrimitiveBatch.h Classes/Artificial/Spectrum/PrimitiveBatch.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Random.h Classes/Artificial/Everywhere/Random.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/Rectangle+Extensions.h Classes/Artificial/Everywhere/Rectangle+Extensions.h
+r0
+
+CCpHeader build/Release-iphonesimulator/usr/local/include/TouchPanelHelper.h Classes/Artificial/Control/TouchPanelHelper.h
+r0
+
+CCreateUniversalBinary "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/libArtificial.a" normal "armv6 armv7"
+s320588642.064066
+e320588642.131326
+r1
+xCreateUniversalBinary
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/libArtificial.a
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Release-iphoneos/libArtificial.a normal "armv6 armv7"320588642#320588643#0(0"0(0#0#89"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/armv6 armv74647244272#849"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/libArtificial.a" "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/libArtificial.a" -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/libArtificial.a"0#
+
+CLibtool "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/libArtificial.a" normal armv6
+s320588640.085895
+e320588640.121802
+r1
+xLibtool
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/libArtificial.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF07#2@120"Libtool "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/libArtificial.a" normal armv6320588640#320588640#0(129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"4647174000#1022"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -filelist "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/Artificial.LinkFileList" -ObjC -framework Foundation -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv6/libArtificial.a"0#
+
+CLibtool "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/libArtificial.a" normal armv7
+s320588642.050626
+e320588642.063671
+r1
+xLibtool
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/libArtificial.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF07#2@120"Libtool "build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/libArtificial.a" normal armv7320588642#320588643#0(129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"4644019552#1022"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -filelist "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/Artificial.LinkFileList" -ObjC -framework Foundation -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Objects-normal/armv7/libArtificial.a"0#
+
+CLibtool "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/libArtificial.a" normal i386
+s320593977.869048
+e320593978.018992
+r1
+xLibtool
+x/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/libArtificial.a
+xnormal
+xi386
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF07#2@65"Libtool build/Release-iphonesimulator/libArtificial.a normal i386320593977#320593978#0(136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"8653459904#926"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator" -filelist "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphonesimulator/Artificial I.build/Objects-normal/i386/Artificial.LinkFileList" -ObjC -framework Foundation -o "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphonesimulator/libArtificial.a"0#
+
+CProcessPCH /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch.gch Artificial_I_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320588631.883717
+e320588636.875770
+r1
+xProcessPCH
+x/var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch.gch
+xArtificial_I_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Artificial_I_Prefix.pch320588631#320588636#0(0"0(0#0#101"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Artificial_I_Prefix.pch4645064096#2317"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv6" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Artificial_I_Prefix.pch" -o /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-aspqnxhcwzjgezhbnikdxevgoeoj/Artificial_I_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch.gch Artificial_I_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320588631.888118
+e320588637.316780
+r1
+xProcessPCH
+x/var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch.gch
+xArtificial_I_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Artificial_I_Prefix.pch320588631#320588637#0(0"0(0#0#101"/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Artificial_I_Prefix.pch4653712224#2317"    cd "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -fobjc-abi-version=2 -miphoneos-version-min=3.2 -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-generated-files.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-own-target-headers.hmap" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-all-target-headers.hmap" -iquote "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/Artificial-project-headers.hmap" "-F/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos" -iquote/Users/Retro/Dropbox/Work/Retronator/Projects/XNI/build/Release-iphoneos/usr/local/include "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Release-iphoneos/include" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources/armv7" "-I/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/build/Artificial I.build/Release-iphoneos/Artificial I.build/DerivedSources" -c "/Users/Retro/Dropbox/Teaching/Razvoj racunalniskih iger/Projekti/Artificial I/Artificial_I_Prefix.pch" -o /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-egiuvrkeydpxhwbywqetbddbpdjk/Artificial_I_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/WK/WK2qY9C6FMqrDyF6CZIUSk+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Artificial_I_Prefix-elgatlfhzwjhlthkuxhpkvovrujx/Artificial_I_Prefix.pch.gch Artificial_I_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
