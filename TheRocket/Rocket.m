@@ -22,6 +22,12 @@
 
 @synthesize position;
 
+- (BOOL) collidingWithItem:(id)item {
+	return YES;
+}
 
+- (void) collidedWithItem:(id)item {
+
+}
 
 @end

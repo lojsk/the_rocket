@@ -12,7 +12,6 @@
 #import "Retronator.Xni.Framework.Graphics.h"
 #import "Retronator.Xni.Framework.Content.h"
 #import "Retronator.Xni.Framework.Input.Touch.h"
-
 #import "Headers.TheRocket.classes.h"
 
 @interface TheRocket : Game {

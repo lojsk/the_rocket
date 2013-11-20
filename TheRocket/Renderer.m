@@ -11,14 +11,21 @@
 
 @implementation Renderer
 
-- (id) initWithGame:(Game *)theGame level:(Level *)theLevel {
+- (id) initWithGame:(Game *)theGame gameplay:(Gameplay*)theGameplay {
 	if (self = [super initWithGame:theGame]) {
-		level = theLevel;
+		gameplay = theGameplay;
 	}
 	return self;
 }
 
+@synthesize camera;
+
 - (void) initialize {
+   // float scaleX = (float)self.game.window.clientBounds.width / (float)gameplay.level.bounds.width;
+//	float scaleY = (float)self.game.window.clientBounds.height / (float)gameplay.level.bounds.height;
+    float scaleX = 400.0f;
+    float scaleY = 500.0f;
+	camera = [Matrix createScale:[Vector3 vectorWithX:scaleX y:scaleY z:1]];
     
 	[super initialize];
 }
@@ -38,9 +45,9 @@
 	
 	[spriteBatch begin];
 	
-	for (id<NSObject> item in level.scene) {
+	for (id item in gameplay.level.scene) {
 		
-		id<Position> itemWithPosition;
+		id <IPosition> itemWithPosition = [item conformsToProtocol:@protocol(IPosition)] ? item : nil;
 		if ([item conformsToProtocol:@protocol(Position)]) {
 			itemWithPosition = (id<Position>)item;
 		}

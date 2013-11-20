@@ -15,16 +15,21 @@
 {
 	self = [super init];
 	if (self != nil) {
+        scene = [[SimpleScene alloc] initWithGame:self.game];
+        [self.game.components addComponent:scene];
+        
 		player = [[Rocket alloc] init];
-        [player setPosition:[Vector2 vectorWithX:50 y:50]];
-		
-		scene = [[Scene alloc] init];
-		[scene addItem:player];
 	}
 	return self;
 }
 
+- (void) initialize {
+	player.position.x = 50;
+	player.position.y = 50;
+}
+
 @synthesize scene;
+
 
 
 

@@ -11,35 +11,16 @@
 
 @implementation TheRocket
 
-- (id) init {
-    if (self = [super init]) {
-        graphics = [[GraphicsDeviceManager alloc] initWithGame:self];
-    }
-    return self;
-}
-
-- (void) initialize {
-	// Create all levels.
-	theLevel = [[Level alloc] init];
-	
-	// Start in first level.
-	[self loadLevel:theLevel];
-	
-	// Initialize all components.
-	[super initialize];
-}
-
-- (void) loadLevel:(Level *)level {
-	
-	// Remove the current renderer if it exists.
-	if (renderer) {
-		[self.components removeComponent:renderer];
+- (id) init
+{
+	self = [super init];
+	if (self != nil) {
+		graphics = [[GraphicsDeviceManager alloc] initWithGame:self];
+        
+		[self.components addComponent:[[Gameplay alloc] initWithGame:self]];
+		[self.components addComponent:[[FpsComponent alloc] initWithGame:self]];
 	}
-	
-	// Create a new renderer for the new scene.
-	renderer = [[Renderer alloc] initWithGame:self level:level];
-	[self.components addComponent:renderer];
+	return self;
 }
-
 
 @end

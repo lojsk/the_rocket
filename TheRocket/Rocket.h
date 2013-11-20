@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Express.Scene.Objects.h"
+
 #import "Headers.TheRocket.h"
 
-@interface Rocket : NSObject <Position> {
-	Vector2 *position;
+@interface Rocket : NSObject <IAARectangleCollider, ICustomCollider> {
+    Vector2 *position;
 }
 
 @end

@@ -10,6 +10,7 @@
 
 #import "Retronator.Xni.Framework.Graphics.h"
 #import "Retronator.Xni.Framework.Content.h"
+#import "Express.Graphics.h"
 
 #import "Headers.TheRocket.classes.h"
 
@@ -21,9 +22,11 @@
 	SpriteBatch *spriteBatch;
 	
 	// Level
-	Level *level;
+	Gameplay *gameplay;
+	Matrix *camera;
 }
 
-- (id) initWithGame:(Game*)theGame level:(Level*)theLevel;
+- (id) initWithGame:(Game*)theGame gameplay:(Gameplay*)theGameplay;
 
+@property (nonatomic, readonly) Matrix *camera;
 @end

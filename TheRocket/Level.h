@@ -9,13 +9,16 @@
 #import <Foundation/Foundation.h>
 
 #import "Headers.TheRocket.classes.h"
+#import "Express.Scene.h"
 
-@interface Level : NSObject {
-	Scene *scene;
+@interface Level : GameComponent {
+	SimpleScene *scene;
 	
 	Rocket *player;
 }
 
-@property (nonatomic, retain) Scene *scene;
+@property (nonatomic, readonly) id<IScene> scene;
+
+@property (nonatomic, readonly) Rocket *player;
 
 @end
