@@ -20,24 +20,26 @@ static Constants *instance;
 	return instance;
 }
 
-- (float) minimumBallVerticalVelocity {
-	return 100;
+// theRocket game
++ (float) numberOfBackgrounds {
+	return 3;
 }
 
-- (float) maximumBallAngle {
-	return M_PI / 2;
++ (float) gameSpeed {
+	return 15;
 }
 
-- (int) startLives {
-	return 2;
++(float) getLeftRightSpeed {
+    return  15;
 }
 
-- (float) initialBallSpeed {
-	return 400;
++(float) shotChange {
+    return 0.2f;
 }
 
-- (float) levelUpBallSpeedIncrease {
-	return 100;
++(float)bulletSpeed {
+    return [Constants gameSpeed]*2;
 }
+
 
 @end

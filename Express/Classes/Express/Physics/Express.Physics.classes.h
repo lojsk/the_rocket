@@ -1,6 +1,7 @@
 @class MovementPhysics;
 
 @protocol ICollisionAlgorithm;
+
 @class Collision;
 
 @class ParticleParticleCollision;

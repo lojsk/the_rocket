@@ -17,6 +17,11 @@
 @interface Renderer : DrawableGameComponent {
 	// Resources
 	Sprite *rocketSprite;
+    Sprite *bgElSprite;
+    Sprite *bgSwitchElSprite;
+    Sprite *lineSprite;
+    Sprite *verticalLineSprite;
+    Sprite *bulletSprite;
 	
 	// Graphics objects
 	SpriteBatch *spriteBatch;
@@ -24,6 +29,11 @@
 	// Level
 	Gameplay *gameplay;
 	Matrix *camera;
+    
+    BOOL retina;
+    float scale;
+    
+    CGSize screenSize;
 }
 
 - (id) initWithGame:(Game*)theGame gameplay:(Gameplay*)theGameplay;

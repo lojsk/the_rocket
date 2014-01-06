@@ -12,13 +12,12 @@
 @interface Constants : NSObject {
 }
 
-@property (nonatomic, readonly) float minimumBallVerticalVelocity;
-@property (nonatomic, readonly) float maximumBallAngle;
-
-@property (nonatomic, readonly) int startLives;
-@property (nonatomic, readonly) float initialBallSpeed;
-@property (nonatomic, readonly) float levelUpBallSpeedIncrease;
-
 + (Constants*) getInstance;
 
+// theRocket Game
++ (float) numberOfBackgrounds;
++ (float) gameSpeed;
++ (float) getLeftRightSpeed;
++ (float) shotChange;
++(float)bulletSpeed;
 @end

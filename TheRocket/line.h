@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface line : NSObject
+#import "Express.Scene.Objects.h"
+
+#import "Headers.TheRocket.h"
+
+
+@interface line : NSObject<IPosition> {
+    Vector2 *position;
+    bool topLine;
+}
+
+@property bool topLine;
 
 @end

@@ -10,6 +10,7 @@
 #import "IRectangleSize.h"
 
 #import "IMass.h"
+#import "ICollisionID.h"
 #import "IAngularMass.h"
 #import "ICoefficientOfRestitution.h"
 #import "ICoefficientOfFriction.h"

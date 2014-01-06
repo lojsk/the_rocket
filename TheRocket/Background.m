@@ -10,4 +10,17 @@
 
 @implementation Background
 
+- (id) init
+{
+	self = [super init];
+	if (self != nil) {
+		position = [[Vector2 alloc] init];
+        levelIMG = 0;
+	}
+	return self;
+}
+
+@synthesize position, levelIMG;
+
+
 @end

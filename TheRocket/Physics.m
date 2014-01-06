@@ -22,14 +22,34 @@
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
-    /*
-	[MovementPhysics simulateMovementOn:level.ball withElapsed:gameTime.elapsedGameTime];
-	
+	// Movement
 	for (id item in level.scene) {
-		if (item != level.ball) {
-			[Collision collisionBetween:level.ball and:item];
-		}
-	}*/
+        if ([item isKindOfClass:[Player class]])
+        {
+        }
+        
+		[MovementPhysics simulateMovementOn:item withElapsed:gameTime.elapsedGameTime];
+	}
+	
+    int i = 0;
+	for (id item1 in level.scene) {
+        int j = 0;
+        
+        id <ICollisionID> itemC1 = [item1 conformsToProtocol:@protocol(ICollisionID)] ? item1 : nil;
+        if ([item1 conformsToProtocol:@protocol(ICollisionID)]) {
+            itemC1 = (id<ICollisionID>)item1;
+        }
+        
+        for (id item2 in level.scene) {
+            if(j>=i) {
+                if ([itemC1.setID containsObject:[item2 class]]) {
+                    [Collision collisionBetween:item1 and:item2];
+                }
+            }
+            j++;
+        }
+        i++;
+	}
 }
 
 @end

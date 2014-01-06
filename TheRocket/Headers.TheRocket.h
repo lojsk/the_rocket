@@ -8,4 +8,11 @@
 #import "Constants.h"
 #import "Player.h"
 #import "Gameplay.h"
-
+#import "Camera.h"
+#import "Background.h"
+#import "line.h"
+#import "World.h"
+#import "SwitchBackgorund.h"
+#import "VerticalLine.h"
+#import "HorizontalLine.h"
+#import "Bullet.h"

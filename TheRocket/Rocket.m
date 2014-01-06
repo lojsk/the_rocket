@@ -16,11 +16,16 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
+		velocity = [[Vector2 alloc] init];
+		radius = 10;
+		mass = 1;
+        setID = [NSSet setWithObjects:[VerticalLine class], nil];
 	}
 	return self;
 }
 
-@synthesize position;
+@synthesize position, velocity, mass, radius, setID;
+
 
 - (BOOL) collidingWithItem:(id)item {
 	return YES;

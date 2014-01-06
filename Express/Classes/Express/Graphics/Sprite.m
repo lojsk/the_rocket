@@ -14,6 +14,8 @@
 @synthesize texture;
 @synthesize sourceRectangle;
 @synthesize origin;
+@synthesize scale;
+@synthesize z;
 
 - (void) dealloc
 {

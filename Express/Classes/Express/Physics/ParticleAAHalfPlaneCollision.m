@@ -46,6 +46,8 @@
 		case AxisDirectionPositiveY:
 			relaxDistance = [Vector2 vectorWithX:0 y:particle.position.y - particle.radius - aaHalfPlane.aaHalfPlane.distance];
 			pointOfImpact = [Vector2 vectorWithX:particle.position.x y:aaHalfPlane.aaHalfPlane.distance];
+            
+            
 			break;
 		case AxisDirectionNegativeY:
 			relaxDistance = [Vector2 vectorWithX:0 y:particle.position.y + particle.radius + aaHalfPlane.aaHalfPlane.distance];

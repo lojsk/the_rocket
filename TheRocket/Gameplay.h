@@ -16,10 +16,9 @@
 	Renderer *renderer;	
 	DebugRenderer *debugRenderer;
 	Player *player;
-	int lives;
-	int difficultyLevel;
+    Camera *camera;
 }
-
+@property (nonatomic, readonly) Camera *camera;
 @property (nonatomic, readonly) Level *level;
 @property (nonatomic, readonly) int lives;
 

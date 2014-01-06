@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Background : NSObject
+#import "Express.Scene.Objects.h"
+
+#import "Headers.TheRocket.h"
+
+@interface Background : NSObject<IPosition> {
+    Vector2 *position;
+    int levelIMG;
+}
+
+@property (nonatomic, readwrite) int levelIMG;
 
 @end

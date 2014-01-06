@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SwitchBackgorund : NSObject
+#import "Express.Scene.Objects.h"
+
+#import "Headers.TheRocket.h"
+
+@interface SwitchBackgorund : NSObject<IPosition> {
+    Vector2 *position;
+}
+
+@property (nonatomic, readwrite) int currentLevel;
 
 @end

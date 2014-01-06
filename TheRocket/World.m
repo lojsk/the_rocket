@@ -10,4 +10,17 @@
 
 @implementation World
 
+- (id) init
+{
+	self = [super init];
+	if (self != nil) {
+        worldIMG = 0;
+        worldLimit = [[NSMutableArray alloc] initWithObjects:[NSNumber numberWithInt:3], [NSNumber numberWithInt:6], [NSNumber numberWithInt:30], nil];
+        mSwitch = 0;
+	}
+	return self;
+}
+
+@synthesize worldLimit, mSwitch;
+
 @end

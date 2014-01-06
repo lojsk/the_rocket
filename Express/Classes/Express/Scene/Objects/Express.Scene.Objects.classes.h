@@ -4,6 +4,7 @@
 @protocol IRadius, IRectangleSize;
 
 @protocol IMass;
+@protocol ICollisionID;
 @protocol IAngularMass;
 @protocol ICoefficientOfRestitution;
 @protocol ICoefficientOfFriction;

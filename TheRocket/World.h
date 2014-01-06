@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@interface World : NSObject
+#import "Express.Scene.Objects.h"
+
+#import "Headers.TheRocket.h"
+
+@interface World : NSObject {
+    int worldIMG;
+    NSMutableArray *worldLimit;
+    int mSwitch;
+}
+
+@property NSMutableArray *worldLimit;
+@property int mSwitch;
 
 @end

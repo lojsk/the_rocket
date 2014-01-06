@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4EA9177E146D7EB000F7D51F /* libArtificial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7989F41463002600771A2D /* libArtificial.a */; };
+		5BA43D1B18799F560022D421 /* ICollisionID.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA43D1918799F560022D421 /* ICollisionID.h */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		B503044C12DBA81E0037B8FF /* ParticleHalfPlaneCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = B503044A12DBA81E0037B8FF /* ParticleHalfPlaneCollision.m */; };
 		B503050D12DBBB420037B8FF /* ParticleConvexCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = B503050B12DBBB420037B8FF /* ParticleConvexCollision.m */; };
@@ -112,6 +113,7 @@
 
 /* Begin PBXFileReference section */
 		4E7989EC1463002600771A2D /* Artificial I.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Artificial I.xcodeproj"; path = "../Artificial I/Artificial I.xcodeproj"; sourceTree = "<group>"; };
+		5BA43D1918799F560022D421 /* ICollisionID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICollisionID.h; path = ../../Physics/ICollisionID.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* Express_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Express_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B503032812DB8D980037B8FF /* IAARectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAARectangle.h; sourceTree = "<group>"; };
@@ -223,9 +225,9 @@
 		0867D691FE84028FC02AAC07 /* Express */ = {
 			isa = PBXGroup;
 			children = (
+				32C88DFF0371C24200C91783 /* Other Sources */,
 				4E7989EC1463002600771A2D /* Artificial I.xcodeproj */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
-				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
@@ -390,6 +392,7 @@
 		B5D011FC1292D80E008889BF /* Physical Properties */ = {
 			isa = PBXGroup;
 			children = (
+				5BA43D1918799F560022D421 /* ICollisionID.h */,
 				B5D463CA12804ADD0029B3A6 /* IMass.h */,
 				B503FCBE12DCA35F00ECA895 /* IAngularMass.h */,
 				B5E617B31280C60A007F8386 /* ICoefficientOfRestitution.h */,
@@ -532,6 +535,7 @@
 				B5964C541417A78C0084E928 /* HalfPlane.h in Headers */,
 				B5964C561417A78C0084E928 /* AAHalfPlane.h in Headers */,
 				B5964C581417A78C0084E928 /* ConvexPolygon.h in Headers */,
+				5BA43D1B18799F560022D421 /* ICollisionID.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

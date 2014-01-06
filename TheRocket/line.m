@@ -10,4 +10,17 @@
 
 @implementation line
 
+- (id) init
+{
+	self = [super init];
+	if (self != nil) {
+		position = [[Vector2 alloc] init];
+        topLine = NO;
+	}
+	return self;
+}
+
+@synthesize position, topLine;
+
+
 @end

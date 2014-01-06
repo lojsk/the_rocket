@@ -9,3 +9,11 @@
 @class Rocket;
 @class Player;
 @class Gameplay;
+@class Camera;
+@class Background;
+@class line;
+@class World;
+@class SwitchBackgorund;
+@class VerticalLine;
+@class HorizontalLine;
+@class Bullet;

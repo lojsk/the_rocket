@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Retronator.Xni.Framework.Input.Touch.h"
+#import "Headers.TheRocket.classes.h"
 
-@interface Camera : NSObject
+@interface Camera : GameComponent {
+    Player *pinIt;
+    Vector2 *lastPosition;
+}
 
+@property (nonatomic, readonly) Matrix *camera;
+
+- (id) initWithGame:(Game*)theGame Object:(Player*)player;
 @end

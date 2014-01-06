@@ -10,4 +10,17 @@
 
 @implementation SwitchBackgorund
 
+- (id) init
+{
+	self = [super init];
+	if (self != nil) {
+		position = [[Vector2 alloc] init];
+        currentLevel = 0;
+	}
+	return self;
+}
+
+@synthesize position, currentLevel;
+
+
 @end

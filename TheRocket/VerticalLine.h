@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface VerticalLine : NSObject
+#import "Express.Scene.Objects.h"
+#import "Express.Math.h"
+
+#import "Headers.TheRocket.h"
+
+
+@interface VerticalLine : NSObject<IAAHalfPlaneCollider, ICollisionID> {
+	AAHalfPlane *limit;
+}
+
+- (id) initWithLimit:(AAHalfPlane*)theLimit;
 
 @end

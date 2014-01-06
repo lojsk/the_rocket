@@ -15,6 +15,15 @@
 	SimpleScene *scene;
 	
 	Rocket *player;
+    NSMutableArray *bgs;
+    SwitchBackgorund *switchBg;
+    line *bottomLine;
+    line *topLine;
+    VerticalLine *leftLine;
+    VerticalLine *rightLine;
+    HorizontalLine *horTopLine;
+    
+    World *stage;
 }
 
 @property (nonatomic, readonly) id<IScene> scene;

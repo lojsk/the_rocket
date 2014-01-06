@@ -7,17 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreMotion/CoreMotion.h>
 
 #import "Retronator.Xni.Framework.Input.Touch.h"
 
 #import "Headers.TheRocket.classes.h"
+#import "Headers.TheRocket.h"
 
-@interface Player : GameComponent {
-	Rocket *rocket;
-	Matrix *inverseView;
+@interface Player : GameComponent<IAARectangleCollider,IAARectangle, ICustomCollider, ICustomUpdate, ISceneUser> {
+    Matrix *inverseView;
+    CMMotionManager *motionManager;
+    CMAttitude *referenceAttitude;
+    NSOperationQueue *queue;
+    id<IScene> scene;
+    float lastShot;
+    float speed;
 }
 
-- (id) initWithGame:(Game*)theGame Rocket:(Rocket *)theRocket;
+@property (nonatomic, readonly) Rocket *rocket;
+
+- (id) initWithGame:(Game*)theGame Rocket:(Rocket *)theRocket Scene:(SimpleScene *)theScene;
 
 - (void) setCamera:(Matrix *)camera;
 
