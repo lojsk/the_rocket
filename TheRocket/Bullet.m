@@ -19,7 +19,7 @@
         velocity = [[Vector2 alloc] init];
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[HorizontalLine class], nil];
+        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], nil];
         [self playSound:theGame];
 	}
 	return self;

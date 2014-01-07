@@ -19,7 +19,7 @@
 		velocity = [[Vector2 alloc] init];
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[VerticalLine class], nil];
+        setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], nil];
 	}
 	return self;
 }

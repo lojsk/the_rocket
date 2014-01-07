@@ -30,6 +30,7 @@
         topLine = [[line alloc] init];
         bottomLine = [[line alloc] init];
         
+        enemyLevel = [[EnemyLevel alloc] initWithScene:scene];
         stage = [[World alloc] init];
 	}
 	return self;
@@ -37,6 +38,7 @@
 
 
 - (void) initialize {
+
     // bg
     for (int i=0;i<[Constants numberOfBackgrounds];i++) {
         ((Background*)[bgs objectAtIndex:i]).position.x = 0;
@@ -57,6 +59,9 @@
     player.position.x = screenSize.width;
 	player.position.y = screenSize.height*3/2;
     [scene addItem:player];
+    
+    // enemy
+    [enemyLevel initialize];
     
     // line
     topLine.position.y = 0;

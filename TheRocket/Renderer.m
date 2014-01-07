@@ -111,6 +111,8 @@
             sprite = bgSwitchElSprite;
         } else if([item isKindOfClass:[Bullet class]]) {
             sprite = bulletSprite;
+        } else if([item isKindOfClass:[SimpleMonster class]]) {
+            sprite = rocketSprite;
         }
 		
 		if (itemWithPosition && sprite) {

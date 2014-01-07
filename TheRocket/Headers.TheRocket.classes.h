@@ -17,3 +17,5 @@
 @class VerticalLine;
 @class HorizontalLine;
 @class Bullet;
+@class EnemyLevel;
+@class SimpleMonster;

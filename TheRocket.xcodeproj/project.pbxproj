@@ -50,6 +50,8 @@
 		5B9523F218468BEE00AF5512 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9523F118468BEE00AF5512 /* Camera.m */; };
 		5B96E7701833ED3A0072497E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B96E76F1833ED3A0072497E /* Player.m */; };
 		5B96E7711833F10B0072497E /* libExpress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE193001833E3D500112F3F /* libExpress.a */; };
+		5B9B88B8187B2CEC000B4383 /* EnemyLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B88B7187B2CEC000B4383 /* EnemyLevel.m */; };
+		5B9B88BB187B2D63000B4383 /* SimpleMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B88BA187B2D63000B4383 /* SimpleMonster.m */; };
 		5BA43D211879AE010022D421 /* HorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA43D201879AE010022D421 /* HorizontalLine.m */; };
 		5BAA539A18783AC000D114EA /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA539918783AC000D114EA /* Bullet.m */; };
 		5BD2DEF9187879E500C1EC94 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEF8187879E400C1EC94 /* bullet.png */; };
@@ -150,6 +152,10 @@
 		5B9523F118468BEE00AF5512 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
 		5B96E76E1833ED3A0072497E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		5B96E76F1833ED3A0072497E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		5B9B88B6187B2CEC000B4383 /* EnemyLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyLevel.h; sourceTree = "<group>"; };
+		5B9B88B7187B2CEC000B4383 /* EnemyLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyLevel.m; sourceTree = "<group>"; };
+		5B9B88B9187B2D63000B4383 /* SimpleMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMonster.h; sourceTree = "<group>"; };
+		5B9B88BA187B2D63000B4383 /* SimpleMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMonster.m; sourceTree = "<group>"; };
 		5BA43D1F1879AE010022D421 /* HorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalLine.h; sourceTree = "<group>"; };
 		5BA43D201879AE010022D421 /* HorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalLine.m; sourceTree = "<group>"; };
 		5BAA539818783AC000D114EA /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
@@ -217,6 +223,7 @@
 			children = (
 				5B8AE75818551B0500CBBB6C /* World */,
 				5B1B8313181D6BFC0056884F /* Objects */,
+				5B9B88B3187B2C90000B4383 /* Enemy */,
 				5B1B832D181D73B80056884F /* Level.h */,
 				5B1B832E181D73B80056884F /* Level.m */,
 			);
@@ -227,8 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				5B9523F018468BEE00AF5512 /* Camera.h */,
-				5B9523F118468BEE00AF5512 /* Camera.m */,
 				5B1B8327181D739E0056884F /* Rocket.h */,
+				5B9523F118468BEE00AF5512 /* Camera.m */,
 				5B1B8328181D739E0056884F /* Rocket.m */,
 				5BA43D1E1879ADD70022D421 /* background */,
 				5BA43D1D1879ADC30022D421 /* lines */,
@@ -344,6 +351,33 @@
 				5B96E76F1833ED3A0072497E /* Player.m */,
 			);
 			name = Player;
+			sourceTree = "<group>";
+		};
+		5B9B88B3187B2C90000B4383 /* Enemy */ = {
+			isa = PBXGroup;
+			children = (
+				5B9B88B5187B2CC2000B4383 /* Monster */,
+				5B9B88B4187B2CAB000B4383 /* Level */,
+			);
+			name = Enemy;
+			sourceTree = "<group>";
+		};
+		5B9B88B4187B2CAB000B4383 /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				5B9B88B6187B2CEC000B4383 /* EnemyLevel.h */,
+				5B9B88B7187B2CEC000B4383 /* EnemyLevel.m */,
+			);
+			name = Level;
+			sourceTree = "<group>";
+		};
+		5B9B88B5187B2CC2000B4383 /* Monster */ = {
+			isa = PBXGroup;
+			children = (
+				5B9B88B9187B2D63000B4383 /* SimpleMonster.h */,
+				5B9B88BA187B2D63000B4383 /* SimpleMonster.m */,
+			);
+			name = Monster;
 			sourceTree = "<group>";
 		};
 		5BA43D1D1879ADC30022D421 /* lines */ = {
@@ -594,6 +628,8 @@
 				5B869A24186C811700E73EBA /* VerticalLine.m in Sources */,
 				5BAA539A18783AC000D114EA /* Bullet.m in Sources */,
 				5BA43D211879AE010022D421 /* HorizontalLine.m in Sources */,
+				5B9B88B8187B2CEC000B4383 /* EnemyLevel.m in Sources */,
+				5B9B88BB187B2D63000B4383 /* SimpleMonster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

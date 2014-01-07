@@ -26,7 +26,7 @@ static Constants *instance;
 }
 
 + (float) gameSpeed {
-	return 15;
+	return 5;
 }
 
 +(float) getLeftRightSpeed {

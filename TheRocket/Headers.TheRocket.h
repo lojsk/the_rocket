@@ -16,3 +16,5 @@
 #import "VerticalLine.h"
 #import "HorizontalLine.h"
 #import "Bullet.h"
+#import "EnemyLevel.h"
+#import "SimpleMonster.h"
