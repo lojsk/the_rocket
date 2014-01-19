@@ -12,6 +12,12 @@
 
 @interface Physics : GameComponent {
 	Level *level;
+    CGSize screenSize;
+    float topScreen;
+    NSMutableArray *grid;
+    float count;
+    float height;
+    NSMutableArray *moreCell;
 }
 
 - (id) initWithGame:(Game*)theGame level:(Level*)theLevel;

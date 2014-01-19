@@ -12,11 +12,12 @@
 
 #import "Headers.TheRocket.h"
 
-@interface SimpleMonster : NSObject <IParticle, ICollisionID> {
+@interface SimpleMonster : NSObject <IParticle, ICollisionID, ICustomCollider, ISceneUser, IGetCordinate> {
 	Vector2 *position;
 	Vector2 *velocity;
 	float radius;
 	float mass;
+    id<IScene> scene;
 }
 
 - (id) initWithX:(int)x andY:(int)y;

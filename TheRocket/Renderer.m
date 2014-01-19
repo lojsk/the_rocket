@@ -74,6 +74,25 @@
     bulletSprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:50 height:50];
     bulletSprite.origin = [Vector2 vectorWithX:25 y:25];
     bulletSprite.scale = 0.20f;
+    
+    // explosion
+    // explosion
+    Texture2D *explosionTexture = [self.game.content load:@"explosion"];
+    explosionSpriteAnimation = [[AnimatedSprite alloc] initWithDuration:0.5];
+    explosionSpriteAnimation.looping = NO;
+    for (int i = 0; i < 25; i++) {
+        int row = i / 5;
+        int column = i % 5;
+        Sprite *sprite = [[Sprite alloc] init];
+        sprite.texture = explosionTexture;
+        sprite.sourceRectangle = [Rectangle rectangleWithX:column * 64 y:row * 64 width:64 height:64];
+        sprite.origin = [Vector2 vectorWithX:32 y:32];
+        sprite.scale = 2;
+        sprite.z = 1;
+        
+        AnimatedSpriteFrame *frame = [AnimatedSpriteFrame frameWithSprite:sprite start:explosionSpriteAnimation.duration * (float)i / 25];
+        [explosionSpriteAnimation addFrame:frame];
+    } 
 }
 
 - (void) drawWithGameTime:(GameTime *)gameTime {
@@ -97,6 +116,7 @@
 		Sprite *sprite;
 		if ([item isKindOfClass:[Rocket class]]) {
 			sprite = rocketSprite;
+            sprite.rotation = 0;
 		} else if([item isKindOfClass:[Background class]]) {
             Background *bg = (Background*)item;
             NSString *level = [NSString stringWithFormat:@"level%d", bg.levelIMG];
@@ -113,6 +133,10 @@
             sprite = bulletSprite;
         } else if([item isKindOfClass:[SimpleMonster class]]) {
             sprite = rocketSprite;
+            sprite.rotation = M_PI;
+        } else if([item isKindOfClass:[Explosion class]]) {
+            Explosion *ex = (Explosion*)item;
+            sprite = [explosionSpriteAnimation spriteAtTime:ex.lifetime.progress];
         }
 		
 		if (itemWithPosition && sprite) {
@@ -120,11 +144,11 @@
 						   to:itemWithPosition.position
 				fromRectangle:sprite.sourceRectangle
 				tintWithColor:[Color white]
-					 rotation:0
+					 rotation:sprite.rotation
 					   origin:sprite.origin
 				 scaleUniform:scale * sprite.scale
 					  effects:SpriteEffectsNone
-				   layerDepth:0];
+				   layerDepth:sprite.z];
 		}
 	}
 	

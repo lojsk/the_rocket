@@ -24,7 +24,7 @@
 		case AxisDirectionPositiveY:
 			return particle.position.y - particle.radius < aaHalfPlane.aaHalfPlane.distance;
 		case AxisDirectionNegativeY:
-			return particle.position.y + particle.radius > -aaHalfPlane.aaHalfPlane.distance;
+			return particle.position.y + particle.radius > aaHalfPlane.aaHalfPlane.distance;
 	}	
 }
 

@@ -26,7 +26,7 @@ static Constants *instance;
 }
 
 + (float) gameSpeed {
-	return 5;
+	return 0;
 }
 
 +(float) getLeftRightSpeed {
@@ -38,7 +38,15 @@ static Constants *instance;
 }
 
 +(float)bulletSpeed {
-    return [Constants gameSpeed]*2;
+    return [Constants gameSpeed]+5;
+}
+
++(float)topEnemyLimit {
+    return -20;
+}
+
++(float)bottomEnemyLimit {
+    return 960;
 }
 
 

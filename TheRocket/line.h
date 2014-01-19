@@ -10,7 +10,7 @@
 
 #import "Express.Scene.Objects.h"
 
-#import "Headers.TheRocket.h"
+#import "Headers.TheRocket.classes.h"
 
 
 @interface line : NSObject<IPosition> {

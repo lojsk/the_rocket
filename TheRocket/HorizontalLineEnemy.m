@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 OC. All rights reserved.
 //
 
-#import "HorizontalLine.h"
+#import "HorizontalLineEnemy.h"
 
-@implementation HorizontalLine
+@implementation HorizontalLineEnemy
 
 - (id) initWithLimit:(AAHalfPlane *)theLimit
 {

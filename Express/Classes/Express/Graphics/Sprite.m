@@ -16,6 +16,7 @@
 @synthesize origin;
 @synthesize scale;
 @synthesize z;
+@synthesize rotation;
 
 - (void) dealloc
 {

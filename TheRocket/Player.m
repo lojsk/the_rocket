@@ -38,7 +38,7 @@
     referenceAttitude   = attitude;
 }
 
-@synthesize rocket, scene;
+@synthesize rocket, scene, velocity, position;
 
 - (void) setCamera:(Matrix *)camera {
     //NSLog(@"%@ ----", camera);
@@ -62,8 +62,7 @@
         [scene addItem:[[Bullet alloc] initWithPosition:rocket.position andGame:self.game]];
         lastShot = gameTime.totalGameTime;
 	}
-    
-    rocket.position.y -= [Constants gameSpeed];
+
 }
 
 - (BOOL) collidingWithItem:(id)item{

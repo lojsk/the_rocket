@@ -12,7 +12,7 @@
 
 #import "Headers.TheRocket.h"
 
-@interface Bullet : NSObject<IParticle, ICustomCollider, ISceneUser, ICustomUpdate, ICollisionID> {
+@interface Bullet : NSObject<IParticle, ICustomCollider, ISceneUser, ICustomUpdate, ICollisionID, IGetCordinate> {
     Vector2 *position;
 	Vector2 *velocity;
 	float radius;

@@ -18,7 +18,7 @@
 		graphics = [[GraphicsDeviceManager alloc] initWithGame:self];
         
 		[self.components addComponent:[[Gameplay alloc] initWithGame:self]];
-		[self.components addComponent:[[FpsComponent alloc] initWithGame:self]];
+		//[self.components addComponent:[[FpsComponent alloc] initWithGame:self]];
 	}
 	return self;
 }

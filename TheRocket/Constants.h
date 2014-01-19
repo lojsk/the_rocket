@@ -20,4 +20,7 @@
 + (float) getLeftRightSpeed;
 + (float) shotChange;
 +(float)bulletSpeed;
++(float)topEnemyLimit;
++(float)bottomEnemyLimit;
+
 @end

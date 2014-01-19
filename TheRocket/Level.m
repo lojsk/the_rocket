@@ -30,7 +30,9 @@
         topLine = [[line alloc] init];
         bottomLine = [[line alloc] init];
         
-        enemyLevel = [[EnemyLevel alloc] initWithScene:scene];
+        AAHalfPlane *ahp = [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:[Constants bottomEnemyLimit]];
+        enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andBottomLimit:ahp];
+        
         stage = [[World alloc] init];
 	}
 	return self;
@@ -61,7 +63,8 @@
     [scene addItem:player];
     
     // enemy
-    [enemyLevel initialize];
+    [scene addItem:enemyScene];
+    //[enemyLevel initialize];
     
     // line
     topLine.position.y = 0;
@@ -79,7 +82,7 @@
 	[scene addItem:[[VerticalLine alloc] initWithLimit:
 					 [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeX distance:-screenSize.width*2]]];
 	
-    horTopLine =[[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:0]];
+    horTopLine =[[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:100]];
     [scene addItem:horTopLine];
     
 }

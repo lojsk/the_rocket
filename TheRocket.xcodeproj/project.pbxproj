@@ -43,6 +43,7 @@
 		5B4BE27D181D614400E0FEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4BE25E181D614300E0FEA9 /* Foundation.framework */; };
 		5B4BE285181D614400E0FEA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4BE283181D614400E0FEA9 /* InfoPlist.strings */; };
 		5B4BE288181D614400E0FEA9 /* TheRocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4BE287181D614400E0FEA9 /* TheRocketTests.m */; };
+		5B6B084F18845D53002E6777 /* ObjectScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6B084E18845D53002E6777 /* ObjectScene.m */; };
 		5B869A1F186B38FD00E73EBA /* SwitchBackgorund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B869A1E186B38FD00E73EBA /* SwitchBackgorund.m */; };
 		5B869A24186C811700E73EBA /* VerticalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B869A23186C811600E73EBA /* VerticalLine.m */; };
 		5B8AE7541854D0B300CBBB6C /* line.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AE7531854D0B300CBBB6C /* line.m */; };
@@ -54,12 +55,15 @@
 		5B9B88BB187B2D63000B4383 /* SimpleMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B88BA187B2D63000B4383 /* SimpleMonster.m */; };
 		5BA43D211879AE010022D421 /* HorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA43D201879AE010022D421 /* HorizontalLine.m */; };
 		5BAA539A18783AC000D114EA /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA539918783AC000D114EA /* Bullet.m */; };
+		5BBD6430187CA8A60067AD51 /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD642F187CA8A60067AD51 /* Explosion.m */; };
+		5BBD6432187CAFA20067AD51 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBD6431187CAFA20067AD51 /* explosion.png */; };
 		5BD2DEF9187879E500C1EC94 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEF8187879E400C1EC94 /* bullet.png */; };
 		5BD2DEFD18787E9300C1EC94 /* bulletSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEFC18787E9300C1EC94 /* bulletSound.wav */; };
 		5BD2DEFF18787F1700C1EC94 /* bulletSoundNew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEFE18787F1700C1EC94 /* bulletSoundNew.wav */; };
 		5BE1930B1833E63300112F3F /* Physics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1930A1833E63300112F3F /* Physics.m */; };
 		5BE1930F1833E69A00112F3F /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1930E1833E69A00112F3F /* Gameplay.m */; };
 		5BE193121833E6EC00112F3F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE193111833E6EC00112F3F /* Constants.m */; };
+		5BE3331E18816632001ED094 /* EnemyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3331D18816632001ED094 /* EnemyScene.m */; };
 		5BEF3011181D7B4E001F8B37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF3010181D7B4E001F8B37 /* Default.png */; };
 		5BEF3013181D7B58001F8B37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF3012181D7B57001F8B37 /* Default@2x.png */; };
 		5BEF3015181D7B61001F8B37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF3014181D7B61001F8B37 /* Default-568h@2x.png */; };
@@ -92,6 +96,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B04481918882F8D00DACBEE /* IMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMoreCell.h; sourceTree = "<group>"; };
 		5B1B830E181D6B690056884F /* Headers.TheRocket.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.TheRocket.classes.h; sourceTree = "<group>"; };
 		5B1B830F181D6B690056884F /* Headers.TheRocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.TheRocket.h; sourceTree = "<group>"; };
 		5B1B8321181D73720056884F /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
@@ -140,6 +145,8 @@
 		5B4BE284181D614400E0FEA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4BE286181D614400E0FEA9 /* TheRocketTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheRocketTests.h; sourceTree = "<group>"; };
 		5B4BE287181D614400E0FEA9 /* TheRocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheRocketTests.m; sourceTree = "<group>"; };
+		5B6B084D18845D53002E6777 /* ObjectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectScene.h; sourceTree = "<group>"; };
+		5B6B084E18845D53002E6777 /* ObjectScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectScene.m; sourceTree = "<group>"; };
 		5B869A1D186B38FD00E73EBA /* SwitchBackgorund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchBackgorund.h; sourceTree = "<group>"; };
 		5B869A1E186B38FD00E73EBA /* SwitchBackgorund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchBackgorund.m; sourceTree = "<group>"; };
 		5B869A22186C811600E73EBA /* VerticalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalLine.h; sourceTree = "<group>"; };
@@ -160,6 +167,9 @@
 		5BA43D201879AE010022D421 /* HorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalLine.m; sourceTree = "<group>"; };
 		5BAA539818783AC000D114EA /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
 		5BAA539918783AC000D114EA /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		5BBD642E187CA8A60067AD51 /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
+		5BBD642F187CA8A60067AD51 /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
+		5BBD6431187CAFA20067AD51 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explosion.png; path = image/explosion.png; sourceTree = "<group>"; };
 		5BD2DEF8187879E400C1EC94 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet.png; path = image/bullet.png; sourceTree = "<group>"; };
 		5BD2DEFC18787E9300C1EC94 /* bulletSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bulletSound.wav; path = sound/bulletSound.wav; sourceTree = "<group>"; };
 		5BD2DEFE18787F1700C1EC94 /* bulletSoundNew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bulletSoundNew.wav; path = sound/bulletSoundNew.wav; sourceTree = "<group>"; };
@@ -170,6 +180,9 @@
 		5BE1930E1833E69A00112F3F /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameplay.m; sourceTree = "<group>"; };
 		5BE193101833E6EC00112F3F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5BE193111833E6EC00112F3F /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		5BE3331C18816632001ED094 /* EnemyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyScene.h; sourceTree = "<group>"; };
+		5BE3331D18816632001ED094 /* EnemyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyScene.m; sourceTree = "<group>"; };
+		5BE3332418819543001ED094 /* IGetCordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGetCordinate.h; sourceTree = "<group>"; };
 		5BEF3010181D7B4E001F8B37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5BEF3012181D7B57001F8B37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5BEF3014181D7B61001F8B37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -221,6 +234,8 @@
 		5B1B830A181D69F10056884F /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				5B6B084D18845D53002E6777 /* ObjectScene.h */,
+				5B6B084E18845D53002E6777 /* ObjectScene.m */,
 				5B8AE75818551B0500CBBB6C /* World */,
 				5B1B8313181D6BFC0056884F /* Objects */,
 				5B9B88B3187B2C90000B4383 /* Enemy */,
@@ -234,13 +249,15 @@
 			isa = PBXGroup;
 			children = (
 				5B9523F018468BEE00AF5512 /* Camera.h */,
-				5B1B8327181D739E0056884F /* Rocket.h */,
 				5B9523F118468BEE00AF5512 /* Camera.m */,
+				5B1B8327181D739E0056884F /* Rocket.h */,
 				5B1B8328181D739E0056884F /* Rocket.m */,
 				5BA43D1E1879ADD70022D421 /* background */,
 				5BA43D1D1879ADC30022D421 /* lines */,
 				5BAA539818783AC000D114EA /* Bullet.h */,
 				5BAA539918783AC000D114EA /* Bullet.m */,
+				5BBD642E187CA8A60067AD51 /* Explosion.h */,
+				5BBD642F187CA8A60067AD51 /* Explosion.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -335,6 +352,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5B6B73CE187DB9860081027D /* Object */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
 		5B8AE75818551B0500CBBB6C /* World */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +380,7 @@
 		5B9B88B3187B2C90000B4383 /* Enemy */ = {
 			isa = PBXGroup;
 			children = (
+				5B6B73CE187DB9860081027D /* Object */,
 				5B9B88B5187B2CC2000B4383 /* Monster */,
 				5B9B88B4187B2CAB000B4383 /* Level */,
 			);
@@ -367,6 +392,8 @@
 			children = (
 				5B9B88B6187B2CEC000B4383 /* EnemyLevel.h */,
 				5B9B88B7187B2CEC000B4383 /* EnemyLevel.m */,
+				5BE3331C18816632001ED094 /* EnemyScene.h */,
+				5BE3331D18816632001ED094 /* EnemyScene.m */,
 			);
 			name = Level;
 			sourceTree = "<group>";
@@ -425,6 +452,8 @@
 		5BE193081833E61D00112F3F /* Physics */ = {
 			isa = PBXGroup;
 			children = (
+				5BE3332418819543001ED094 /* IGetCordinate.h */,
+				5B04481918882F8D00DACBEE /* IMoreCell.h */,
 				5BE193091833E63300112F3F /* Physics.h */,
 				5BE1930A1833E63300112F3F /* Physics.m */,
 			);
@@ -445,6 +474,7 @@
 			children = (
 				5BD2DEFE18787F1700C1EC94 /* bulletSoundNew.wav */,
 				5BD2DEFC18787E9300C1EC94 /* bulletSound.wav */,
+				5BBD6431187CAFA20067AD51 /* explosion.png */,
 				5BD2DEF8187879E400C1EC94 /* bullet.png */,
 				5BEF3016181D8183001F8B37 /* ME.png */,
 				5BEF3017181D8183001F8B37 /* other.png */,
@@ -577,6 +607,7 @@
 				5BD2DEF9187879E500C1EC94 /* bullet.png in Resources */,
 				5BD2DEFD18787E9300C1EC94 /* bulletSound.wav in Resources */,
 				5BD2DEFF18787F1700C1EC94 /* bulletSoundNew.wav in Resources */,
+				5BBD6432187CAFA20067AD51 /* explosion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +661,9 @@
 				5BA43D211879AE010022D421 /* HorizontalLine.m in Sources */,
 				5B9B88B8187B2CEC000B4383 /* EnemyLevel.m in Sources */,
 				5B9B88BB187B2D63000B4383 /* SimpleMonster.m in Sources */,
+				5BBD6430187CA8A60067AD51 /* Explosion.m in Sources */,
+				5BE3331E18816632001ED094 /* EnemyScene.m in Sources */,
+				5B6B084F18845D53002E6777 /* ObjectScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,6 +771,7 @@
 		5B4BE28C181D614400E0FEA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheRocket/TheRocket-Prefix.pch";
 				INFOPLIST_FILE = "TheRocket/TheRocket-Info.plist";
@@ -758,6 +793,7 @@
 		5B4BE28D181D614400E0FEA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheRocket/TheRocket-Prefix.pch";
 				INFOPLIST_FILE = "TheRocket/TheRocket-Info.plist";

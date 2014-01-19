@@ -17,6 +17,7 @@
 	Vector2 *origin;
     float scale;
     float z;
+    float rotation;
 }
 
 @property (nonatomic, retain) Texture2D *texture;
@@ -24,5 +25,6 @@
 @property (nonatomic, retain) Vector2 *origin;
 @property float scale;
 @property float z;
+@property float rotation;
 
 @end

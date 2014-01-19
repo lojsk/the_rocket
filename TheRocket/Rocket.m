@@ -16,7 +16,7 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		velocity = [[Vector2 alloc] init];
+		velocity = [Vector2 vectorWithX:0 y:[Constants gameSpeed]];
 		radius = 10;
 		mass = 1;
         setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], nil];
@@ -24,15 +24,17 @@
 	return self;
 }
 
-@synthesize position, velocity, mass, radius, setID;
+@synthesize position, velocity, mass, radius, setID, scene;
 
 
 - (BOOL) collidingWithItem:(id)item {
-	return YES;
+    if([item isKindOfClass:[SimpleMonster class]])
+        return YES;
+    return NO;
 }
 
 - (void) collidedWithItem:(id)item {
-
+    [scene removeItem:self];
 }
 
 @end

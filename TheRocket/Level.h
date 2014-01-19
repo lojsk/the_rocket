@@ -23,7 +23,7 @@
     VerticalLine *rightLine;
     HorizontalLine *horTopLine;
     
-    EnemyLevel *enemyLevel;
+    EnemyScene *enemyScene;
     World *stage;
 }
 

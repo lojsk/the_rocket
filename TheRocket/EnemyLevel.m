@@ -10,21 +10,29 @@
 
 @implementation EnemyLevel
 
-- (id) initWithScene:(id<IScene>)theScene
+- (id) init
 {
 	self = [super init];
 	if (self != nil) {
-        scene = theScene;
+        levelArray = [[NSMutableArray alloc] init];
 	}
 	return self;
 }
 
-@synthesize scene;
+@synthesize levelArray;
 
 - (void) initialize {
-/*    for(int i=0;i<20;i++) {
+    // TODO: grajenje stopnje
+    for(int i=1;i<20;i++) {
+        [levelArray addObject:[[SimpleMonster alloc] initWithX:200 andY:-200*i]];
+    }
+    
+   /* for(int i=0;i<20;i++) {
         [scene addItem:[[SimpleMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:700] andY:[Random intGreaterThanOrEqual:-10000 lessThan:200]]];
-    } */
+    } 
+    [scene addItem:[[SimpleMonster alloc] initWithX:200 andY:200]]; */
+    
+    
 }
 
 @end

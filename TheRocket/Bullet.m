@@ -35,9 +35,7 @@
 }
 
 - (BOOL) collidingWithItem:(id)item {
-    if([item isKindOfClass:[VerticalLine class]])
-        return YES;
-    return NO;
+    return YES;
 }
 
 - (void) collidedWithItem:(id)item {

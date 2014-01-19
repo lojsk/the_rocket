@@ -11,10 +11,10 @@
 #import "Express.Scene.Objects.h"
 #import "Express.Math.h"
 
-#import "Headers.TheRocket.h"
+#import "Headers.TheRocket.classes.h"
 
 
-@interface VerticalLine : NSObject<IAAHalfPlaneCollider, ICollisionID> {
+@interface VerticalLine : NSObject<IAAHalfPlaneCollider, ICollisionID, IMoreCell> {
 	AAHalfPlane *limit;
 }
 

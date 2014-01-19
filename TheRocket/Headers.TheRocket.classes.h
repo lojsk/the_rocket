@@ -19,3 +19,9 @@
 @class Bullet;
 @class EnemyLevel;
 @class SimpleMonster;
+@class Explosion;
+@class EnemyScene;
+
+@protocol IGetCordinate;
+@protocol IMoreCell;
+

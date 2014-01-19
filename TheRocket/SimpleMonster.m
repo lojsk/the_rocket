@@ -18,20 +18,21 @@
 		velocity = [[Vector2 alloc] init];
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[Bullet class], [Rocket class], nil];
+        setID = [NSSet setWithObjects:[Bullet class], [Rocket class], [EnemyScene class], nil];
 	}
 	return self;
 }
 
-@synthesize position, velocity, mass, radius, setID;
+@synthesize position, velocity, mass, radius, setID, scene;
 
 
 - (BOOL) collidingWithItem:(id)item {
-	return YES;
+    return YES;
 }
 
 - (void) collidedWithItem:(id)item {
-    
+    [scene addItem:[[Explosion alloc] initWithDuration:5 andPosition:position]];
+    [scene removeItem:self];
 }
 
 @end

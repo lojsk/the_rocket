@@ -12,11 +12,13 @@
 
 #import "Headers.TheRocket.h"
 
-@interface EnemyLevel : NSObject<ISceneUser> {
-    id<IScene> scene;
+@interface EnemyLevel : NSObject {
+    NSMutableArray *levelArray;
 }
 
-- (id) initWithScene:(id<IScene>)theScene;
+@property (nonatomic, readonly) NSMutableArray *levelArray;
+
+
 - (void) initialize;
 
 @end

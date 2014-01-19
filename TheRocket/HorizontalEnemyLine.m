@@ -1,14 +1,14 @@
 //
-//  HorizontalLine.m
+//  HorizontalEnemyLine.m
 //  TheRocket
 //
-//  Created by OdpiralniCasi on 05/01/14.
+//  Created by OdpiralniCasi on 08/01/14.
 //  Copyright (c) 2014 OC. All rights reserved.
 //
 
-#import "HorizontalLine.h"
+#import "HorizontalEnemyLine.h"
 
-@implementation HorizontalLine
+@implementation HorizontalEnemyLine
 
 - (id) initWithLimit:(AAHalfPlane *)theLimit
 {

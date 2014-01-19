@@ -662,6 +662,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Express;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../\"/**";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -680,6 +681,7 @@
 				PRODUCT_NAME = Express;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../\"/**";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};

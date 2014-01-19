@@ -13,7 +13,7 @@
 
 @protocol ICollisionID <NSObject>
 
-@property (nonatomic, retain) NSMutableSet *setID;
+@property (nonatomic, retain) NSSet *setID;
 
 @end
 
