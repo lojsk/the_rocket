@@ -27,11 +27,11 @@
             [bgs addObject:[[Background alloc] init]];
         }
         switchBg = [[SwitchBackgorund alloc] init];
-        topLine = [[line alloc] init];
-        bottomLine = [[line alloc] init];
         
         AAHalfPlane *ahp = [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:[Constants bottomEnemyLimit]];
         enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andBottomLimit:ahp];
+        
+        bulletScene = [[BulletScene alloc] initWithRocket:player andGame:theGame];
         
         stage = [[World alloc] init];
 	}
@@ -59,21 +59,18 @@
     CGSize screenSize = screenBound.size;
     
     player.position.x = screenSize.width;
-	player.position.y = screenSize.height*3/2;
+	player.position.y = screenSize.height*2 - 200;
     [scene addItem:player];
     
     // enemy
     [scene addItem:enemyScene];
-    //[enemyLevel initialize];
     
-    // line
-    topLine.position.y = 0;
-    topLine.position.x = 0;
-   // [scene addItem:topLine];
+    // bullet
+    [scene addItem:bulletScene];
     
-    bottomLine.position.y = screenSize.height*2-50;
-    bottomLine.position.x = 0;
-   // [scene addItem:bottomLine];
+    
+    bottomLimit = screenSize.height*2-50 + 10;
+
     
     // left - right line
     
@@ -84,13 +81,13 @@
 	
     horTopLine =[[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:100]];
     [scene addItem:horTopLine];
-    
+        
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
     // background
     for (int i=0;i<[Constants numberOfBackgrounds];i++) {
-        if(((Background*)[bgs objectAtIndex:i]).position.y > bottomLine.position.y) {
+        if(((Background*)[bgs objectAtIndex:i]).position.y > bottomLimit) {
             ((Background*)[bgs objectAtIndex:i]).position.y -= [Constants numberOfBackgrounds] * 700;
             
             Background *b = ((Background*)[bgs objectAtIndex:i]);
@@ -108,8 +105,7 @@
     
    
     // just for test mode
-    topLine.position.y -= [Constants gameSpeed];
-    bottomLine.position.y -= [Constants gameSpeed];
+    bottomLimit = [Constants calculateMovment:bottomLimit withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
     
     // update all object wich have ICustomUpdate modul
     for (id item in scene) {

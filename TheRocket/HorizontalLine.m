@@ -23,6 +23,6 @@
 @synthesize setID;
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
-    limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:limit.distance -= [Constants gameSpeed]];
+    limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime]];
 }
 @end

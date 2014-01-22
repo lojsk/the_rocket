@@ -93,7 +93,7 @@
         }
     }
      
-    topScreen -= [Constants gameSpeed];
+    topScreen = [Constants calculateMovment:topScreen withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
 }
 
 -(void) getCurrentCordinate:(id<IGetCordinate>)item {

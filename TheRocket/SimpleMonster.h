@@ -10,7 +10,7 @@
 
 #import "Express.Scene.Objects.h"
 
-#import "Headers.TheRocket.h"
+#import "Headers.TheRocket.classes.h"
 
 @interface SimpleMonster : NSObject <IParticle, ICollisionID, ICustomCollider, ISceneUser, IGetCordinate> {
 	Vector2 *position;

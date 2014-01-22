@@ -12,15 +12,14 @@
 
 #import "Headers.TheRocket.h"
 
-@interface Bullet : NSObject<IParticle, ICustomCollider, ISceneUser, ICustomUpdate, ICollisionID, IGetCordinate> {
+@interface Bullet : NSObject<IParticle, ICustomCollider, ISceneUser, ICustomUpdate, ICollisionID, IGetCordinate, IMovable> {
     Vector2 *position;
-	Vector2 *velocity;
 	float radius;
 	float mass;
     id<IScene> scene;
 }
 
-- (id) initWithPosition:(Vector2 *)thePosition andGame:(Game*)theGame;
+- (id) initWithBulletPoint:(BulletPoint*)bp andPlayerPosition:(Vector2*)player andGame:(Game*)theGame;
 
 
 

@@ -17,10 +17,13 @@
 // theRocket Game
 + (float) numberOfBackgrounds;
 + (float) gameSpeed;
++ (void) setGameSpeed:(float)gs;
 + (float) getLeftRightSpeed;
 + (float) shotChange;
 +(float)bulletSpeed;
 +(float)topEnemyLimit;
 +(float)bottomEnemyLimit;
+
++(float)calculateMovment:(float)x withV:(float)v andTime:(float)time;
 
 @end

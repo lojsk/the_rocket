@@ -15,11 +15,20 @@
 #import "SwitchBackgorund.h"
 #import "VerticalLine.h"
 #import "HorizontalLine.h"
-#import "Bullet.h"
 #import "EnemyLevel.h"
-#import "SimpleMonster.h"
 #import "Explosion.h"
 #import "EnemyScene.h"
+#import "StatePoints.h"
+
+#import "SimpleMonster.h"
+#import "StateMonster.h"
+#import "KamikazeMonster.h"
+#import "ZMonster.h"
+#import "AIMonsterModel.h"
+
+#import "Bullet.h"
+#import "BulletScene.h"
+#import "BulletPoint.h"
 
 #import "IGetCordinate.h"
 #import "IMoreCell.h"

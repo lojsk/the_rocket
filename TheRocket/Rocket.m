@@ -16,10 +16,10 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		velocity = [Vector2 vectorWithX:0 y:[Constants gameSpeed]];
+		velocity = [Vector2 vectorWithX:0 y:-[Constants gameSpeed]];
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], nil];
+        setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], [ZMonster class], nil];
 	}
 	return self;
 }
@@ -35,6 +35,7 @@
 
 - (void) collidedWithItem:(id)item {
     [scene removeItem:self];
+    [Constants setGameSpeed:0.0f];
 }
 
 @end

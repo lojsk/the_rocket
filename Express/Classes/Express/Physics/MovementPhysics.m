@@ -18,7 +18,6 @@
 	
 	if (movable) {
 		[movable.position add:[Vector2 multiply:movable.velocity by:elapsed]];
-        NSLog(@"%@ ---", movable.velocity);
 	}	
 	
 	if (rotatable) {

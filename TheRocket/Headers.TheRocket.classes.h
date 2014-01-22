@@ -16,11 +16,20 @@
 @class SwitchBackgorund;
 @class VerticalLine;
 @class HorizontalLine;
-@class Bullet;
 @class EnemyLevel;
-@class SimpleMonster;
 @class Explosion;
 @class EnemyScene;
+@class StatePoints;
+
+@class SimpleMonster;
+@class KamikazeMonster;
+@class StateMonster;
+@class ZMonster;
+@class AIMonsterModel;
+
+@class Bullet;
+@class BulletScene;
+@class BulletPoint;
 
 @protocol IGetCordinate;
 @protocol IMoreCell;

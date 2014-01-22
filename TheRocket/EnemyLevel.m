@@ -15,24 +15,50 @@
 	self = [super init];
 	if (self != nil) {
         levelArray = [[NSMutableArray alloc] init];
+        lastPosition = -200;
+        maxLevel = 3;
 	}
 	return self;
 }
 
-@synthesize levelArray;
+@synthesize levelArray, maxLevel;
 
-- (void) initialize {
-    // TODO: grajenje stopnje
-    for(int i=1;i<20;i++) {
-        [levelArray addObject:[[SimpleMonster alloc] initWithX:200 andY:-200*i]];
+- (void) loadLevel:(int)level {
+    switch(level) {
+        case 1: [self loadLevel1]; break;
+        case 2: [self loadLevel2]; break;
+        case 3: [self loadLevel3]; break;
     }
-    
-   /* for(int i=0;i<20;i++) {
-        [scene addItem:[[SimpleMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:700] andY:[Random intGreaterThanOrEqual:-10000 lessThan:200]]];
-    } 
-    [scene addItem:[[SimpleMonster alloc] initWithX:200 andY:200]]; */
-    
-    
+    // TODO: grajenje stopnje
+    /*
+
+    */
 }
+
+- (void)loadLevel1 {
+    lastPosition -= 200;
+    for(int i=1;i<30;i++) {
+        lastPosition -= [Random intGreaterThanOrEqual:10 lessThan:100];
+        [levelArray addObject:[[SimpleMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:720] andY:lastPosition]];
+    }
+}
+
+- (void)loadLevel2 {
+    for(int i=1;i<10;i++) {
+        lastPosition -= 40;
+        [levelArray addObject:[[ZMonster alloc] initWithX:100 andY:lastPosition]];
+    }
+}
+
+- (void)loadLevel3 {
+    lastPosition -= 200;
+    int x = 50;
+    for(int i=1;i<5;i++) {
+        [levelArray addObject:[[KamikazeMonster alloc] initWithX:x andY:lastPosition]];
+        x += 50;
+    }
+}
+
+
 
 @end

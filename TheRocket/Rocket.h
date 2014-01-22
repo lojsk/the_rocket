@@ -12,9 +12,8 @@
 
 #import "Headers.TheRocket.h"
 
-@interface Rocket : NSObject <IParticle, ICollisionID, ICustomCollider, ISceneUser, IGetCordinate, IMovable> {
+@interface Rocket : NSObject <ICollisionID, ICustomCollider, ISceneUser, IGetCordinate, IParticle> { //
 	Vector2 *position;
-	Vector2 *velocity;
 	float radius;
 	float mass;
     id<IScene> scene;

@@ -17,6 +17,8 @@
     id<IScene> scene;
     EnemyLevel *enemyLevel;
     float topLine;
+    int currentLevel;
+    int maxLevel;
 }
 
 - (id) initWithScene:(id<IScene>)theScene topLimit:(float)tl andBottomLimit:(AAHalfPlane *)theLimit;

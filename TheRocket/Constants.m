@@ -11,6 +11,7 @@
 @implementation Constants
 
 static Constants *instance;
+static float gameSpeed = 100.0f;
 
 + (void) initialize {
 	instance = [[Constants alloc] init];
@@ -25,12 +26,16 @@ static Constants *instance;
 	return 3;
 }
 
++ (void) setGameSpeed:(float)gs {
+    gameSpeed = gs;
+}
+
 + (float) gameSpeed {
-	return 0;
+	return gameSpeed;
 }
 
 +(float) getLeftRightSpeed {
-    return  15;
+    return  40;
 }
 
 +(float) shotChange {
@@ -38,16 +43,19 @@ static Constants *instance;
 }
 
 +(float)bulletSpeed {
-    return [Constants gameSpeed]+5;
+    return [Constants gameSpeed]+400.0f;
 }
 
 +(float)topEnemyLimit {
-    return -20;
+    return 200;
 }
 
 +(float)bottomEnemyLimit {
     return 960;
 }
 
++(float)calculateMovment:(float)x withV:(float)v andTime:(float)time {
+    return [[Vector2 vectorWithX:0.0f y:x] add:[Vector2 multiply:[Vector2 vectorWithX:0.0f y:-v] by:time]].y;
+}
 
 @end

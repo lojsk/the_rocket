@@ -11,15 +11,15 @@
 
 @implementation Bullet
 
-- (id) initWithPosition:(Vector2 *)thePosition andGame:(Game*)theGame
+- (id) initWithBulletPoint:(BulletPoint*)bp andPlayerPosition:(Vector2*)player andGame:(Game*)theGame
 {
 	self = [super init];
 	if (self != nil) {
-		position = [Vector2 vectorWithX:thePosition.x y:thePosition.y];
-        velocity = [[Vector2 alloc] init];
+		position = [Vector2 vectorWithX:player.x+bp.position.x y:player.y+bp.position.y];
+        velocity = [Vector2 vectorWithX:bp.velocity.x y:bp.velocity.y];        
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], nil];
+        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], [ZMonster class], nil];
         [self playSound:theGame];
 	}
 	return self;
@@ -31,7 +31,7 @@
 
 - (void) playSound:(Game*)game {
     SoundEffect *soundEffect = [game.content load:@"bulletSoundNew"];
-    [soundEffect play];
+   // [soundEffect play];
 }
 
 - (BOOL) collidingWithItem:(id)item {
@@ -43,7 +43,6 @@
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
-    position.y -= [Constants bulletSpeed];
 }
 
 @end

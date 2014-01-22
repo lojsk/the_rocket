@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 OC. All rights reserved.
 //
 
-#import "SimpleMonster.h"
+#import "Headers.TheRocket.h"
 
 @implementation SimpleMonster
 
@@ -15,7 +15,7 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] initWithX:x y:y];
-		velocity = [[Vector2 alloc] init];
+		velocity = [Vector2 vectorWithX:0.0f y:100.0f];
 		radius = 10;
 		mass = 1;
         setID = [NSSet setWithObjects:[Bullet class], [Rocket class], [EnemyScene class], nil];
@@ -31,7 +31,9 @@
 }
 
 - (void) collidedWithItem:(id)item {
-    [scene addItem:[[Explosion alloc] initWithDuration:5 andPosition:position]];
+    if([item isKindOfClass:[Rocket class]] || [item isKindOfClass:[Bullet class]]) {
+        [scene addItem:[[Explosion alloc] initWithDuration:5 andPosition:position]];
+    }
     [scene removeItem:self];
 }
 

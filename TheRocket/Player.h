@@ -14,7 +14,7 @@
 #import "Headers.TheRocket.classes.h"
 #import "Headers.TheRocket.h"
 
-@interface Player : GameComponent<IAARectangleCollider,IAARectangle, ICustomCollider, ICustomUpdate, ISceneUser, IMovable> {
+@interface Player : GameComponent<IAARectangleCollider,IAARectangle, ICustomCollider, ICustomUpdate, ISceneUser> {
     Matrix *inverseView;
     CMMotionManager *motionManager;
     CMAttitude *referenceAttitude;

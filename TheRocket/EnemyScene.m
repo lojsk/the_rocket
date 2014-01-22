@@ -16,7 +16,9 @@
 	if (self != nil) {
         scene = theScene;
         enemyLevel = [[EnemyLevel alloc] init];
-        [enemyLevel initialize];
+        currentLevel = 2;
+        [enemyLevel loadLevel:currentLevel];
+        maxLevel = 2;
         topLine = -tl;
         
         limit = theLimit;
@@ -27,16 +29,23 @@
 
 @synthesize scene, setID;
 
-- (void) updateWithGameTime:(GameTime *)gameTime {
-    
+- (void) updateWithGameTime:(GameTime *)gameTime {    
     // adding enemy to scene
     if([enemyLevel.levelArray count] > 0 && topLine <= ((SimpleMonster*)[enemyLevel.levelArray objectAtIndex:0]).position.y) {
         [scene addItem:[enemyLevel.levelArray objectAtIndex:0]];
         [enemyLevel.levelArray removeObject:[enemyLevel.levelArray objectAtIndex:0]];
     }
     
-    limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:limit.distance -= [Constants gameSpeed]];
-    topLine  = topLine - [Constants gameSpeed];
+    limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime]];
+    topLine  = [Constants calculateMovment:topLine withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
+    
+    // load new level if last is empty
+    if([enemyLevel.levelArray count] <= 0) {
+        currentLevel++;
+        if(currentLevel>enemyLevel.maxLevel)
+            currentLevel = 1;
+        [enemyLevel loadLevel:currentLevel];
+    }
 }
 
 

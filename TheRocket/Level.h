@@ -17,13 +17,13 @@
 	Rocket *player;
     NSMutableArray *bgs;
     SwitchBackgorund *switchBg;
-    line *bottomLine;
-    line *topLine;
+    float bottomLimit;
     VerticalLine *leftLine;
     VerticalLine *rightLine;
     HorizontalLine *horTopLine;
     
     EnemyScene *enemyScene;
+    BulletScene *bulletScene;
     World *stage;
 }
 

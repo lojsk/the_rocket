@@ -53,16 +53,23 @@
     if(referenceAttitude) {
         [motionManager.deviceMotion.attitude multiplyByInverseOfAttitude: referenceAttitude];
         double rRotation = motionManager.deviceMotion.attitude.roll*180/M_PI;
-        rocket.position.x = 320 + rRotation * speed;
+        rocket.velocity.x = rRotation * speed;
+        /*
+        // max
+        if(rocket.velocity.x > 400)
+            rocket.velocity.x = 400;
+        if(rocket.velocity.x < -400)
+            rocket.velocity.x = -400;
+        
+        // min
+        if(rocket.velocity.x > 0 && rocket.velocity.x < 40)
+            rocket.velocity.x = 0;
+        if(rocket.velocity.x < 0 && rocket.velocity.x > -40)
+            rocket.velocity.x = 0;
+*/
+        
+        //rocket.position.x = 320 + rRotation * speed;
     }
-    
-    // shot
-    TouchCollection *touches = [TouchPanel getState];
-	if ([touches count] == 1 && gameTime.totalGameTime - lastShot  > [Constants shotChange]) {
-        [scene addItem:[[Bullet alloc] initWithPosition:rocket.position andGame:self.game]];
-        lastShot = gameTime.totalGameTime;
-	}
-
 }
 
 - (BOOL) collidingWithItem:(id)item{
