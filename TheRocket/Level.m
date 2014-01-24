@@ -81,7 +81,10 @@
 	
     horTopLine =[[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:100]];
     [scene addItem:horTopLine];
-        
+    
+    // adding start shield
+    [scene addItem:[[Shield alloc] initWithDuration:5.0f andPosition:player.position]];
+    
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {

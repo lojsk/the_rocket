@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AIMonsterModel : NSObject
+#import "Express.Scene.Objects.h"
+
+#import "Headers.TheRocket.classes.h"
+
+@interface AIMonsterModel : NSObject {
+    
+}
+
+-(void)initWithPosition:(Vector2*)thePosition andVelocity:(Vector2 *)theVelocity andScene:(id<Scene>)theScene;
 
 @end

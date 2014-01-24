@@ -17,8 +17,10 @@
 #import "HorizontalLine.h"
 #import "EnemyLevel.h"
 #import "Explosion.h"
+#import "Shield.h"
 #import "EnemyScene.h"
 #import "StatePoints.h"
+#import "AIArea.h"
 
 #import "SimpleMonster.h"
 #import "StateMonster.h"

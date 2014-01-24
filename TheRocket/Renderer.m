@@ -75,6 +75,13 @@
     bulletSprite.origin = [Vector2 vectorWithX:25 y:25];
     bulletSprite.scale = 0.20f;
     
+    shieldSprite = [[Sprite alloc] init];
+    shieldSprite.texture = [self.game.content load:@"shield"];
+    shieldSprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:250 height:250];
+    shieldSprite.origin = [Vector2 vectorWithX:125 y:125];
+    shieldSprite.scale = 0.25f;
+    shieldSprite.z = 0.5f;
+    
     // explosion
     // explosion
     Texture2D *explosionTexture = [self.game.content load:@"explosion"];
@@ -137,6 +144,8 @@
         } else if([item isKindOfClass:[Explosion class]]) {
             Explosion *ex = (Explosion*)item;
             sprite = [explosionSpriteAnimation spriteAtTime:ex.lifetime.progress];
+        } else if([item isKindOfClass:[Shield class]]) {
+            sprite = shieldSprite;
         }
 		
 		if (itemWithPosition && sprite) {

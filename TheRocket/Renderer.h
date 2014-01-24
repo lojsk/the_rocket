@@ -22,6 +22,7 @@
     Sprite *lineSprite;
     Sprite *verticalLineSprite;
     Sprite *bulletSprite;
+    Sprite *shieldSprite;
     
     // explosion
     AnimatedSprite *explosionSpriteAnimation;

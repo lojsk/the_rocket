@@ -18,6 +18,7 @@
 	float radius;
 	float mass;
     id<IScene> scene;
+    float live;
 }
 
 - (id) initWithX:(int)x andY:(int)y;

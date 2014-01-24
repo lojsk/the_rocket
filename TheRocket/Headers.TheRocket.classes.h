@@ -18,8 +18,10 @@
 @class HorizontalLine;
 @class EnemyLevel;
 @class Explosion;
+@class Shield;
 @class EnemyScene;
 @class StatePoints;
+@class AIArea;
 
 @class SimpleMonster;
 @class KamikazeMonster;

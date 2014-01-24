@@ -18,7 +18,8 @@
 		velocity = [Vector2 vectorWithX:0.0f y:100.0f];
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[Bullet class], [Rocket class], [EnemyScene class], nil];
+        setID = [NSSet setWithObjects:[Bullet class], [Rocket class], [EnemyScene class], [Shield class], nil];
+        live = 3;
 	}
 	return self;
 }
@@ -31,10 +32,13 @@
 }
 
 - (void) collidedWithItem:(id)item {
-    if([item isKindOfClass:[Rocket class]] || [item isKindOfClass:[Bullet class]]) {
+    live--;
+    if(live == 0) {
         [scene addItem:[[Explosion alloc] initWithDuration:5 andPosition:position]];
+        [scene removeItem:self];
     }
-    [scene removeItem:self];
+    
+    
 }
 
 @end

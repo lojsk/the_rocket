@@ -67,7 +67,7 @@
 + (void) collisionBetween:(id)item1 and:(id)item2 usingAlgorithm:(Class)collisionAlgorithm {
 	if ([collisionAlgorithm detectCollisionBetween:item1 and:item2]) {
 		if ([Collision shouldResolveCollisionBetween:item1 and:item2]) {
-			[collisionAlgorithm resolveCollisionBetween:item1 and:item2];
+			//[collisionAlgorithm resolveCollisionBetween:item1 and:item2];
 			[Collision reportCollisionBetween:item1 and:item2];
 		}
 	}	
@@ -152,6 +152,7 @@
 }
 
 + (void) exchangeEnergyBetween:(id)item1 and:(id)item2 along:(Vector2*)collisionNormal pointOfImpact:(Vector2*)pointOfImpact{
+    return;
 	// We calculate exchange of energy in a collision with respect to items' momentum. Momentum is mass times
 	// velocity so the items need to conform both to IMass and IVelocity. If one of the items does not, it's
 	// considered as though there is a collision with a static object.

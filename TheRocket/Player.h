@@ -22,6 +22,7 @@
     id<IScene> scene;
     float lastShot;
     float speed;
+    
 }
 
 @property (nonatomic, readonly) Rocket *rocket;
