@@ -20,11 +20,12 @@
 		mass = 1;
         setID = [NSSet setWithObjects:[Bullet class], [Rocket class], [EnemyScene class], [Shield class], nil];
         live = 3;
+        delegate = [Constants getScoreClass];
 	}
 	return self;
 }
 
-@synthesize position, velocity, mass, radius, setID, scene;
+@synthesize position, velocity, mass, radius, setID, scene, delegate;
 
 
 - (BOOL) collidingWithItem:(id)item {
@@ -32,13 +33,24 @@
 }
 
 - (void) collidedWithItem:(id)item {
-    live--;
-    if(live == 0) {
+    //If anyone listening
+    if([item isKindOfClass:[Bullet class]]) {
+        if([delegate respondsToSelector:@selector(ChangeScore:)]) {
+            [delegate ChangeScore:1];
+        }
+        
+        live--;
+        
+        if(live == 0) {
+            [scene addItem:[[Explosion alloc] initWithDuration:5 andPosition:position]];
+            [scene removeItem:self];
+        }
+    } else {
         [scene addItem:[[Explosion alloc] initWithDuration:5 andPosition:position]];
         [scene removeItem:self];
     }
-    
-    
 }
+
+
 
 @end

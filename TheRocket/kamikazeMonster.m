@@ -19,6 +19,8 @@
 	return self;
 }
 
+@synthesize scene;
+
 - (void) addPoints {
     [points addObject:[[StatePoints alloc] setDistnaceX:0.0f andY:300.0f withTime:1.0f]];
     [points addObject:[[StatePoints alloc] setDistnaceWithTime:2.0f]];

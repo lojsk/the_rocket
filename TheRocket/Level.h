@@ -10,6 +10,7 @@
 
 #import "Headers.TheRocket.classes.h"
 #import "Express.Scene.h"
+#import "Artificial.Mirage.h"
 
 @interface Level : GameComponent {
 	SimpleScene *scene;
@@ -25,10 +26,21 @@
     EnemyScene *enemyScene;
     BulletScene *bulletScene;
     World *stage;
+    Shield *shield;
+    
+    SpriteFont *retrotype;
+    GameButton *pause;
+    Score *score;
+    
+    Gameplay *gameplay;
+    
+    int coins;
 }
 
 @property (nonatomic, readonly) id<IScene> scene;
-
 @property (nonatomic, readonly) Rocket *player;
+
+- (id) initWithGame:(Game*)theGame gameplay:(Gameplay*)theGameplay;
+-(void) pauseButtonClick;
 
 @end

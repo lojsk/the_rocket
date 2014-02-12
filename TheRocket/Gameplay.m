@@ -16,7 +16,7 @@
 {
 	self = [super initWithGame:theGame];
 	if (self != nil) {
-		level = [[Level alloc] initWithGame:self.game];
+		level = [[Level alloc] initWithGame:self.game gameplay:self];
 		
 		player = [[Player alloc] initWithGame:self.game Rocket:level.player Scene:level.scene];
         camera = [[Camera alloc] initWithGame:self.game Object:player];
@@ -29,14 +29,7 @@
 		level.updateOrder = 2;		// Level updates the scene.
         camera.updateOrder = 3;
 		self.updateOrder = 4;		// At last gameplay rules are executed.
-		
-		[self.game.components addComponent:level];
-		[self.game.components addComponent:player];
-		[self.game.components addComponent:physics];
-        [self.game.components addComponent:camera];
-		[self.game.components addComponent:renderer];	
-		
-		// [self.game.components addComponent:debugRenderer];		
+				
 	}
 	return self;
 }
@@ -56,7 +49,22 @@
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
 
+}
 
+- (void) activate {
+    [self.game.components addComponent:level];
+    [self.game.components addComponent:player];
+    [self.game.components addComponent:physics];
+    [self.game.components addComponent:camera];
+    [self.game.components addComponent:renderer];
+}
+
+- (void) deactivate {
+    [self.game.components removeComponent:level];
+    [self.game.components removeComponent:player];
+    [self.game.components removeComponent:physics];
+    [self.game.components removeComponent:camera];
+    [self.game.components removeComponent:renderer];
 }
 
 

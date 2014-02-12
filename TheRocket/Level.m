@@ -1,3 +1,4 @@
+
 //
 //  Level.m
 //  FriHockey
@@ -9,12 +10,18 @@
 #import "Level.h"
 #import "Headers.TheRocket.h"
 
+#import "Retronator.Xni.Framework.Content.h"
+
+#import "Retronator.Xni.Framework.Content.Pipeline.Processors.h"
+
 @implementation Level
 
-- (id) initWithGame:(Game *)theGame
+- (id) initWithGame:(Game*)theGame gameplay:(Gameplay*)theGameplay;
 {
 	self = [super initWithGame:theGame];
 	if (self != nil) {
+        gameplay = theGameplay;
+        
 		scene = [[SimpleScene alloc] initWithGame:self.game];
 		[self.game.components addComponent:scene];
         
@@ -28,12 +35,47 @@
         }
         switchBg = [[SwitchBackgorund alloc] init];
         
+        // score
+        FontTextureProcessor *fontProcessor = [[FontTextureProcessor alloc] init];
+        retrotype = [self.game.content load:@"Retrotype" processor:fontProcessor];
+        
+        Label *scoreLabel = [[Label alloc] initWithFont:retrotype text:@"friHockey" position:[Vector2 vectorWithX:160 y:10]];
+        scoreLabel.horizontalAlign = HorizontalAlignCenter;
+        score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:-[Constants gameSpeed]] andLabel:scoreLabel];
+        
         AAHalfPlane *ahp = [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:[Constants bottomEnemyLimit]];
         enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andBottomLimit:ahp];
         
         bulletScene = [[BulletScene alloc] initWithRocket:player andGame:theGame];
         
         stage = [[World alloc] init];
+        
+        coins = 0;
+        
+        // star position
+        for (int i=0;i<[Constants numberOfBackgrounds];i++) {
+            ((Background*)[bgs objectAtIndex:i]).position.x = 0;
+            ((Background*)[bgs objectAtIndex:i]).position.y = i*700;
+        }
+        
+        switchBg.position.x = 0;
+        switchBg.position.y = 1000;
+        
+        CGRect screenBound = [[UIScreen mainScreen] bounds];
+        CGSize screenSize = screenBound.size;
+        
+        player.position.x = screenSize.width;
+        player.position.y = screenSize.height*2 - 200;
+        
+        pause = [[GameButton alloc] initWithArea:[Rectangle rectangleWithX:50 y:50 width:200 height:200]];
+        
+        bottomLimit = screenSize.height*2-50 + 10;
+        
+        leftLine = [[VerticalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveX distance:0]];
+        rightLine = [[VerticalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeX distance:-screenSize.width*2]];
+        horTopLine = [[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:100]];
+        
+        shield = [[Shield alloc] initWithDuration:5.0f andPosition:player.position];
 	}
 	return self;
 }
@@ -43,48 +85,39 @@
 
     // bg
     for (int i=0;i<[Constants numberOfBackgrounds];i++) {
-        ((Background*)[bgs objectAtIndex:i]).position.x = 0;
-        ((Background*)[bgs objectAtIndex:i]).position.y = i*700;
         [scene addItem: ((Background*)[bgs objectAtIndex:i])];
     }
     
     // switch bg
-    switchBg.position.x = 0;
-    switchBg.position.y = 1000;
     [scene addItem:switchBg];
     
     
     // player
-    CGRect screenBound = [[UIScreen mainScreen] bounds];
-    CGSize screenSize = screenBound.size;
-    
-    player.position.x = screenSize.width;
-	player.position.y = screenSize.height*2 - 200;
     [scene addItem:player];
-    
+        
     // enemy
     [scene addItem:enemyScene];
     
     // bullet
     [scene addItem:bulletScene];
     
+    // Pause button
+    [scene addItem:pause];
     
-    bottomLimit = screenSize.height*2-50 + 10;
-
+    // score
+    // total score
+	[scene addItem:score];
+    
     
     // left - right line
-    
-    [scene addItem:[[VerticalLine alloc] initWithLimit:
-					 [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveX distance:0]]];
-	[scene addItem:[[VerticalLine alloc] initWithLimit:
-					 [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeX distance:-screenSize.width*2]]];
+    [scene addItem:leftLine];
+	[scene addItem:rightLine];
 	
-    horTopLine =[[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:100]];
     [scene addItem:horTopLine];
     
     // adding start shield
-    [scene addItem:[[Shield alloc] initWithDuration:5.0f andPosition:player.position]];
-    
+    [scene addItem:shield];
+
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
@@ -118,6 +151,12 @@
 			[updatable updateWithGameTime:gameTime];
 		}
 	}
+    
+    // button press
+    if (pause.wasReleased) {
+		GameState *newState = [[StaffMenu alloc] initWithGame:gameplay.game];
+        [gameplay.theRocket pushState:newState];
+    }
 }
 
 - (void) itemAddedToScene:(id)sender eventArgs:(SceneEventArgs*)e {
@@ -125,8 +164,9 @@
 }
 
 - (void) itemRemovedFromScene:(id)sender eventArgs:(SceneEventArgs*)e {
-
+    
 }
+
 
 @synthesize scene, player;
 

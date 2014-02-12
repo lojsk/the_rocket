@@ -9,14 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "Express.Graphics.h"
 #import "Headers.TheRocket.classes.h"
+#import "GameState.h"
 
-@interface Gameplay : GameComponent {
+@interface Gameplay : GameState {
 	Level *level;
 	Physics *physics;
 	Renderer *renderer;	
 	DebugRenderer *debugRenderer;
 	Player *player;
     Camera *camera;
+    
+    Score *score;
 }
 @property (nonatomic, readonly) Camera *camera;
 @property (nonatomic, readonly) Level *level;

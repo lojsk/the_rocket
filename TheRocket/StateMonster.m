@@ -42,4 +42,12 @@
     return [Vector2 vectorWithX:point.distance.x/[point.time floatValue] y:point.distance.y/[point.time floatValue]];
 }
 
+- (BOOL) collidingWithItem:(id)item {
+    return YES;
+}
+
+- (void) collidedWithItem:(id)item {
+    [super collidedWithItem:item];
+}
+
 @end

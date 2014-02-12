@@ -8,6 +8,7 @@
 
 #import "TheRocket.h"
 #import "Headers.TheRocket.h"
+#import "Artificial.Control.h"
 
 @implementation TheRocket
 
@@ -17,10 +18,54 @@
 	if (self != nil) {
 		graphics = [[GraphicsDeviceManager alloc] initWithGame:self];
         
-		[self.components addComponent:[[Gameplay alloc] initWithGame:self]];
+		//[self.components addComponent:[[Gameplay alloc] initWithGame:self]];
 		//[self.components addComponent:[[FpsComponent alloc] initWithGame:self]];
+        [self.components addComponent:[[TouchPanelHelper alloc] initWithGame:self]];
+        
+        stateStack = [[NSMutableArray alloc] init];
+				
+		progress = [GameProgress loadProgress];
 	}
 	return self;
 }
+
+- (void) initialize {    
+	// Start in main menu.
+	
+    // pushMenu
+    MainMenu *mainMenu = [[MainMenu alloc] initWithGame:self];
+	[self pushState:mainMenu];
+    
+    // pushGameplay
+    //[self pushState:[[Gameplay alloc] initWithGame:self]];
+
+	[super initialize];
+}
+
+- (void) pushState:(GameState *)gameState {
+	GameState *currentActiveState = [stateStack lastObject];
+	[currentActiveState deactivate];
+	[self.components removeComponent:currentActiveState];
+	
+	[stateStack addObject:gameState];
+	[self.components addComponent:gameState];
+	[gameState activate];
+    NSLog(@"%@", stateStack);
+    NSLog(@"------------");
+}
+
+- (void) popState {
+	GameState *currentActiveState = [stateStack lastObject];
+	[stateStack removeLastObject];
+	[currentActiveState deactivate];
+	[self.components removeComponent:currentActiveState];
+	
+	currentActiveState = [stateStack lastObject];
+	[self.components addComponent:currentActiveState];
+	[currentActiveState activate];
+    NSLog(@"%@", stateStack);
+    NSLog(@"------------");
+}
+
 
 @end

@@ -18,8 +18,16 @@
     GraphicsDeviceManager *graphics;
 	Renderer *renderer;
 	Level *theLevel;
+    
+    GameProgress *progress;
+    NSMutableArray *stateStack;
 }
 
+@property (nonatomic, readonly) GameProgress *progress;
+
 - (void) loadLevel:(Level*) level;
+
+- (void) pushState:(GameState*)gameState;
+- (void) popState;
 
 @end

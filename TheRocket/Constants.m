@@ -12,6 +12,7 @@
 
 static Constants *instance;
 static float gameSpeed = 100.0f;
+static id score = nil;
 
 + (void) initialize {
 	instance = [[Constants alloc] init];
@@ -56,6 +57,18 @@ static float gameSpeed = 100.0f;
 
 +(float)calculateMovment:(float)x withV:(float)v andTime:(float)time {
     return [[Vector2 vectorWithX:0.0f y:x] add:[Vector2 multiply:[Vector2 vectorWithX:0.0f y:-v] by:time]].y;
+}
+
++ (NSString*) progressFilePath {
+	return @"FriHockeySave";
+}
+
++ (void) setScoreClass:(id)s {
+    score = s;
+}
+
++ (id)getScoreClass {
+    return score;
 }
 
 @end

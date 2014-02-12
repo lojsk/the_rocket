@@ -23,8 +23,12 @@
 @class StatePoints;
 @class AIArea;
 
+@class SuperLabel;
+@class Score;
+
 @class SimpleMonster;
 @class KamikazeMonster;
+@class BasicAIMonster;
 @class StateMonster;
 @class ZMonster;
 @class AIMonsterModel;
@@ -33,6 +37,16 @@
 @class BulletScene;
 @class BulletPoint;
 
+@protocol IAIModal;
 @protocol IGetCordinate;
 @protocol IMoreCell;
+
+@class GuiRenderer;
+@class GameProgress;
+@class GameState;
+@class MainMenu;
+@class StaffMenu;
+@class Menu;
+@class Button;
+@class GameButton;
 

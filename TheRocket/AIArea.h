@@ -12,16 +12,25 @@
 
 #import "Headers.TheRocket.classes.h"
 
-@interface AIArea : NSObject<IParticle, ICustomCollider, ISceneUser, ICustomUpdate, IPosition, ICollisionID, IGetCordinate> {
+@interface AIArea : NSObject<IParticle, ICustomCollider, ICollisionID, IGetCordinate> {
 	id<IScene> scene;
     Vector2 *position;
     Vector2 *direction;
-    float disance;
+    Vector2 *distance;
     
     float radius;
 	float mass;
+    
+    BOOL directionVel;
+    
+    id<IScene>scena;
+    id cObject;
 }
 
-- (id) initWithPosition:(Vector2*)thePosition direction:(Vector2 *)theDirection andDistance:(float)theDistance;
+@property BOOL inScene;
+- (id) initWithObject:(id<ISceneUser>)theObject;
+- (id) initWithDistance:(Vector2*)theDistance andObject:(id<ISceneUser>)theObject;
+-(void)updatePosition:(id<IMovable>)object;
+-(void)removeItem;
 
 @end

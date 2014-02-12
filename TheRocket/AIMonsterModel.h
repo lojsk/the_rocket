@@ -12,10 +12,12 @@
 
 #import "Headers.TheRocket.classes.h"
 
-@interface AIMonsterModel : NSObject {
-    
+@interface AIMonsterModel : NSObject  {
+    NSMutableArray *areas;
 }
 
--(void)initWithPosition:(Vector2*)thePosition andVelocity:(Vector2 *)theVelocity andScene:(id<Scene>)theScene;
+- (id)initWithObject:(id<ISceneUser>)theObject;
+- (void) updateWithGameTime:(GameTime *)gameTime andObject:(id<IMovable>)theObject;
+-(void) removeItems;
 
 @end

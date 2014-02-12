@@ -23,7 +23,11 @@
 +(float)bulletSpeed;
 +(float)topEnemyLimit;
 +(float)bottomEnemyLimit;
++ (NSString*) progressFilePath;
 
 +(float)calculateMovment:(float)x withV:(float)v andTime:(float)time;
+
++ (void) setScoreClass:(id)s;
++ (id)getScoreClass;
 
 @end

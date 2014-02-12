@@ -12,7 +12,7 @@
 
 @implementation MovementPhysics
 
-+ (void) simulateMovementOn:(id)item withElapsed:(float)elapsed {
++ (void) simulateMovementOn:(id)item withElapsed:(float)elapsed {     
 	id<IMovable> movable = [item conformsToProtocol:@protocol(IMovable)] ? item : nil;
 	id<IRotatable> rotatable = [item conformsToProtocol:@protocol(IRotatable)] ? item : nil;
 	

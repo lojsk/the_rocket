@@ -71,13 +71,26 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "TheRocket/StateMonster.h"
-         timestampString = "411842763.718487"
+         timestampString = "412435765.753606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "24"
          endingLineNumber = "24"
          landmarkName = "@interface StateMonster"
          landmarkType = "2">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "TheRocket/Renderer.m"
+         timestampString = "412812572.382417"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "155"
+         endingLineNumber = "155"
+         landmarkName = "-drawWithGameTime:"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

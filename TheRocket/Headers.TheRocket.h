@@ -22,8 +22,12 @@
 #import "StatePoints.h"
 #import "AIArea.h"
 
+#import "SuperLabel.h"
+#import "Score.h"
+
 #import "SimpleMonster.h"
 #import "StateMonster.h"
+#import "BasicAIMonster.h"
 #import "KamikazeMonster.h"
 #import "ZMonster.h"
 #import "AIMonsterModel.h"
@@ -34,3 +38,13 @@
 
 #import "IGetCordinate.h"
 #import "IMoreCell.h"
+#import "IAIModal.h"
+
+#import "GuiRenderer.h"
+#import "GameProgress.h"
+#import "GameState.h"
+#import "MainMenu.h"
+#import "Menu.h"
+#import "StaffMenu.h"
+#import "Button.h"
+#import "GameButton.h"

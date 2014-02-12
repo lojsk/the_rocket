@@ -16,7 +16,7 @@
 	if (self != nil) {
         scene = theScene;
         enemyLevel = [[EnemyLevel alloc] init];
-        currentLevel = 2;
+        currentLevel = 1;
         [enemyLevel loadLevel:currentLevel];
         maxLevel = 2;
         topLine = -tl;
@@ -44,6 +44,7 @@
         currentLevel++;
         if(currentLevel>enemyLevel.maxLevel)
             currentLevel = 1;
+//currentLevel = 4;
         [enemyLevel loadLevel:currentLevel];
     }
 }

@@ -14,6 +14,16 @@
 - (id) initWithGame:(Game *)theGame gameplay:(Gameplay*)theGameplay {
 	if (self = [super initWithGame:theGame]) {
 		gameplay = theGameplay;
+        camera = [Matrix createTranslationX:0 y:0 z:0];
+        retina = NO;
+        scale = 0.5;
+        if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] && [UIScreen mainScreen].scale == 2.0) {
+            retina = YES;
+            scale = 1;
+        }
+        
+        CGRect screenBound = [[UIScreen mainScreen] bounds];
+        screenSize = screenBound.size;
 	}
 	return self;
 }
@@ -21,18 +31,9 @@
 @synthesize camera;
 
 - (void) initialize {
-	camera = [Matrix createTranslationX:0 y:0 z:0];
+	
 	[super initialize];
     
-    retina = NO;
-    scale = 0.5;
-    if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] && [UIScreen mainScreen].scale == 2.0) {
-        retina = YES;
-        scale = 1;
-    }
-    
-    CGRect screenBound = [[UIScreen mainScreen] bounds];
-    screenSize = screenBound.size;
 }
 
 - (void) loadContent {
@@ -82,6 +83,13 @@
     shieldSprite.scale = 0.25f;
     shieldSprite.z = 0.5f;
     
+    pauseSprite = [[Sprite alloc] init];
+    pauseSprite.texture = [self.game.content load:@"pause"];
+    pauseSprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:265 height:265];
+    pauseSprite.origin = [Vector2 vectorWithX:0 y:0];
+    pauseSprite.scale = 0.25f;
+    pauseSprite.z = 0.5f;
+    
     // explosion
     // explosion
     Texture2D *explosionTexture = [self.game.content load:@"explosion"];
@@ -121,6 +129,7 @@
 		}
 		
 		Sprite *sprite;
+        Label *label;
 		if ([item isKindOfClass:[Rocket class]]) {
 			sprite = rocketSprite;
             sprite.rotation = 0;
@@ -146,6 +155,15 @@
             sprite = [explosionSpriteAnimation spriteAtTime:ex.lifetime.progress];
         } else if([item isKindOfClass:[Shield class]]) {
             sprite = shieldSprite;
+        } else if([item isKindOfClass:[AIArea class]]) {
+           // sprite = shieldSprite;
+        } else if([item isKindOfClass:[GameButton class]]) {
+           // [spriteBatch draw:image.texture to:image.position fromRectangle:image.sourceRectangle tintWithColor:image.color
+			//		 rotation:image.rotation origin:image.origin scale:image.scale effects:SpriteEffectsNone layerDepth:image.layerDepth];
+            sprite = pauseSprite;
+        } else if([item isKindOfClass:[SuperLabel class]]) {
+            sprite = nil;
+            label = ((SuperLabel*)item).label;
         }
 		
 		if (itemWithPosition && sprite) {
@@ -158,7 +176,10 @@
 				 scaleUniform:scale * sprite.scale
 					  effects:SpriteEffectsNone
 				   layerDepth:sprite.z];
-		}
+		} else if(label) {
+            [spriteBatch drawStringWithSpriteFont:label.font text:label.text to:label.position tintWithColor:label.color
+										 rotation:label.rotation origin:label.origin scale:label.scale effects:SpriteEffectsNone layerDepth:label.layerDepth];
+        }
 	}
 	
 	[spriteBatch end];

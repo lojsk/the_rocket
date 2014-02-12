@@ -19,7 +19,7 @@
         velocity = [Vector2 vectorWithX:bp.velocity.x y:bp.velocity.y];        
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], [ZMonster class], nil];
+        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], [ZMonster class], [AIArea class], nil];
         [self playSound:theGame];
 	}
 	return self;
@@ -39,7 +39,8 @@
 }
 
 - (void) collidedWithItem:(id)item {
-    [scene removeItem:self];
+    if(![item isKindOfClass:[AIArea class]])
+        [scene removeItem:self];
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {

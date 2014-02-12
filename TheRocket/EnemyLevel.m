@@ -28,6 +28,7 @@
         case 1: [self loadLevel1]; break;
         case 2: [self loadLevel2]; break;
         case 3: [self loadLevel3]; break;
+        case 4: [self loadLevel4]; break;
     }
     // TODO: grajenje stopnje
     /*
@@ -59,6 +60,13 @@
     }
 }
 
+- (void)loadLevel4 {
+    lastPosition -= 200;
+    for(int i=1;i<2;i++) {
+        lastPosition -= [Random intGreaterThanOrEqual:10 lessThan:100];
+        [levelArray addObject:[[BasicAIMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:720] andY:lastPosition]];
+    }
+}
 
 
 @end

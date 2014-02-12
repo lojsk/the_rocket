@@ -12,15 +12,25 @@
 
 #import "Headers.TheRocket.classes.h"
 
+//delegate to return amount entered by the user
+@protocol ChangeScoreDelegate <NSObject>
+
+-(void)ChangeScore:(NSInteger)plus;
+
+@end
+
 @interface SimpleMonster : NSObject <IParticle, ICollisionID, ICustomCollider, ISceneUser, IGetCordinate> {
 	Vector2 *position;
 	Vector2 *velocity;
 	float radius;
 	float mass;
-    id<IScene> scene;
     float live;
+
+    
 }
 
 - (id) initWithX:(int)x andY:(int)y;
+
+@property (nonatomic, weak) id <ChangeScoreDelegate> delegate;
 
 @end
