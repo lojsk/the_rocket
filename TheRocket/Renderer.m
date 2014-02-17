@@ -43,7 +43,7 @@
 	rocketSprite.texture = [self.game.content load:@"ME"];
 	rocketSprite.sourceRectangle = [Rectangle rectangleWithX:55 y:55 width:55 height:55];
 	rocketSprite.origin = [Vector2 vectorWithX:27.5 y:27.5];
-    rocketSprite.scale = 1;
+    rocketSprite.scale = 1.2;
     
     bgElSprite = [[Sprite alloc] init];
     bgElSprite.texture = [self.game.content load:@"level0"];

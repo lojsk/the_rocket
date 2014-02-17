@@ -17,6 +17,9 @@
 	float radius;
 	float mass;
     id<IScene> scene;
+    Level *level;
 }
+
+- (id) initWithLevel:(Level*)theLevel;
 
 @end

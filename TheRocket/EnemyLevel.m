@@ -29,6 +29,7 @@
         case 2: [self loadLevel2]; break;
         case 3: [self loadLevel3]; break;
         case 4: [self loadLevel4]; break;
+        case 5: [self loadLevel5]; break;
     }
     // TODO: grajenje stopnje
     /*
@@ -38,9 +39,9 @@
 
 - (void)loadLevel1 {
     lastPosition -= 200;
-    for(int i=1;i<30;i++) {
+    for(int i=1;i<20;i++) {
         lastPosition -= [Random intGreaterThanOrEqual:10 lessThan:100];
-        [levelArray addObject:[[SimpleMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:720] andY:lastPosition]];
+        [levelArray addObject:[[SimpleMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:720] Y:lastPosition andVelocityY:[Random intGreaterThanOrEqual:300 lessThan:600]]];
     }
 }
 
@@ -65,6 +66,14 @@
     for(int i=1;i<2;i++) {
         lastPosition -= [Random intGreaterThanOrEqual:10 lessThan:100];
         [levelArray addObject:[[BasicAIMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:720] andY:lastPosition]];
+    }
+}
+
+- (void)loadLevel5 {
+    lastPosition -= 200;
+    for(int i=1;i<3;i++) {
+        lastPosition -= [Random intGreaterThanOrEqual:10 lessThan:100];
+        [levelArray addObject:[[ShotMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:720] andY:lastPosition]];
     }
 }
 

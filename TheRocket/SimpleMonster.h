@@ -30,7 +30,8 @@
 }
 
 - (id) initWithX:(int)x andY:(int)y;
+- (id) initWithX:(int)x Y:(int)y andVelocityY:(int)vY;
 
-@property (nonatomic, weak) id <ChangeScoreDelegate> delegate;
+@property (nonatomic, weak) id <ChangeScoreDelegate> delegateS;
 
 @end

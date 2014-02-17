@@ -32,6 +32,7 @@
 @class StateMonster;
 @class ZMonster;
 @class AIMonsterModel;
+@class ShotMonster;
 
 @class Bullet;
 @class BulletScene;
@@ -46,6 +47,8 @@
 @class GameState;
 @class MainMenu;
 @class StaffMenu;
+@class EndGameMenu;
+@class chooseStaffMenu;
 @class Menu;
 @class Button;
 @class GameButton;

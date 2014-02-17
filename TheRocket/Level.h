@@ -42,5 +42,6 @@
 
 - (id) initWithGame:(Game*)theGame gameplay:(Gameplay*)theGameplay;
 -(void) pauseButtonClick;
+- (void) endGame;
 
 @end

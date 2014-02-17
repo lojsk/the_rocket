@@ -50,8 +50,6 @@
 	[stateStack addObject:gameState];
 	[self.components addComponent:gameState];
 	[gameState activate];
-    NSLog(@"%@", stateStack);
-    NSLog(@"------------");
 }
 
 - (void) popState {
@@ -63,8 +61,6 @@
 	currentActiveState = [stateStack lastObject];
 	[self.components addComponent:currentActiveState];
 	[currentActiveState activate];
-    NSLog(@"%@", stateStack);
-    NSLog(@"------------");
 }
 
 

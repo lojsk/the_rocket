@@ -19,7 +19,7 @@
         velocity = [Vector2 vectorWithX:bp.velocity.x y:bp.velocity.y];        
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], [ZMonster class], [AIArea class], nil];
+        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], [ZMonster class], [AIArea class], [Rocket class], nil];
         [self playSound:theGame];
 	}
 	return self;
@@ -44,6 +44,7 @@
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
+
 }
 
 @end

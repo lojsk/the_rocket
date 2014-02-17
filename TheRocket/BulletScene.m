@@ -10,7 +10,7 @@
 
 @implementation BulletScene
 
-- (id) initWithRocket:(Rocket*)r andGame:(Game*)theGame
+- (id) initWithRocket:(id<IMovable>)r andGame:(Game*)theGame
 {
     self = [super init];
 	if (self != nil) {

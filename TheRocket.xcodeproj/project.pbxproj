@@ -10,6 +10,7 @@
 		5B15EA2F188C2C5E0061C811 /* AIMonsterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA2E188C2C5E0061C811 /* AIMonsterModel.m */; };
 		5B15EA33188C44760061C811 /* BulletScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA32188C44760061C811 /* BulletScene.m */; };
 		5B15EA36188C497D0061C811 /* BulletPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA35188C497D0061C811 /* BulletPoint.m */; };
+		5B1A3BA818B168A40054C8D6 /* ShotMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A3BA718B168A40054C8D6 /* ShotMonster.m */; };
 		5B1B8323181D73720056884F /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B8322181D73720056884F /* Renderer.m */; };
 		5B1B8329181D739F0056884F /* Rocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B8328181D739E0056884F /* Rocket.m */; };
 		5B1B832F181D73B80056884F /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B832E181D73B80056884F /* Level.m */; };
@@ -86,6 +87,9 @@
 		5BD2DEF9187879E500C1EC94 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEF8187879E400C1EC94 /* bullet.png */; };
 		5BD2DEFD18787E9300C1EC94 /* bulletSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEFC18787E9300C1EC94 /* bulletSound.wav */; };
 		5BD2DEFF18787F1700C1EC94 /* bulletSoundNew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEFE18787F1700C1EC94 /* bulletSoundNew.wav */; };
+		5BDC986B18AD67AF007A1108 /* EndGameMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC986A18AD67AF007A1108 /* EndGameMenu.m */; };
+		5BDC986F18AD7204007A1108 /* chooseStaffMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC986E18AD7204007A1108 /* chooseStaffMenu.m */; };
+		5BDC987118AD72A4007A1108 /* chooseStaff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDC987018AD72A4007A1108 /* chooseStaff.png */; };
 		5BE1930B1833E63300112F3F /* Physics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1930A1833E63300112F3F /* Physics.m */; };
 		5BE1930F1833E69A00112F3F /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1930E1833E69A00112F3F /* Gameplay.m */; };
 		5BE193121833E6EC00112F3F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE193111833E6EC00112F3F /* Constants.m */; };
@@ -132,6 +136,8 @@
 		5B15EA32188C44760061C811 /* BulletScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletScene.m; sourceTree = "<group>"; };
 		5B15EA34188C497C0061C811 /* BulletPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletPoint.h; sourceTree = "<group>"; };
 		5B15EA35188C497D0061C811 /* BulletPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletPoint.m; sourceTree = "<group>"; };
+		5B1A3BA618B168A40054C8D6 /* ShotMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShotMonster.h; sourceTree = "<group>"; };
+		5B1A3BA718B168A40054C8D6 /* ShotMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShotMonster.m; sourceTree = "<group>"; };
 		5B1B830E181D6B690056884F /* Headers.TheRocket.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.TheRocket.classes.h; sourceTree = "<group>"; };
 		5B1B830F181D6B690056884F /* Headers.TheRocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.TheRocket.h; sourceTree = "<group>"; };
 		5B1B8321181D73720056884F /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
@@ -247,6 +253,11 @@
 		5BD2DEF8187879E400C1EC94 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet.png; path = image/bullet.png; sourceTree = "<group>"; };
 		5BD2DEFC18787E9300C1EC94 /* bulletSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bulletSound.wav; path = sound/bulletSound.wav; sourceTree = "<group>"; };
 		5BD2DEFE18787F1700C1EC94 /* bulletSoundNew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bulletSoundNew.wav; path = sound/bulletSoundNew.wav; sourceTree = "<group>"; };
+		5BDC986918AD67AF007A1108 /* EndGameMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndGameMenu.h; sourceTree = "<group>"; };
+		5BDC986A18AD67AF007A1108 /* EndGameMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndGameMenu.m; sourceTree = "<group>"; };
+		5BDC986D18AD7204007A1108 /* chooseStaffMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chooseStaffMenu.h; sourceTree = "<group>"; };
+		5BDC986E18AD7204007A1108 /* chooseStaffMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chooseStaffMenu.m; sourceTree = "<group>"; };
+		5BDC987018AD72A4007A1108 /* chooseStaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chooseStaff.png; path = image/chooseStaff.png; sourceTree = "<group>"; };
 		5BE192FA1833E3D500112F3F /* Express.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Express.xcodeproj; path = Express/Express.xcodeproj; sourceTree = "<group>"; };
 		5BE193091833E63300112F3F /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
 		5BE1930A1833E63300112F3F /* Physics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Physics.m; sourceTree = "<group>"; };
@@ -374,6 +385,8 @@
 				5B308DC4188BE19900592A5D /* KamikazeMonster.m */,
 				5B308DD0188C151800592A5D /* ZMonster.h */,
 				5B308DD1188C151800592A5D /* ZMonster.m */,
+				5B1A3BA618B168A40054C8D6 /* ShotMonster.h */,
+				5B1A3BA718B168A40054C8D6 /* ShotMonster.m */,
 				5B2BBE56189549420071EFAA /* BasicAIMonster.h */,
 				5B2BBE57189549430071EFAA /* BasicAIMonster.m */,
 				5B308DC6188BE2B800592A5D /* StateMonster.h */,
@@ -501,6 +514,10 @@
 				5B823B2C189835F200BBC2E3 /* MainMenu.m */,
 				5B77569318A2EE800077BCFC /* StaffMenu.h */,
 				5B77569418A2EE800077BCFC /* StaffMenu.m */,
+				5BDC986918AD67AF007A1108 /* EndGameMenu.h */,
+				5BDC986A18AD67AF007A1108 /* EndGameMenu.m */,
+				5BDC986D18AD7204007A1108 /* chooseStaffMenu.h */,
+				5BDC986E18AD7204007A1108 /* chooseStaffMenu.m */,
 			);
 			name = Menus;
 			sourceTree = "<group>";
@@ -540,6 +557,7 @@
 		5B823B3E18983C4D00BBC2E3 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				5BDC987018AD72A4007A1108 /* chooseStaff.png */,
 				5BA1735718AACC070048CD83 /* endGame.png */,
 				5BA1735818AACC070048CD83 /* gamePause.png */,
 				5B823B4118983D7C00BBC2E3 /* TablePlain.png */,
@@ -842,6 +860,7 @@
 				5B823B4218983D7C00BBC2E3 /* TablePlain.png in Resources */,
 				5BFD3C85189ABE9E00822D3E /* planet.png in Resources */,
 				5B64A745189AF78B0070E50D /* pause.png in Resources */,
+				5BDC987118AD72A4007A1108 /* chooseStaff.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -895,9 +914,11 @@
 				5BFB99E618A1871E0038D022 /* Score.m in Sources */,
 				5BA43D211879AE010022D421 /* HorizontalLine.m in Sources */,
 				5B9B88B8187B2CEC000B4383 /* EnemyLevel.m in Sources */,
+				5B1A3BA818B168A40054C8D6 /* ShotMonster.m in Sources */,
 				5B9B88BB187B2D63000B4383 /* SimpleMonster.m in Sources */,
 				5BBD6430187CA8A60067AD51 /* Explosion.m in Sources */,
 				5BE3331E18816632001ED094 /* EnemyScene.m in Sources */,
+				5BDC986F18AD7204007A1108 /* chooseStaffMenu.m in Sources */,
 				5B6B084F18845D53002E6777 /* ObjectScene.m in Sources */,
 				5B308DC5188BE19900592A5D /* KamikazeMonster.m in Sources */,
 				5B308DC8188BE2B800592A5D /* StateMonster.m in Sources */,
@@ -918,6 +939,7 @@
 				5B823B36189838B400BBC2E3 /* GuiRenderer.m in Sources */,
 				5B64A748189AFDE80070E50D /* GameButton.m in Sources */,
 				5B77569518A2EE800077BCFC /* StaffMenu.m in Sources */,
+				5BDC986B18AD67AF007A1108 /* EndGameMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,6 +31,7 @@
 #import "KamikazeMonster.h"
 #import "ZMonster.h"
 #import "AIMonsterModel.h"
+#import "ShotMonster.h"
 
 #import "Bullet.h"
 #import "BulletScene.h"
@@ -44,6 +45,8 @@
 #import "GameProgress.h"
 #import "GameState.h"
 #import "MainMenu.h"
+#import "EndGameMenu.h"
+#import "chooseStaffMenu.h"
 #import "Menu.h"
 #import "StaffMenu.h"
 #import "Button.h"

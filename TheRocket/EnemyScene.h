@@ -19,8 +19,9 @@
     float topLine;
     int currentLevel;
     int maxLevel;
+    Game *game;
 }
 
-- (id) initWithScene:(id<IScene>)theScene topLimit:(float)tl andBottomLimit:(AAHalfPlane *)theLimit;
+- (id) initWithScene:(id<IScene>)theScene topLimit:(float)tl andBottomLimit:(AAHalfPlane *)theLimit andGame:(Game*)theGame;
 
 @end

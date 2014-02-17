@@ -28,7 +28,7 @@
         [scene.itemAdded subscribeDelegate:[Delegate delegateWithTarget:self Method:@selector(itemAddedToScene:eventArgs:)]];
 		[scene.itemRemoved subscribeDelegate:[Delegate delegateWithTarget:self Method:@selector(itemRemovedFromScene:eventArgs:)]];
 		
-		player = [[Rocket alloc] init];
+		player = [[Rocket alloc] initWithLevel:self];
         bgs = [[NSMutableArray alloc] init];
         for(int i=0;i<[Constants numberOfBackgrounds];i++) {
             [bgs addObject:[[Background alloc] init]];
@@ -44,7 +44,7 @@
         score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:-[Constants gameSpeed]] andLabel:scoreLabel];
         
         AAHalfPlane *ahp = [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:[Constants bottomEnemyLimit]];
-        enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andBottomLimit:ahp];
+        enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andBottomLimit:ahp andGame:gameplay.game];
         
         bulletScene = [[BulletScene alloc] initWithRocket:player andGame:theGame];
         
@@ -82,6 +82,14 @@
 
 
 - (void) initialize {
+    bool items = NO;
+    for (id item in scene) {
+        items = YES;
+    }
+    
+    if(items) {
+        return;
+    }
 
     // bg
     for (int i=0;i<[Constants numberOfBackgrounds];i++) {
@@ -113,10 +121,14 @@
     [scene addItem:leftLine];
 	[scene addItem:rightLine];
 	
-    [scene addItem:horTopLine];
+    //[scene addItem:horTopLine];
     
     // adding start shield
     [scene addItem:shield];
+
+}
+
+- (void) deactivate {
 
 }
 
@@ -157,6 +169,11 @@
 		GameState *newState = [[StaffMenu alloc] initWithGame:gameplay.game];
         [gameplay.theRocket pushState:newState];
     }
+}
+
+- (void) endGame {
+    GameState *newState = [[EndGameMenu alloc] initWithGame:gameplay.game];
+    [gameplay.theRocket pushState:newState];
 }
 
 - (void) itemAddedToScene:(id)sender eventArgs:(SceneEventArgs*)e {

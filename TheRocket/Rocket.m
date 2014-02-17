@@ -11,7 +11,7 @@
 
 @implementation Rocket
 
-- (id) init
+- (id) initWithLevel:(Level*)theLevel
 {
 	self = [super init];
 	if (self != nil) {
@@ -19,7 +19,8 @@
 		velocity = [Vector2 vectorWithX:0 y:-[Constants gameSpeed]];
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], [ZMonster class], nil];
+        setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], [ZMonster class], [Bullet class], nil];
+        level = theLevel;
 	}
 	return self;
 }
@@ -35,7 +36,7 @@
 
 - (void) collidedWithItem:(id)item {
     [scene removeItem:self];
-    [Constants setGameSpeed:0.0f];
+    [level endGame];
 }
 
 @end

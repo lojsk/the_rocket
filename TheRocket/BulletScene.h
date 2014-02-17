@@ -14,13 +14,13 @@
 
 // EnemyScene : VerticalLine<ISceneUser, ICustomUpdate, ICustomCollider> 
 @interface BulletScene : NSObject<ICustomUpdate, ISceneUser> {
-    Rocket *player;
+    id<IMovable> player;
     Game *game;
     float shotTime;
     float lastShotTime;
     NSMutableArray *bullets;
 }
 
-- (id) initWithRocket:(Rocket*)r andGame:(Game*)theGame;
+- (id) initWithRocket:(id<IMovable>)r andGame:(Game*)theGame;
     
 @end
