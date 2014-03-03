@@ -14,8 +14,6 @@
 {
     self = [super init];
 	if (self != nil) {
-		start = 0;
-        duration = 5;
         lifetime = [[Lifetime alloc] initWithStart:0 duration:theDuration];
         position = [[Vector2 alloc] initWithVector2:thePosition];
 	}
@@ -29,15 +27,15 @@
 }
 - (void) deactivate{
    // [SoundEngine play:SoundEffectTypeExplosion];
-    [scene removeItem:self];
+    
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
 	if (lifetime) {
 		[lifetime updateWithGameTime:gameTime];
 		if (!lifetime.isAlive) {
-			lifetime = nil;
-            [self deactivate];
+            [scene removeItem:self];
+            //[self deactivate];
 		}
 	}
 }

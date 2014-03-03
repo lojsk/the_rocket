@@ -71,9 +71,7 @@
         
         bottomLimit = screenSize.height*2-50 + 10;
         
-        leftLine = [[VerticalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveX distance:0]];
-        rightLine = [[VerticalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeX distance:-screenSize.width*2]];
-        horTopLine = [[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:100]];
+        horTopLine = [[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:0]];
         
         shield = [[Shield alloc] initWithDuration:5.0f andPosition:player.position];
 	}
@@ -116,12 +114,8 @@
     // total score
 	[scene addItem:score];
     
-    
-    // left - right line
-    [scene addItem:leftLine];
-	[scene addItem:rightLine];
-	
-    //[scene addItem:horTopLine];
+    // top line
+    [scene addItem:horTopLine];
     
     // adding start shield
     [scene addItem:shield];

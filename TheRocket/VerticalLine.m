@@ -34,4 +34,16 @@
 	return limit;
 }
 
+- (BOOL) collidingWithItem:(id)item {
+    return YES;
+}
+
+- (void) collidedWithItem:(id)item {
+
+}
+
+- (void) updateWithGameTime:(GameTime *)gameTime {
+    
+}
+
 @end

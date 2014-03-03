@@ -19,7 +19,7 @@
 
 @end
 
-@interface SimpleMonster : NSObject <IParticle, ICollisionID, ICustomCollider, ISceneUser, IGetCordinate> {
+@interface SimpleMonster : NSObject <IParticle, ICollisionID, ICustomCollider, ISceneUser, IGetCordinate, ICustomUpdate> {
 	Vector2 *position;
 	Vector2 *velocity;
 	float radius;

@@ -48,13 +48,11 @@
         }
 	}
      
-    
-	// Movement
+    // Movement
 	for (id item in level.scene) {
 		[MovementPhysics simulateMovementOn:item withElapsed:gameTime.elapsedGameTime];
 	}
-    
-    
+
     for(NSMutableArray *group in grid) {
         int i = 0;
         for(id item1 in group) {
@@ -92,7 +90,7 @@
             }
         }
     }
-     
+    
     topScreen = [Constants calculateMovment:topScreen withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
 }
 

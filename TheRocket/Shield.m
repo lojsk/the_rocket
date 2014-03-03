@@ -15,7 +15,7 @@
     self = [super init];
 	if (self != nil) {
 		start = 0;
-        duration = 5;
+        duration = theDuration;
         lifetime = [[Lifetime alloc] initWithStart:0 duration:theDuration];
         position = thePosition;
         velocity = [Vector2 zero];

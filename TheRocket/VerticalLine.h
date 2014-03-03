@@ -14,7 +14,7 @@
 #import "Headers.TheRocket.classes.h"
 
 
-@interface VerticalLine : NSObject<IAAHalfPlaneCollider, ICollisionID, IMoreCell> {
+@interface VerticalLine : NSObject<IAAHalfPlaneCollider, ICollisionID, IMoreCell, ICustomCollider, ICustomUpdate> {
 	AAHalfPlane *limit;
 }
 

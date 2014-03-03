@@ -24,14 +24,14 @@
 @synthesize scene;
 
 - (void) addPoints {
-    [points addObject:[[StatePoints alloc] setDistnaceX:0.0f andY:400.0f withTime:1.0f]];
+    [points addObject:[[StatePoints alloc] setDistnaceX:0.0f andY:400.0f withTime:3.0f]];
    // [points addObject:[[StatePoints alloc] setDistnaceX:300.0f andY:-10.0f withTime:2.0f]];
    // [points addObject:[[StatePoints alloc] setDistnaceX:0.0f andY:1000.0f withTime:4.0f]];
 }
 
 - (void) setGame:(Game*)theGame {
     game = theGame;
-    bullet = [[Bullet alloc] initWithBulletPoint:[[BulletPoint alloc] initWithVelocity:[Vector2 vectorWithX:0 y:[Constants bulletSpeed]]] andPlayerPosition:self.position andGame:game];
+    bullet = [[EnemyBullet alloc] initWithBulletPoint:[[BulletPoint alloc] initWithVelocity:[Vector2 vectorWithX:0 y:[Constants bulletSpeed]]] andPlayerPosition:self.position andGame:game];
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {

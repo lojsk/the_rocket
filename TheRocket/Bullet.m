@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 OC. All rights reserved.
 //
 
-#import "Bullet.h"
 #import "Retronator.Xni.Framework.Audio.h"
+#import "Headers.TheRocket.h"
 
 @implementation Bullet
 
@@ -19,7 +19,7 @@
         velocity = [Vector2 vectorWithX:bp.velocity.x y:bp.velocity.y];        
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], [ZMonster class], [AIArea class], [Rocket class], nil];
+        setID = [NSSet setWithObjects:[HorizontalLine class], [SimpleMonster class], [ZMonster class], [AIArea class], nil];
         [self playSound:theGame];
 	}
 	return self;

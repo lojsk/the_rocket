@@ -13,8 +13,6 @@
 #import "Headers.TheRocket.h"
 
 @interface Explosion : NSObject<ILifetime, ISceneUser, ICustomUpdate, IPosition> {
-    NSTimeInterval duration;
-    float start;
     Lifetime *lifetime;
 	id<IScene> scene;
     Vector2 *position;

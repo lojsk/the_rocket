@@ -1,8 +1,8 @@
 //
-//  HorizontalLine.h
+//  EnemyBullet.h
 //  TheRocket
 //
-//  Created by OdpiralniCasi on 05/01/14.
+//  Created by OdpiralniCasi on 03/03/14.
 //  Copyright (c) 2014 OC. All rights reserved.
 //
 
@@ -10,8 +10,8 @@
 
 #import "Express.Scene.Objects.h"
 
-#import "Headers.TheRocket.h"
+#import "Headers.TheRocket.classes.h"
 
-@interface HorizontalLine : VerticalLine
+@interface EnemyBullet : Bullet
 
 @end

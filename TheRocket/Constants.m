@@ -44,7 +44,7 @@ static id score = nil;
 }
 
 +(float)bulletSpeed {
-    return [Constants gameSpeed]+400.0f;
+    return [Constants gameSpeed]+600.0f;
 }
 
 +(float)topEnemyLimit {

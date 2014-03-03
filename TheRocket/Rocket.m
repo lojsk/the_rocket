@@ -19,7 +19,7 @@
 		velocity = [Vector2 vectorWithX:0 y:-[Constants gameSpeed]];
 		radius = 10;
 		mass = 1;
-        setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], [ZMonster class], [Bullet class], nil];
+        setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], [ZMonster class], [EnemyBullet class], [KamikazeMonster class], nil];
         level = theLevel;
 	}
 	return self;
@@ -29,14 +29,16 @@
 
 
 - (BOOL) collidingWithItem:(id)item {
-    if([item isKindOfClass:[SimpleMonster class]])
-        return YES;
-    return NO;
+    return YES;
 }
 
 - (void) collidedWithItem:(id)item {
-    [scene removeItem:self];
-    [level endGame];
+    if([item isKindOfClass:[SimpleMonster class]]) {
+        [scene removeItem:self];
+        [level endGame];
+    } else if([item isKindOfClass:[VerticalLine class]]) {
+        
+    }
 }
 
 @end

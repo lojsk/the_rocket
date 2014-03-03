@@ -18,7 +18,6 @@
         enemyLevel = [[EnemyLevel alloc] init];
         currentLevel = 1;
         [enemyLevel loadLevel:currentLevel];
-        maxLevel = 2;
         topLine = -tl;
         
         limit = theLimit;
@@ -52,7 +51,6 @@
         currentLevel++;
         if(currentLevel>enemyLevel.maxLevel)
             currentLevel = 1;
-        //currentLevel = 1;
         [enemyLevel loadLevel:currentLevel];
     }
 }

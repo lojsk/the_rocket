@@ -16,7 +16,7 @@
 	if (self != nil) {
         levelArray = [[NSMutableArray alloc] init];
         lastPosition = -200;
-        maxLevel = 3;
+        maxLevel = 7;
 	}
 	return self;
 }
@@ -30,6 +30,8 @@
         case 3: [self loadLevel3]; break;
         case 4: [self loadLevel4]; break;
         case 5: [self loadLevel5]; break;
+        case 6: [self loadLevel6]; break;
+        case 7: [self loadLevel7]; break;
     }
     // TODO: grajenje stopnje
     /*
@@ -73,9 +75,32 @@
     lastPosition -= 200;
     for(int i=1;i<3;i++) {
         lastPosition -= [Random intGreaterThanOrEqual:10 lessThan:100];
-        [levelArray addObject:[[ShotMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:720] andY:lastPosition]];
+        [levelArray addObject:[[ShotMonster alloc] initWithX:[Random intGreaterThanOrEqual:10 lessThan:720] Y:lastPosition andVelocityY:10.0f]];
     }
 }
 
+- (void)loadLevel6 {
+    lastPosition -= 200;
+    int y = 50;
+    for(int j=0;j<3;j++) {
+        int x = 70;
+        for(int i=1;i<8;i++) {
+            [levelArray addObject:[[KamikazeMonster alloc] initWithX:x andY:lastPosition+y]];
+            x += 70;
+        }
+        y += 50;
+    }
+    lastPosition -= 500;
+}
+
+
+- (void)loadLevel7 {
+    lastPosition -= 200;
+    for(int i=1;i<10;i++) {
+        lastPosition -= 40;
+        [levelArray addObject:[[FormationMonster alloc] initWithX:50 andY:lastPosition]];
+    }
+     lastPosition -= 200;
+}
 
 @end

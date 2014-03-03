@@ -23,6 +23,8 @@
     float lastShot;
     float speed;
     
+    CGSize screenSize;
+    
 }
 
 @property (nonatomic, readonly) Rocket *rocket;

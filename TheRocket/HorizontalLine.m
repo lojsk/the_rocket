@@ -25,4 +25,11 @@
 - (void) updateWithGameTime:(GameTime *)gameTime {
     limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime]];
 }
+
+- (BOOL) collidingWithItem:(id)item {
+    return YES;
+}
+
+- (void) collidedWithItem:(id)item {
+}
 @end

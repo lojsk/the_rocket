@@ -23,6 +23,8 @@
         [self setupGyro];
         [self startGyro];
         scene = theScene;
+        
+        screenSize = [[UIScreen mainScreen] bounds].size;
 	}
 	return self;
 }
@@ -54,12 +56,22 @@
         [motionManager.deviceMotion.attitude multiplyByInverseOfAttitude: referenceAttitude];
         double rRotation = motionManager.deviceMotion.attitude.roll*180/M_PI;
         rocket.velocity.x = rRotation * speed;
+        
+        if(rocket.velocity.x > 800)
+            rocket.velocity.x = 800;
+        if(rocket.velocity.x < -800)
+            rocket.velocity.x = -800;
+        
+        if(rocket.position.x < 40) {
+            rocket.position.x = 40;
+          //  rocket.velocity.x = 0;
+        }
+        if(rocket.position.x > screenSize.width*2-40) {
+            rocket.position.x = screenSize.width*2-40;
+        //    rocket.velocity.x = 0;
+        }
         /*
-        // max
-        if(rocket.velocity.x > 400)
-            rocket.velocity.x = 400;
-        if(rocket.velocity.x < -400)
-            rocket.velocity.x = -400;
+
         
         // min
         if(rocket.velocity.x > 0 && rocket.velocity.x < 40)

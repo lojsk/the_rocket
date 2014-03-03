@@ -11,7 +11,7 @@
 #import "Headers.TheRocket.classes.h"
 
 @interface ShotMonster : StateMonster {
-    Bullet *bullet;
+    EnemyBullet *bullet;
     Game *game;
     int bulletNum;
     int currentBullet;

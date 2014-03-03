@@ -32,8 +32,11 @@
 #import "ZMonster.h"
 #import "AIMonsterModel.h"
 #import "ShotMonster.h"
+#import "FormationMonster.h"
+
 
 #import "Bullet.h"
+#import "EnemyBullet.h"
 #import "BulletScene.h"
 #import "BulletPoint.h"
 

@@ -19,6 +19,7 @@
 
 @property (nonatomic, readonly) NSMutableArray *levelArray;
 @property int maxLevel;
+@property float time;
 
 - (void) loadLevel:(int)level;
 

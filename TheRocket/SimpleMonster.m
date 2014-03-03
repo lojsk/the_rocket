@@ -15,7 +15,7 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] initWithX:x y:y];
-		velocity = [Vector2 vectorWithX:0.0f y:400.0f];
+		velocity = [Vector2 vectorWithX:0.0f y:100.0f];
 		radius = 10;
 		mass = 1;
         setID = [NSSet setWithObjects:[Bullet class], [Rocket class], [EnemyScene class], [Shield class], nil];
@@ -42,7 +42,7 @@
 
 - (void) collidedWithItem:(id)item {
     //If anyone listening
-    if([item isKindOfClass:[Bullet class]]) {
+    if([item isKindOfClass:[Bullet class]] || [item isKindOfClass:[Rocket class]]) {
         if([delegateS respondsToSelector:@selector(ChangeScore:)]) {
             [delegateS ChangeScore:1];
         }
@@ -50,13 +50,17 @@
         live--;
         
         if(live == 0) {
-            [scene addItem:[[Explosion alloc] initWithDuration:5 andPosition:position]];
-            [scene removeItem:self];
+            [self.scene addItem:[[Explosion alloc] initWithDuration:1.0f andPosition:position]];
+            [self.scene removeItem:self];
         }
     } else {
         //[scene addItem:[[Explosion alloc] initWithDuration:5 andPosition:position]];
         [self.scene removeItem:self];
     }
+}
+
+- (void) updateWithGameTime:(GameTime *)gameTime {
+    
 }
 
 

@@ -19,8 +19,6 @@
     NSMutableArray *bgs;
     SwitchBackgorund *switchBg;
     float bottomLimit;
-    VerticalLine *leftLine;
-    VerticalLine *rightLine;
     HorizontalLine *horTopLine;
     
     EnemyScene *enemyScene;

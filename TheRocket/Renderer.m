@@ -93,7 +93,7 @@
     // explosion
     // explosion
     Texture2D *explosionTexture = [self.game.content load:@"explosion"];
-    explosionSpriteAnimation = [[AnimatedSprite alloc] initWithDuration:0.5];
+    explosionSpriteAnimation = [[AnimatedSprite alloc] initWithDuration:1.0f];
     explosionSpriteAnimation.looping = NO;
     for (int i = 0; i < 25; i++) {
         int row = i / 5;
@@ -152,6 +152,7 @@
             sprite.rotation = M_PI;
         } else if([item isKindOfClass:[Explosion class]]) {
             Explosion *ex = (Explosion*)item;
+            explosionSpriteAnimation.duration = ex.lifetime.duration;
             sprite = [explosionSpriteAnimation spriteAtTime:ex.lifetime.progress];
         } else if([item isKindOfClass:[Shield class]]) {
             sprite = shieldSprite;

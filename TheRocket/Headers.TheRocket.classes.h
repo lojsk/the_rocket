@@ -33,8 +33,11 @@
 @class ZMonster;
 @class AIMonsterModel;
 @class ShotMonster;
+@class FormationMonster;
+
 
 @class Bullet;
+@class EnemyBullet;
 @class BulletScene;
 @class BulletPoint;
 

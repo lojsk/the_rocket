@@ -10,7 +10,7 @@
 
 #import "Express.Scene.Objects.h"
 
-#import "Headers.TheRocket.h"
+#import "Headers.TheRocket.classes.h"
 
 @interface Bullet : NSObject<IParticle, ICustomCollider, ISceneUser, ICustomUpdate, ICollisionID, IGetCordinate, IMovable> {
     Vector2 *position;

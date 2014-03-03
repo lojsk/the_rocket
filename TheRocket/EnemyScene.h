@@ -18,7 +18,6 @@
     EnemyLevel *enemyLevel;
     float topLine;
     int currentLevel;
-    int maxLevel;
     Game *game;
 }
 

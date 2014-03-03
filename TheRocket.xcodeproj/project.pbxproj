@@ -83,6 +83,8 @@
 		5BAA539A18783AC000D114EA /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA539918783AC000D114EA /* Bullet.m */; };
 		5BBD6430187CA8A60067AD51 /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD642F187CA8A60067AD51 /* Explosion.m */; };
 		5BBD6432187CAFA20067AD51 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBD6431187CAFA20067AD51 /* explosion.png */; };
+		5BC4524F18C4FDF7004E41F5 /* EnemyBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4524E18C4FDF7004E41F5 /* EnemyBullet.m */; };
+		5BC4525318C502D9004E41F5 /* FormationMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4525218C502D9004E41F5 /* FormationMonster.m */; };
 		5BCC957F18907A4000FA994B /* AIArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC957E18907A4000FA994B /* AIArea.m */; };
 		5BD2DEF9187879E500C1EC94 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEF8187879E400C1EC94 /* bullet.png */; };
 		5BD2DEFD18787E9300C1EC94 /* bulletSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2DEFC18787E9300C1EC94 /* bulletSound.wav */; };
@@ -248,6 +250,10 @@
 		5BBD642E187CA8A60067AD51 /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
 		5BBD642F187CA8A60067AD51 /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
 		5BBD6431187CAFA20067AD51 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explosion.png; path = image/explosion.png; sourceTree = "<group>"; };
+		5BC4524D18C4FDF7004E41F5 /* EnemyBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyBullet.h; sourceTree = "<group>"; };
+		5BC4524E18C4FDF7004E41F5 /* EnemyBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyBullet.m; sourceTree = "<group>"; };
+		5BC4525118C502D9004E41F5 /* FormationMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormationMonster.h; sourceTree = "<group>"; };
+		5BC4525218C502D9004E41F5 /* FormationMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormationMonster.m; sourceTree = "<group>"; };
 		5BCC957D18907A4000FA994B /* AIArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIArea.h; sourceTree = "<group>"; };
 		5BCC957E18907A4000FA994B /* AIArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIArea.m; sourceTree = "<group>"; };
 		5BD2DEF8187879E400C1EC94 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet.png; path = image/bullet.png; sourceTree = "<group>"; };
@@ -333,6 +339,8 @@
 				5B15EA32188C44760061C811 /* BulletScene.m */,
 				5BAA539818783AC000D114EA /* Bullet.h */,
 				5BAA539918783AC000D114EA /* Bullet.m */,
+				5BC4524D18C4FDF7004E41F5 /* EnemyBullet.h */,
+				5BC4524E18C4FDF7004E41F5 /* EnemyBullet.m */,
 			);
 			name = Bullets;
 			sourceTree = "<group>";
@@ -381,6 +389,8 @@
 		5B308DCF188C14E500592A5D /* StateMonster */ = {
 			isa = PBXGroup;
 			children = (
+				5BC4525118C502D9004E41F5 /* FormationMonster.h */,
+				5BC4525218C502D9004E41F5 /* FormationMonster.m */,
 				5B308DC3188BE19900592A5D /* KamikazeMonster.h */,
 				5B308DC4188BE19900592A5D /* KamikazeMonster.m */,
 				5B308DD0188C151800592A5D /* ZMonster.h */,
@@ -916,6 +926,7 @@
 				5B9B88B8187B2CEC000B4383 /* EnemyLevel.m in Sources */,
 				5B1A3BA818B168A40054C8D6 /* ShotMonster.m in Sources */,
 				5B9B88BB187B2D63000B4383 /* SimpleMonster.m in Sources */,
+				5BC4525318C502D9004E41F5 /* FormationMonster.m in Sources */,
 				5BBD6430187CA8A60067AD51 /* Explosion.m in Sources */,
 				5BE3331E18816632001ED094 /* EnemyScene.m in Sources */,
 				5BDC986F18AD7204007A1108 /* chooseStaffMenu.m in Sources */,
@@ -927,6 +938,7 @@
 				5B15EA2F188C2C5E0061C811 /* AIMonsterModel.m in Sources */,
 				5B15EA33188C44760061C811 /* BulletScene.m in Sources */,
 				5B15EA36188C497D0061C811 /* BulletPoint.m in Sources */,
+				5BC4524F18C4FDF7004E41F5 /* EnemyBullet.m in Sources */,
 				5B41D82B189060DB0073837E /* Shield.m in Sources */,
 				5BFB99E218A17F470038D022 /* SuperLabel.m in Sources */,
 				5BCC957F18907A4000FA994B /* AIArea.m in Sources */,
@@ -1062,7 +1074,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1085,7 +1097,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
