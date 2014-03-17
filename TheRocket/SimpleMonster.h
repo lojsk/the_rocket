@@ -25,6 +25,8 @@
 	float radius;
 	float mass;
     float live;
+    
+    int spriteID;
 
     
 }
@@ -33,5 +35,6 @@
 - (id) initWithX:(int)x Y:(int)y andVelocityY:(int)vY;
 
 @property (nonatomic, weak) id <ChangeScoreDelegate> delegateS;
+@property int spriteID;
 
 @end

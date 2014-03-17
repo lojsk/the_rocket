@@ -21,6 +21,7 @@
         setID = [NSSet setWithObjects:[Bullet class], [Rocket class], [EnemyScene class], [Shield class], nil];
         live = 1;
         delegateS = [Constants getScoreClass];
+        spriteID = arc4random() %3;
 	}
 	return self;
 }
@@ -33,7 +34,7 @@
     return self;
 }
 
-@synthesize position, velocity, mass, radius, setID, scene, delegateS;
+@synthesize position, velocity, mass, radius, setID, scene, delegateS, spriteID;
 
 
 - (BOOL) collidingWithItem:(id)item {

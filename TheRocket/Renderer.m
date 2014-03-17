@@ -40,10 +40,35 @@
 	spriteBatch = [[SpriteBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
 	
 	rocketSprite = [[Sprite alloc] init];
-	rocketSprite.texture = [self.game.content load:@"ME"];
-	rocketSprite.sourceRectangle = [Rectangle rectangleWithX:55 y:55 width:55 height:55];
-	rocketSprite.origin = [Vector2 vectorWithX:27.5 y:27.5];
-    rocketSprite.scale = 1.2;
+	rocketSprite.texture = [self.game.content load:@"01a"];
+	rocketSprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:32 height:32];
+	rocketSprite.origin = [Vector2 vectorWithX:16 y:16];
+    rocketSprite.scale = 3;
+    
+    enemySprite = [[Sprite alloc] init];
+	enemySprite.texture = [self.game.content load:@"01b"];
+	enemySprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:32 height:32];
+	enemySprite.origin = [Vector2 vectorWithX:16 y:16];
+    enemySprite.scale = 3;
+
+    enemy1Sprite = [[Sprite alloc] init];
+	enemy1Sprite.texture = [self.game.content load:@"01c"];
+	enemy1Sprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:96 height:96];
+	enemy1Sprite.origin = [Vector2 vectorWithX:48 y:48];
+    enemy1Sprite.scale = 1;
+    
+    enemy2Sprite = [[Sprite alloc] init];
+	enemy2Sprite.texture = [self.game.content load:@"01d"];
+	enemy2Sprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:24 height:24];
+	enemy2Sprite.origin = [Vector2 vectorWithX:12 y:12];
+    enemy2Sprite.scale = 4;
+    /*
+    enemy3Sprite = [[Sprite alloc] init];
+	enemy3Sprite.texture = [self.game.content load:@"01d"];
+	enemy3Sprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:32 height:32];
+	enemy3Sprite.origin = [Vector2 vectorWithX:16 y:16];
+    enemy3Sprite.scale = 3;
+*/
     
     bgElSprite = [[Sprite alloc] init];
     bgElSprite.texture = [self.game.content load:@"level0"];
@@ -115,7 +140,7 @@
 	
 	[spriteBatch beginWithSortMode:SpriteSortModeDeffered
                         BlendState:nil
-                      SamplerState:nil
+                      SamplerState:[SamplerState pointClamp]
 				 DepthStencilState:nil
                    RasterizerState:nil
                             Effect:nil
@@ -148,7 +173,18 @@
         } else if([item isKindOfClass:[Bullet class]]) {
             sprite = bulletSprite;
         } else if([item isKindOfClass:[SimpleMonster class]]) {
-            sprite = rocketSprite;
+            SimpleMonster *sm = (SimpleMonster*)item;
+            switch (sm.spriteID) {
+                case 0:
+                    sprite = enemySprite;
+                    break;
+                case 1:
+                    sprite = enemy1Sprite;
+                    break;
+                case 2:
+                    sprite = enemy2Sprite;
+                    break;
+            }
             sprite.rotation = M_PI;
         } else if([item isKindOfClass:[Explosion class]]) {
             Explosion *ex = (Explosion*)item;

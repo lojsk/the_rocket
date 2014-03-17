@@ -21,9 +21,9 @@
 	Texture2D *tableTexture = [self.game.content load:@"gamePause"];
 	backgorund = [[Image alloc] initWithTexture:tableTexture position:[Vector2 vectorWithX:100 y:100]];
 	[backgorund setScaleUniform: 1];
-	[scene addItem:backgorund];
+	//[scene addItem:backgorund];
     
-    retur = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:100 y:400 width:300 height:50] background:nil];
+    retur = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:50 y:50 width:200 height:200] background:nil];
 	[scene addItem:retur];
     
     reset = [[Button alloc] initWithInputArea:[Rectangle rectangleWithX:100 y:500 width:300 height:50] background:nil];

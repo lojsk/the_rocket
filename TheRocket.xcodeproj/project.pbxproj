@@ -81,6 +81,10 @@
 		5BA1735A18AACC070048CD83 /* gamePause.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA1735818AACC070048CD83 /* gamePause.png */; };
 		5BA43D211879AE010022D421 /* HorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA43D201879AE010022D421 /* HorizontalLine.m */; };
 		5BAA539A18783AC000D114EA /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA539918783AC000D114EA /* Bullet.m */; };
+		5BB719A318CE431A008316FD /* 01a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB7199F18CE431A008316FD /* 01a.png */; };
+		5BB719A418CE431A008316FD /* 01b.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB719A018CE431A008316FD /* 01b.png */; };
+		5BB719A518CE431A008316FD /* 01c.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB719A118CE431A008316FD /* 01c.png */; };
+		5BB719A618CE431A008316FD /* 01d.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB719A218CE431A008316FD /* 01d.png */; };
 		5BBD6430187CA8A60067AD51 /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD642F187CA8A60067AD51 /* Explosion.m */; };
 		5BBD6432187CAFA20067AD51 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBD6431187CAFA20067AD51 /* explosion.png */; };
 		5BC4524F18C4FDF7004E41F5 /* EnemyBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4524E18C4FDF7004E41F5 /* EnemyBullet.m */; };
@@ -114,18 +118,18 @@
 			remoteGlobalIDString = 5B4BE258181D614300E0FEA9;
 			remoteInfo = TheRocket;
 		};
+		5BBB73BB18CBA7EC0086EB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE192FA1833E3D500112F3F /* Express.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = Express;
+		};
 		5BE192FF1833E3D500112F3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5BE192FA1833E3D500112F3F /* Express.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = Express;
-		};
-		5BE193021833E43100112F3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5BE192FA1833E3D500112F3F /* Express.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = Express;
 		};
 /* End PBXContainerItemProxy section */
@@ -247,6 +251,10 @@
 		5BA43D201879AE010022D421 /* HorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalLine.m; sourceTree = "<group>"; };
 		5BAA539818783AC000D114EA /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
 		5BAA539918783AC000D114EA /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		5BB7199F18CE431A008316FD /* 01a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01a.png; sourceTree = "<group>"; };
+		5BB719A018CE431A008316FD /* 01b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01b.png; sourceTree = "<group>"; };
+		5BB719A118CE431A008316FD /* 01c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01c.png; sourceTree = "<group>"; };
+		5BB719A218CE431A008316FD /* 01d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01d.png; sourceTree = "<group>"; };
 		5BBD642E187CA8A60067AD51 /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
 		5BBD642F187CA8A60067AD51 /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
 		5BBD6431187CAFA20067AD51 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explosion.png; path = image/explosion.png; sourceTree = "<group>"; };
@@ -602,6 +610,10 @@
 		5B823B4018983C9800BBC2E3 /* object */ = {
 			isa = PBXGroup;
 			children = (
+				5BB7199F18CE431A008316FD /* 01a.png */,
+				5BB719A018CE431A008316FD /* 01b.png */,
+				5BB719A118CE431A008316FD /* 01c.png */,
+				5BB719A218CE431A008316FD /* 01d.png */,
 				5BBD6431187CAFA20067AD51 /* explosion.png */,
 				5BD2DEF8187879E400C1EC94 /* bullet.png */,
 				5BEF3016181D8183001F8B37 /* ME.png */,
@@ -763,7 +775,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5BE193031833E43100112F3F /* PBXTargetDependency */,
+				5BBB73BC18CBA7EC0086EB08 /* PBXTargetDependency */,
 			);
 			name = TheRocket;
 			productName = TheRocket;
@@ -797,6 +809,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = OC;
+				TargetAttributes = {
+					5B4BE258181D614300E0FEA9 = {
+						DevelopmentTeam = YLX23772LT;
+					};
+				};
 			};
 			buildConfigurationList = 5B4BE254181D614200E0FEA9 /* Build configuration list for PBXProject "TheRocket" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -840,12 +857,14 @@
 				5B4BE267181D614300E0FEA9 /* InfoPlist.strings in Resources */,
 				5BEF3011181D7B4E001F8B37 /* Default.png in Resources */,
 				5BEF3013181D7B58001F8B37 /* Default@2x.png in Resources */,
+				5BB719A518CE431A008316FD /* 01c.png in Resources */,
 				5BEF3015181D7B61001F8B37 /* Default-568h@2x.png in Resources */,
 				5BEF3018181D8183001F8B37 /* ME.png in Resources */,
 				5BEF3019181D8183001F8B37 /* other.png in Resources */,
 				5B3CC1081854B29A002D975D /* level0.png in Resources */,
 				5B3CC1091854B29A002D975D /* level0s.png in Resources */,
 				5B3CC10A1854B29A002D975D /* level1.png in Resources */,
+				5BB719A418CE431A008316FD /* 01b.png in Resources */,
 				5B3CC10B1854B29A002D975D /* level1s.png in Resources */,
 				5B3CC10C1854B29A002D975D /* level2.png in Resources */,
 				5B3CC10D1854B29A002D975D /* level2s.png in Resources */,
@@ -858,6 +877,7 @@
 				5B3CC1121854B29A002D975D /* level5.png in Resources */,
 				5B3CC1131854B29A002D975D /* level5s.png in Resources */,
 				5B3CC1141854B29A002D975D /* level6.png in Resources */,
+				5BB719A618CE431A008316FD /* 01d.png in Resources */,
 				5B3CC1151854B29A002D975D /* level6s.png in Resources */,
 				5BD2DEF9187879E500C1EC94 /* bullet.png in Resources */,
 				5BD2DEFD18787E9300C1EC94 /* bulletSound.wav in Resources */,
@@ -871,6 +891,7 @@
 				5BFD3C85189ABE9E00822D3E /* planet.png in Resources */,
 				5B64A745189AF78B0070E50D /* pause.png in Resources */,
 				5BDC987118AD72A4007A1108 /* chooseStaff.png in Resources */,
+				5BB719A318CE431A008316FD /* 01a.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -971,10 +992,10 @@
 			target = 5B4BE258181D614300E0FEA9 /* TheRocket */;
 			targetProxy = 5B4BE27E181D614400E0FEA9 /* PBXContainerItemProxy */;
 		};
-		5BE193031833E43100112F3F /* PBXTargetDependency */ = {
+		5BBB73BC18CBA7EC0086EB08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Express;
-			targetProxy = 5BE193021833E43100112F3F /* PBXContainerItemProxy */;
+			targetProxy = 5BBB73BB18CBA7EC0086EB08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1060,9 +1081,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheRocket/TheRocket-Prefix.pch";
 				INFOPLIST_FILE = "TheRocket/TheRocket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/XNI\"",
@@ -1073,6 +1097,9 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -1083,9 +1110,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheRocket/TheRocket-Prefix.pch";
 				INFOPLIST_FILE = "TheRocket/TheRocket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/XNI\"",
@@ -1096,6 +1126,9 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;

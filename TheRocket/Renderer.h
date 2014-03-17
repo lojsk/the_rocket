@@ -17,6 +17,10 @@
 @interface Renderer : DrawableGameComponent {
 	// Resources
 	Sprite *rocketSprite;
+    Sprite *enemySprite;
+    Sprite *enemy1Sprite;
+    Sprite *enemy2Sprite;
+    Sprite *enemy3Sprite;
     Sprite *bgElSprite;
     Sprite *bgSwitchElSprite;
     Sprite *lineSprite;
