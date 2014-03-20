@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "Rocket": {
+            "applicationId": "cAsO2IG0vn5dWs7wFb4Dm1cBxAlfXsvk26sHqWkP", 
+            "masterKey": "blK4bz06b0C28n81N8gRl5MyT3uikB5hOMHDbscE"
+        }, 
+        "_default": {
+            "link": "Rocket"
+        }
+    }
+}

@@ -1,8 +1,21 @@
 import os, sys, pygame
 import time
+import eztext
+import pickle
 from pygame.locals import *
 pygame.init()
 pygame.font.init()
+
+from parse_rest.connection import register
+register("cAsO2IG0vn5dWs7wFb4Dm1cBxAlfXsvk26sHqWkP", "aFbRLKJtrub3xHXtMTB165RVltweQ5B37qp6ceSg")
+
+from parse_rest.datatypes import Object
+
+class GameScore(Object):
+    pass
+    
+gameScore = GameScore(score=1337, player_name='John Doe', cheat_mode=False)
+gameScore.save()
 
 size = width, height = 700, 668
 
@@ -21,7 +34,7 @@ rocket_choose = [
 ]
 
 
-myfont = pygame.font.Font("UbuntuMono-Regular.ttf", 14)
+myfont = pygame.font.Font(None,18)
 selected_enemy = rocket_choose[1]
 
 edit_mode = False
@@ -33,6 +46,10 @@ x_img = pygame.image.load("x_min.png")
 x_img_rect = x_img.get_rect()
 in_drag = -1
 
+active = -1
+start_position = 200
+speed = 200
+
 def button_click(area, last):
     if area[0] < last[0] and area[1] < last[1] and area[0]+area[2] > last[0] and area[1]+area[3] > last[1]:
         return True
@@ -42,7 +59,7 @@ def button_alloc(area, title):
     global last_time
     label = myfont.render(title, 1, (0,0,0))
     screen.blit(label, (area[0], area[1]))
-    pygame.draw.rect (screen, (0,0,0), Rect(area[0], area[1], area[2], area[3]), 1)
+    pygame.draw.rect (screen, (0,0,0), Rect(area[0]-5, area[1]-5, area[2], area[3]), 1)
     
     if pygame.mouse.get_pressed()[0]:
         if button_click(area, pygame.mouse.get_pos()):
@@ -54,8 +71,8 @@ def button_alloc(area, title):
 
 while 1:
     legend_y = 50
-    
-    for event in pygame.event.get():
+    events = pygame.event.get()
+    for event in events:
         if event.type==QUIT:
             pygame.quit()
             sys.exit()
@@ -68,12 +85,18 @@ while 1:
     # click
     if pygame.mouse.get_pressed()[0] and last_pos != pygame.mouse.get_pos() and pygame.mouse.get_pos()[0] <= 420 and edit_mode == False:  
         last_pos = pygame.mouse.get_pos()
-        enemy.append([pygame.mouse.get_pos(), selected_enemy])
-        print pygame.mouse.get_pos()
+        dtxt = str(pygame.mouse.get_pos()[0])+", "+str(pygame.mouse.get_pos()[1])
+        adding = eztext.Input(maxlength=45, color=(255,0,0), prompt=dtxt, area=(500,start_position,80,25))
+        enemy.append([pygame.mouse.get_pos(), selected_enemy, adding])
+        start_position += 50
+        #print pygame.mouse.get_pos()
+        active = -1
     
     # object
     enemy_line = []
     for count, ob in enumerate(enemy):
+        active = ob[2].input_alloc(screen, count, events, active)
+        
         x = ob[0][0]-size[0]/2
         y = ob[0][1]-size[1]/2
         pygame.draw.rect (screen, ob[1][1], Rect(x, y, size[0], size[1]))   
@@ -87,10 +110,7 @@ while 1:
                     if button_click([x, y, size[0], size[1]], click_element) or count == in_drag:
                         in_drag = count
                         enemy[count][0] = (click_element[0],click_element[1])
-                else:
-                    button_click()
             else:
-                
                 in_drag = -1
         # help line code
 
@@ -128,6 +148,10 @@ while 1:
     # back button
     if button_alloc((450, 618, 85, 20)," remove last"):
         enemy.remove(enemy[len(enemy)-1])
+        
+    # export
+    if button_alloc((450, 618, 85, 20)," export"):
+        enemy.remove(enemy[len(enemy)-1])
     
     # edit button    
     if button_alloc((550, 618, 85, 20), label_edit):
@@ -137,6 +161,8 @@ while 1:
         else:
             edit_mode = True
             label_edit = " build"
+    
+    
     
     # update
     pygame.display.update()   
