@@ -74,6 +74,13 @@
         horTopLine = [[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:0]];
         
         shield = [[Shield alloc] initWithDuration:5.0f andPosition:player.position];
+        
+        // PARSE CODE - Example
+        PFObject *gameScore = [PFObject objectWithClassName:@"GameScore"];
+        gameScore[@"score"] = @1337;
+        gameScore[@"playerName"] = @"Sean Plott";
+        gameScore[@"cheatMode"] = @NO;
+        [gameScore saveInBackground];
 	}
 	return self;
 }

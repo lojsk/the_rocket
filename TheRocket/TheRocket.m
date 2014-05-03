@@ -9,11 +9,16 @@
 #import "TheRocket.h"
 #import "Headers.TheRocket.h"
 #import "Artificial.Control.h"
+#import <Parse/Parse.h>
 
 @implementation TheRocket
 
 - (id) init
 {
+    
+    [Parse setApplicationId:@"cAsO2IG0vn5dWs7wFb4Dm1cBxAlfXsvk26sHqWkP"
+                  clientKey:@"Z3n8BXR1dYfX7o7B9GgqmTl7DruRJ0KBbRCtGavQ"];
+    
 	self = [super init];
 	if (self != nil) {
 		graphics = [[GraphicsDeviceManager alloc] initWithGame:self];

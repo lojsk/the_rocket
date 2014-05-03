@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Parse/Parse.h>
 
 #import "Headers.TheRocket.classes.h"
 #import "Express.Scene.h"
