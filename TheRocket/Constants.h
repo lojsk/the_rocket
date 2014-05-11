@@ -30,4 +30,8 @@
 + (void) setScoreClass:(id)s;
 + (id)getScoreClass;
 
++ (void)emptyCustomLevel;
++ (void)saveCustomLevel:(id)custom;
++ (id)loadCustomLevel;
+
 @end

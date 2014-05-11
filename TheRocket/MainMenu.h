@@ -16,6 +16,7 @@
 	//Label *title, *subtitle, *copyright;
 	
 	Button *planet, *buy;
+    
 }
 
 @end

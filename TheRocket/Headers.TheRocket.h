@@ -33,6 +33,7 @@
 #import "AIMonsterModel.h"
 #import "ShotMonster.h"
 #import "FormationMonster.h"
+#import "LoadMonster.h"
 
 
 #import "Bullet.h"

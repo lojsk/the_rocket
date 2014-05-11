@@ -63,13 +63,44 @@
 	
 	GameState *newState = nil;
 	
+    NSMutableDictionary *levelDict = [[NSMutableDictionary alloc] init];
+    
     if (planet.wasReleased) {
 		newState = [[Gameplay alloc] initWithGame:self.game];
     } else if(buy.wasReleased) {
-        newState = [[StaffMenu alloc] initWithGame:self.game];
+        // PARSE CODE - Example
+        PFQuery *query = [PFQuery queryWithClassName:@"pointBase"];
+        [query whereKey:@"id_devices" equalTo:@"lojsk123"];
+        query.limit = 1000;
+        [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+            if (!error) {
+                // The find succeeded.
+                NSLog(@"Successfully retrieved %d scores.", objects.count);
+                // Do something with the found objects
+                for (PFObject *object in objects) {
+                    if(![levelDict objectForKey:object[@"id_rocket"]]) {
+                        [levelDict setObject:[[NSMutableArray alloc] initWithObjects:nil] forKey:object[@"id_rocket"]];
+                    }
+                    
+                    float posY = [[NSString stringWithFormat:@"%@", object[@"pos_y"]] floatValue];
+                    float posX = [[NSString stringWithFormat:@"%@", object[@"pos_x"]] floatValue];
+                    float speed = [[NSString stringWithFormat:@"%@", object[@"speed"]] floatValue];
+                    
+                    StatePoints *point = [[StatePoints alloc] setX:posX Y:posY withTime:speed];
+                    
+                    [[levelDict objectForKey:object[@"id_rocket"]] addObject:point];
+                    
+                    
+                }
+            } else {
+                // Log details of the failure
+                NSLog(@"Error: %@ %@", error, [error userInfo]);
+            }
+            [Constants saveCustomLevel:levelDict];
+        }];
     }
     
-	
+    
 	if (newState) {
 		[theRocket pushState:newState];
 	}

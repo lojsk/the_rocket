@@ -13,6 +13,7 @@
 static Constants *instance;
 static float gameSpeed = 100.0f;
 static id score = nil;
+static id customLevel;
 
 + (void) initialize {
 	instance = [[Constants alloc] init];
@@ -69,6 +70,14 @@ static id score = nil;
 
 + (id)getScoreClass {
     return score;
+}
+
++ (void)saveCustomLevel:(id)custom {
+    customLevel =custom;
+}
+
++ (id)loadCustomLevel {
+    return customLevel;
 }
 
 @end

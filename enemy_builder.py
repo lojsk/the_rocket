@@ -3,6 +3,7 @@ import os, sys, pygame
 import time
 import eztext
 import pickle
+import math
 from pygame.locals import *
 pygame.init()
 pygame.font.init()
@@ -17,10 +18,7 @@ from pgu import gui
 class pointBase(Object):
     pass
     
-score1 = pointBase(score=1337, player_name='John Doe', cheat_mode=False)
-score2 = pointBase(score=1400, player_name='Jane Doe', cheat_mode=False)
-score3 = pointBase(score=2000, player_name='Jack Doe', cheat_mode=True)
-scores = [score1, score2, score3]
+
 
 ##### code for open dialog #####
 def open_file_browser(arg):
@@ -41,8 +39,16 @@ def openFF():
     save_open = "Open"
     app.quit()
     
+def closeFF():
+    global save_open
+    save_open = ""
+    app.quit()
     
     
+    
+# DEVICE ID
+device_ID = "lojsk123"
+
 
 app = gui.Desktop()
 app.connect(gui.QUIT,app.quit,None)
@@ -72,6 +78,10 @@ b.connect(gui.CLICK, open_file_browser, None)
 btn = gui.Button("Save!")
 btn.connect(gui.CLICK, saveFF)
 t.td(btn)
+t.tr()
+btn1 = gui.Button("Close")
+btn1.connect(gui.CLICK, closeFF)
+t.td(btn1)
 
 main.add(t, 20, 100)
 ######### end code for dialog #############
@@ -97,8 +107,8 @@ start_button_left = 0
 
 rocket_choose = []
 
-for x in range(1, 11):
-    rocket_choose.append([str(x),(x*20+50,40,0)])
+for x in range(0, 12):
+    rocket_choose.append([str(x),(x*20+10,40,0)])
     
 
 
@@ -109,6 +119,7 @@ edit_mode = False
 label_edit = " edit"
 
 last_time = time.time()
+exported_time = time.time()
 
 x_img = pygame.image.load("x_min.png")
 x_img_rect = x_img.get_rect()
@@ -121,7 +132,7 @@ in_drag = -1
 active = -1
 start_position = 200
 speed = 200
-y_os = 0
+y_os = 50
 
 def button_click(area, last):
     if area[0] < last[0] and area[1] < last[1] and area[0]+area[2] > last[0] and area[1]+area[3] > last[1]:
@@ -276,14 +287,62 @@ while 1:
         
     # export
     if button_alloc((450, 648, 85, 20)," export"):
-        for one in enemies:
+        # delete last one
+        dev_delete = pointBase.Query.filter(id_devices=device_ID)
+        dev_number = 1
+        while 1:
+            this_delete = dev_delete.limit(49)
+            if this_delete.exists():
+                batcher = ParseBatcher()
+                batcher.batch_delete(this_delete)
+                dev_delete.skip(49*dev_number).limit(49)
+                dev_number += 1
+            else:
+                break
+        
+        for rocket_num, one in enumerate(enemies):
+            # create new one
             rocket_id = str(time.time())
             pointts = []
-            for count, point in enumerate(one):
-                pointt = pointBase(id_line=count+1, id_rocket=rocket_id, pos_x=point[0][0], pos_y=point[0][1], speed=point[1][0])
-                pointts.append(pointt)
+            
             batcher = ParseBatcher()
-            batcher.batch_save(pointts)
+            save_limit = 0
+            all_object = 0
+            for count in range(0, len(one)):
+                if count == 0:
+                    firstT = [(50, y_os), ['1', (70, 40, 0)]]
+                else:
+                    firstT = one[count-1]
+                v1 = (one[count][0][0] - firstT[0][0])*2 #- one[count-1][0][0]
+                v2 = (one[count][0][1] - firstT[0][1]) #- one[count-1][0][1]
+                if one[count][1][0] == '0':
+                    t = 0
+                else:
+                    t = math.sqrt((v1)**2 + (v2)**2)/(float(one[count][1][0])*50)
+                
+                pointt = pointBase(id_line=count+1, id_rocket="Rocket"+str(rocket_num), pos_x=v1, pos_y=v2, speed=t, id_devices=device_ID)
+                pointts.append(pointt)
+                
+                save_limit += 1
+                if save_limit >= 49:
+                    batcher.batch_save(pointts)
+                    pointts = []
+                    save_limit = 0
+                
+                all_object += 1
+                
+                
+            if pointts:
+                batcher.batch_save(pointts)
+
+        exported = "sucesfully exported !!!"
+        exported_time = time.time() + 3
+        label = myfont.render("", 1, (200,0,0))
+        screen.blit(label, (450, 580))
+     
+    if exported_time > time.time():           
+        label = myfont.render(exported, 1, (200,0,0))
+        screen.blit(label, (450, 580))
     
     # new rocket
     if button_alloc((450, 100, 85, 20)," new rocket"):
@@ -330,6 +389,7 @@ while 1:
                         all_input += str(a[0][0])+"|"+str(a[0][1])+"|"+str(a[1][0])+"|"+str(a[1][1][0])+"|"+str(a[1][1][1])+"|"+str(a[1][1][2])+"\n"
                 f.write(all_input)
                 f.close()
+    
     # update
     pygame.display.update()   
      

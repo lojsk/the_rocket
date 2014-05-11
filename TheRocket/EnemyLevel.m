@@ -25,6 +25,7 @@
 
 - (void) loadLevel:(int)level {
     switch(level) {
+        case 0: [self loadCustomLevel]; break;
         case 1: [self loadLevel1]; break;
         case 2: [self loadLevel2]; break;
         case 3: [self loadLevel3]; break;
@@ -37,6 +38,15 @@
     /*
 
     */
+}
+
+@synthesize customLevel;
+
+- (void)loadCustomLevel {
+    for (NSString* key in [Constants loadCustomLevel]) {
+        NSMutableArray *value = [[Constants loadCustomLevel] objectForKey:key];
+        [levelArray addObject:[[LoadMonster alloc] initWithArray:value]];
+    }
 }
 
 - (void)loadLevel1 {

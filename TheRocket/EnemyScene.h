@@ -23,4 +23,6 @@
 
 - (id) initWithScene:(id<IScene>)theScene topLimit:(float)tl andBottomLimit:(AAHalfPlane *)theLimit andGame:(Game*)theGame;
 
+@property EnemyLevel *enemyLevel;
+
 @end

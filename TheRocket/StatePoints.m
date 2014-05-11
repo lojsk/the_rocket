@@ -12,9 +12,16 @@
 
 @implementation StatePoints
 
-@synthesize distance, time, rocketSpeed;
+@synthesize distance, time, rocketSpeed, isVelocity;
 
 -(StatePoints*) setDistnaceX:(float)x andY:(float)y withTime:(float)t {
+    distance = [Vector2 vectorWithX:x y:y];
+    time = [NSNumber numberWithFloat:t];
+    rocketSpeed = NO;
+    return self;
+}
+
+-(StatePoints*) setX:(float)x Y:(float)y withTime:(float)t {
     distance = [Vector2 vectorWithX:x y:y];
     time = [NSNumber numberWithFloat:t];
     rocketSpeed = NO;
@@ -34,5 +41,6 @@
     rocketSpeed = YES;
     return self;
 }
+
 
 @end

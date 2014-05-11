@@ -38,7 +38,7 @@
     if(!point.distance)
         return [Vector2 vectorWithX:0.0f y:-[Constants gameSpeed]];
     if(point.rocketSpeed)
-        return [Vector2 vectorWithX:point.distance.x/[point.time floatValue] y:-[Constants gameSpeed]];
+        return [Vector2 vectorWithX:point.distance.x/[point.time floatValue] y:-[Constants gameSpeed]];    
     return [Vector2 vectorWithX:point.distance.x/[point.time floatValue] y:point.distance.y/[point.time floatValue]];
 }
 

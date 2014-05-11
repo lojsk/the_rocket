@@ -19,6 +19,7 @@
 		479E403418FC64DE0007AB82 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479E403318FC64DE0007AB82 /* Social.framework */; };
 		479E403618FC64E60007AB82 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479E403518FC64E60007AB82 /* Accounts.framework */; };
 		479E403818FC65D50007AB82 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479E403718FC65D50007AB82 /* FacebookSDK.framework */; };
+		47DAFA1119150CFE009F39BF /* LoadMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFA1019150CFE009F39BF /* LoadMonster.m */; };
 		5B15EA2F188C2C5E0061C811 /* AIMonsterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA2E188C2C5E0061C811 /* AIMonsterModel.m */; };
 		5B15EA33188C44760061C811 /* BulletScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA32188C44760061C811 /* BulletScene.m */; };
 		5B15EA36188C497D0061C811 /* BulletPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA35188C497D0061C811 /* BulletPoint.m */; };
@@ -159,6 +160,8 @@
 		479E403318FC64DE0007AB82 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		479E403518FC64E60007AB82 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		479E403718FC65D50007AB82 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		47DAFA0F19150CFE009F39BF /* LoadMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMonster.h; sourceTree = "<group>"; };
+		47DAFA1019150CFE009F39BF /* LoadMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMonster.m; sourceTree = "<group>"; };
 		5B04481918882F8D00DACBEE /* IMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMoreCell.h; sourceTree = "<group>"; };
 		5B15EA2D188C2C5E0061C811 /* AIMonsterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMonsterModel.h; sourceTree = "<group>"; };
 		5B15EA2E188C2C5E0061C811 /* AIMonsterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMonsterModel.m; sourceTree = "<group>"; };
@@ -433,6 +436,8 @@
 		5B308DCF188C14E500592A5D /* StateMonster */ = {
 			isa = PBXGroup;
 			children = (
+				47DAFA0F19150CFE009F39BF /* LoadMonster.h */,
+				47DAFA1019150CFE009F39BF /* LoadMonster.m */,
 				5BC4525118C502D9004E41F5 /* FormationMonster.h */,
 				5BC4525218C502D9004E41F5 /* FormationMonster.m */,
 				5B308DC3188BE19900592A5D /* KamikazeMonster.h */,
@@ -859,7 +864,7 @@
 				ORGANIZATIONNAME = OC;
 				TargetAttributes = {
 					5B4BE258181D614300E0FEA9 = {
-						DevelopmentTeam = YLX23772LT;
+						DevelopmentTeam = 4AFD8267BM;
 					};
 				};
 			};
@@ -974,6 +979,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47DAFA1119150CFE009F39BF /* LoadMonster.m in Sources */,
 				5B4BE269181D614300E0FEA9 /* main.m in Sources */,
 				5B26DAF6181D66DB00E9A839 /* TheRocket.m in Sources */,
 				5B1B8323181D73720056884F /* Renderer.m in Sources */,

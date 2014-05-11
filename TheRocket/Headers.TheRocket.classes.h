@@ -34,6 +34,7 @@
 @class AIMonsterModel;
 @class ShotMonster;
 @class FormationMonster;
+@class LoadMonster;
 
 
 @class Bullet;
