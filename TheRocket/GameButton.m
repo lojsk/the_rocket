@@ -15,7 +15,7 @@
 	self = [super initWithInputArea:theInputArea background:nil];
 	if (self != nil) {
 		position = [Vector2 vectorWithX:theInputArea.x y:theInputArea.y];
-		velocity = [Vector2 vectorWithX:0 y:-[Constants gameSpeed]];
+		velocity = [Vector2 vectorWithX:0 y:0]; //-[Constants gameSpeed]];
 	}
 	return self;
 }

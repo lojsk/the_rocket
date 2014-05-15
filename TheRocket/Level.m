@@ -30,10 +30,22 @@
 		
 		player = [[Rocket alloc] initWithLevel:self];
         bgs = [[NSMutableArray alloc] init];
+        
+        CGRect screenBound = [[UIScreen mainScreen] bounds];
+        screenSize = screenBound.size;
+        
+        player.position.x = screenSize.width;
+        player.position.y = screenSize.height*2 - 200;
+        
+        int startBg = 200;
         for(int i=0;i<[Constants numberOfBackgrounds];i++) {
-            [bgs addObject:[[Background alloc] init]];
+            [bgs addObject:[[Background alloc] initWithSpeed:i*300+startBg andLayer:i withPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2 - [Constants backgourndHeight]]]];
         }
-        switchBg = [[SwitchBackgorund alloc] init];
+        
+        for(int j=0;j<[Constants numberOfBackgrounds];j++) {
+            [bgs addObject:[[Background alloc] initWithSpeed:j*300+startBg andLayer:j withPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2 - [Constants backgourndHeight]*2]]];
+        }
+        
         
         // score
         FontTextureProcessor *fontProcessor = [[FontTextureProcessor alloc] init];
@@ -41,7 +53,8 @@
         
         Label *scoreLabel = [[Label alloc] initWithFont:retrotype text:@"friHockey" position:[Vector2 vectorWithX:160 y:10]];
         scoreLabel.horizontalAlign = HorizontalAlignCenter;
-        score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:-[Constants gameSpeed]] andLabel:scoreLabel];
+        // score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:-[Constants gameSpeed]] andLabel:scoreLabel];
+        score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:0] andLabel:scoreLabel];
         
         AAHalfPlane *ahp = [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:[Constants bottomEnemyLimit]];
         enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andBottomLimit:ahp andGame:gameplay.game];
@@ -53,19 +66,13 @@
         coins = 0;
         
         // star position
-        for (int i=0;i<[Constants numberOfBackgrounds];i++) {
+     /*   for (int i=0;i<[Constants numberOfBackgrounds];i++) {
             ((Background*)[bgs objectAtIndex:i]).position.x = 0;
             ((Background*)[bgs objectAtIndex:i]).position.y = i*700;
-        }
+        } */
         
-        switchBg.position.x = 0;
-        switchBg.position.y = 1000;
-        
-        CGRect screenBound = [[UIScreen mainScreen] bounds];
-        CGSize screenSize = screenBound.size;
-        
-        player.position.x = screenSize.width;
-        player.position.y = screenSize.height*2 - 200;
+        //switchBg.position.x = 0;
+        //switchBg.position.y = 1000;
         
         pause = [[GameButton alloc] initWithArea:[Rectangle rectangleWithX:50 y:50 width:200 height:200]];
         
@@ -90,13 +97,12 @@
     }
 
     // bg
-    for (int i=0;i<[Constants numberOfBackgrounds];i++) {
+    for (int i=0;i<[bgs count];i++) {
         [scene addItem: ((Background*)[bgs objectAtIndex:i])];
     }
     
     // switch bg
-    [scene addItem:switchBg];
-    
+    //[scene addItem:switchBg];
     
     // player
     [scene addItem:player];
@@ -131,8 +137,9 @@
 }
 
 - (void) updateWithGameTime:(GameTime *)gameTime {
+    
     // background
-    for (int i=0;i<[Constants numberOfBackgrounds];i++) {
+  /*  for (int i=0;i<[Constants numberOfBackgrounds];i++) {
         if(((Background*)[bgs objectAtIndex:i]).position.y > bottomLimit) {
             ((Background*)[bgs objectAtIndex:i]).position.y -= [Constants numberOfBackgrounds] * 700;
             
@@ -147,11 +154,17 @@
             }
             stage.mSwitch += 1;
         }
+    } */
+    for (int i=0;i<[bgs count];i++) {
+        if(((Background*)[bgs objectAtIndex:i]).position.y >= screenSize.height*2) {
+            ((Background*)[bgs objectAtIndex:i]).position.y -= [Constants backgourndHeight]*2;
+        }
     }
     
    
     // just for test mode
-    bottomLimit = [Constants calculateMovment:bottomLimit withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
+    // bottomLimit = [Constants calculateMovment:bottomLimit withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
+    bottomLimit = [Constants calculateMovment:bottomLimit withV:0 andTime:gameTime.elapsedGameTime];
     
     // update all object wich have ICustomUpdate modul
     for (id item in scene) {

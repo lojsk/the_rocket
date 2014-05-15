@@ -16,7 +16,7 @@
 	if (self != nil) {
         scene = theScene;
         enemyLevel = [[EnemyLevel alloc] init];
-        currentLevel = 0;
+        currentLevel = 1;
         [enemyLevel loadLevel:currentLevel];
         topLine = -tl;
         
@@ -46,16 +46,19 @@
         }
     }
     
-    limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime]];
+    limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:0 andTime:gameTime.elapsedGameTime]];
     topLine  = [Constants calculateMovment:topLine withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
     
+   // limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:0 andTime:gameTime.elapsedGameTime]];
+   // topLine  = [Constants calculateMovment:topLine withV:0 andTime:gameTime.elapsedGameTime];
+    
     // load new level if last is empty
-// if([enemyLevel.levelArray count] <= 0) {
-  //      currentLevel++;
-    //    if(currentLevel>enemyLevel.maxLevel)
-      //      currentLevel = 0;
-      //  [enemyLevel loadLevel:currentLevel];
-    //}
+    if([enemyLevel.levelArray count] <= 0) {
+        currentLevel++;
+        if(currentLevel>enemyLevel.maxLevel)
+            currentLevel = 1;
+        [enemyLevel loadLevel:currentLevel];
+    }
 }
 
 

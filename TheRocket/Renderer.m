@@ -46,11 +46,11 @@
     rocketSprite.scale = 3;
     
     enemySprite = [[Sprite alloc] init];
-	enemySprite.texture = [self.game.content load:@"01b"];
+	enemySprite.texture = [self.game.content load:@"01a"];
 	enemySprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:32 height:32];
 	enemySprite.origin = [Vector2 vectorWithX:16 y:16];
     enemySprite.scale = 3;
-
+/*
     enemy1Sprite = [[Sprite alloc] init];
 	enemy1Sprite.texture = [self.game.content load:@"01c"];
 	enemy1Sprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:96 height:96];
@@ -62,7 +62,7 @@
 	enemy2Sprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:24 height:24];
 	enemy2Sprite.origin = [Vector2 vectorWithX:12 y:12];
     enemy2Sprite.scale = 4;
-    /*
+ 
     enemy3Sprite = [[Sprite alloc] init];
 	enemy3Sprite.texture = [self.game.content load:@"01d"];
 	enemy3Sprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:32 height:32];
@@ -70,14 +70,26 @@
     enemy3Sprite.scale = 3;
 */
     
-    bgElSprite = [[Sprite alloc] init];
-    bgElSprite.texture = [self.game.content load:@"level0"];
-    bgElSprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:350 height:350];
-    bgElSprite.origin = [Vector2 vectorWithX:0 y:0];
-    bgElSprite.scale = 2;
+    bgElSpriteA = [[Sprite alloc] init];
+    bgElSpriteA.texture = [self.game.content load:@"level01a"];
+    bgElSpriteA.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:160 height:640];
+    bgElSpriteA.origin = [Vector2 vectorWithX:0 y:0];
+    bgElSpriteA.scale = 4;
+    
+    bgElSpriteB = [[Sprite alloc] init];
+    bgElSpriteB.texture = [self.game.content load:@"level01b"];
+    bgElSpriteB.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:160 height:640];
+    bgElSpriteB.origin = [Vector2 vectorWithX:0 y:0];
+    bgElSpriteB.scale = 4;
+    
+    bgElSpriteC = [[Sprite alloc] init];
+    bgElSpriteC.texture = [self.game.content load:@"level01c"];
+    bgElSpriteC.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:160 height:640];
+    bgElSpriteC.origin = [Vector2 vectorWithX:0 y:0];
+    bgElSpriteC.scale = 4;
     
     bgSwitchElSprite = [[Sprite alloc] init];
-    bgSwitchElSprite.texture = [self.game.content load:@"level6s"];
+    bgSwitchElSprite.texture = [self.game.content load:@"level02a"];
     bgSwitchElSprite.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:350 height:350];
     bgSwitchElSprite.origin = [Vector2 vectorWithX:0 y:0];
     bgSwitchElSprite.scale = 2;
@@ -160,9 +172,16 @@
             sprite.rotation = 0;
 		} else if([item isKindOfClass:[Background class]]) {
             Background *bg = (Background*)item;
-            NSString *level = [NSString stringWithFormat:@"level%d", bg.levelIMG];
-            bgElSprite.texture = [self.game.content load:level];
-            sprite = bgElSprite;
+            if(bg.layer == 0) {
+                sprite = bgElSpriteA;
+            } else if(bg.layer == 1) {
+                sprite = bgElSpriteB;
+            } else if(bg.layer == 2) {
+                sprite = bgElSpriteC;
+            }
+          //  NSString *level = [NSString stringWithFormat:@"level%d", bg.levelIMG];
+          //  bgElSprite.texture = [self.game.content load:level];
+            
         } else if([item isKindOfClass:[line class]]) {
             sprite = lineSprite;
         } else if([item isKindOfClass:[SwitchBackgorund class]]) {
@@ -174,7 +193,8 @@
             sprite = bulletSprite;
         } else if([item isKindOfClass:[SimpleMonster class]]) {
             SimpleMonster *sm = (SimpleMonster*)item;
-            switch (sm.spriteID) {
+            sprite = enemySprite;
+          /*  switch (sm.spriteID) {
                 case 0:
                     sprite = enemySprite;
                     break;
@@ -184,7 +204,7 @@
                 case 2:
                     sprite = enemy2Sprite;
                     break;
-            }
+            } */
             sprite.rotation = M_PI;
         } else if([item isKindOfClass:[Explosion class]]) {
             Explosion *ex = (Explosion*)item;

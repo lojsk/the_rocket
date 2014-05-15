@@ -80,4 +80,8 @@ static id customLevel;
     return customLevel;
 }
 
++ (float)backgourndHeight {
+    return 2560.0f;
+}
+
 @end

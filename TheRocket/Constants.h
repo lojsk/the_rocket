@@ -33,5 +33,6 @@
 + (void)emptyCustomLevel;
 + (void)saveCustomLevel:(id)custom;
 + (id)loadCustomLevel;
++ (float)backgourndHeight;
 
 @end

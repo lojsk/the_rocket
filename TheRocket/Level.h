@@ -18,7 +18,11 @@
 	
 	Rocket *player;
     NSMutableArray *bgs;
-    SwitchBackgorund *switchBg;
+    Background *bgA;
+    Background *bgB;
+    Background *bgC;
+    
+    //SwitchBackgorund *switchBg;
     float bottomLimit;
     HorizontalLine *horTopLine;
     
@@ -32,7 +36,7 @@
     Score *score;
     
     Gameplay *gameplay;
-    
+    CGSize screenSize;
     int coins;
 }
 

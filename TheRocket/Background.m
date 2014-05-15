@@ -10,17 +10,29 @@
 
 @implementation Background
 
-- (id) init
-{
+- (id) init {
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-        levelIMG = 0;
+        velocity = [[Vector2 alloc] init];
+        layer = 0;
 	}
 	return self;
 }
 
-@synthesize position, levelIMG;
+- (id) initWithSpeed:(float)theSpeed andLayer:(int)theLayer withPosition:(Vector2*)thePosition {
+	self = [super init];
+	if (self != nil) {
+		position = thePosition;
+        velocity = [[Vector2 alloc] initWithX:0 y:theSpeed];
+        layer = theLayer;
+	}
+	return self;
+}
+
+
+
+@synthesize position, velocity, layer;
 
 
 @end

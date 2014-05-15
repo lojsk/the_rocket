@@ -16,7 +16,7 @@
 	self = [super init];
 	if (self != nil) {
 		position = [[Vector2 alloc] init];
-		velocity = [Vector2 vectorWithX:0 y:-[Constants gameSpeed]];
+		velocity = [Vector2 vectorWithX:0 y:0]; //-[Constants gameSpeed]];
 		radius = 10;
 		mass = 1;
         setID = [NSSet setWithObjects:[VerticalLine class], [SimpleMonster class], [ZMonster class], [EnemyBullet class], [KamikazeMonster class], nil];

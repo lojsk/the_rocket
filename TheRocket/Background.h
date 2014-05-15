@@ -12,11 +12,13 @@
 
 #import "Headers.TheRocket.h"
 
-@interface Background : NSObject<IPosition> {
+@interface Background : NSObject<IMovable> {
     Vector2 *position;
-    int levelIMG;
+    int layer;
 }
 
-@property (nonatomic, readwrite) int levelIMG;
+@property (nonatomic, readwrite) int layer;
+
+- (id) initWithSpeed:(float)theSpeed andLayer:(int)theLayer withPosition:(Vector2*)thePosition;
 
 @end

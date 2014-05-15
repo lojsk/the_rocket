@@ -21,8 +21,12 @@
     Sprite *enemy1Sprite;
     Sprite *enemy2Sprite;
     Sprite *enemy3Sprite;
-    Sprite *bgElSprite;
+    
+    Sprite *bgElSpriteA;
+    Sprite *bgElSpriteB;
+    Sprite *bgElSpriteC;
     Sprite *bgSwitchElSprite;
+    
     Sprite *lineSprite;
     Sprite *verticalLineSprite;
     Sprite *bulletSprite;

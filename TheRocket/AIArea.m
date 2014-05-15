@@ -57,7 +57,8 @@
 
 -(void)updatePosition:(id<IMovable>)object {
     if(directionVel) {
-        distance = [Vector2 multiply:[Vector2 normalize:[Vector2 vectorWithX:object.velocity.x y:velocity.y+[Constants gameSpeed]]] by:50];
+       // distance = [Vector2 multiply:[Vector2 normalize:[Vector2 vectorWithX:object.velocity.x y:velocity.y+[Constants gameSpeed]]] by:50];
+        distance = [Vector2 multiply:[Vector2 normalize:[Vector2 vectorWithX:object.velocity.x y:velocity.y+0]] by:50];
     }
     position = [Vector2 vectorWithX:object.position.x + distance.x y:object.position.y + distance.y];
 }
