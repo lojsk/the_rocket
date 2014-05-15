@@ -11,7 +11,10 @@
 #import "Headers.TheRocket.classes.h"
 
 @interface KamikazeMonster : StateMonster {
-    
+    int firstY;
+    float secTime;
 }
+
+- (id) initWithX:(int)x andY:(int)y andFirstY:(int)theFirstY andSecTime:(float)theSecTime;
 
 @end

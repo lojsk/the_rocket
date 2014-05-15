@@ -25,7 +25,7 @@ static id customLevel;
 
 // theRocket game
 + (float) numberOfBackgrounds {
-	return 3;
+	return 6;
 }
 
 + (void) setGameSpeed:(float)gs {

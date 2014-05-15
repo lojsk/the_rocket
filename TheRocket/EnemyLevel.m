@@ -91,14 +91,16 @@
 
 - (void)loadLevel6 {
     lastPosition -= 200;
-    int y = 50;
-    for(int j=0;j<3;j++) {
-        int x = 70;
+    int y = 0;
+    float secTime = 3.0f;
+    for(int j=0;j<10;j++) {
+        int x = 90;
         for(int i=1;i<8;i++) {
-            [levelArray addObject:[[KamikazeMonster alloc] initWithX:x andY:lastPosition+y]];
+            [levelArray addObject:[[KamikazeMonster alloc] initWithX:x andY:lastPosition+y andFirstY:600+y andSecTime:secTime]];
             x += 70;
         }
-        y += 50;
+        y -= 70;
+        secTime -= 0.65f;
     }
     lastPosition -= 500;
 }

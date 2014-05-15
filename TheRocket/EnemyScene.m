@@ -16,7 +16,7 @@
 	if (self != nil) {
         scene = theScene;
         enemyLevel = [[EnemyLevel alloc] init];
-        currentLevel = 1;
+        currentLevel = 6;
         [enemyLevel loadLevel:currentLevel];
         topLine = -tl;
         
@@ -38,6 +38,7 @@
                 [item setGame:game];
                 [scene addItem:item];
             } else {
+                ((StateMonster*)[enemyLevel.levelArray objectAtIndex:0]).position.y = 0;
                 [scene addItem:[enemyLevel.levelArray objectAtIndex:0]];
             }
             [enemyLevel.levelArray removeObject:[enemyLevel.levelArray objectAtIndex:0]];
@@ -45,6 +46,8 @@
             break;
         }
     }
+    
+    !!!!!Prestav Limite v svoj razred zarad boljšega delovana!!!! (limit, levelLimit)
     
     limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:0 andTime:gameTime.elapsedGameTime]];
     topLine  = [Constants calculateMovment:topLine withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
@@ -56,7 +59,7 @@
     if([enemyLevel.levelArray count] <= 0) {
         currentLevel++;
         if(currentLevel>enemyLevel.maxLevel)
-            currentLevel = 1;
+            currentLevel = 6;
         [enemyLevel loadLevel:currentLevel];
     }
 }

@@ -37,14 +37,15 @@
         player.position.x = screenSize.width;
         player.position.y = screenSize.height*2 - 200;
         
-        int startBg = 200;
+        int startBg = 50;
+        int atPoint = 1;
         for(int i=0;i<[Constants numberOfBackgrounds];i++) {
-            [bgs addObject:[[Background alloc] initWithSpeed:i*300+startBg andLayer:i withPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2 - [Constants backgourndHeight]]]];
+            [bgs addObject:[[Background alloc] initWithSpeed:i%3*40+startBg andLayer:i%3 withPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2 - [Constants backgourndHeight]*atPoint]]];
+            if(i == 2) {
+                atPoint++;
+            }
         }
         
-        for(int j=0;j<[Constants numberOfBackgrounds];j++) {
-            [bgs addObject:[[Background alloc] initWithSpeed:j*300+startBg andLayer:j withPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2 - [Constants backgourndHeight]*2]]];
-        }
         
         
         // score
@@ -78,9 +79,10 @@
         
         bottomLimit = screenSize.height*2-50 + 10;
         
+        // BulletLine
         horTopLine = [[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:0]];
         
-        shield = [[Shield alloc] initWithDuration:5.0f andPosition:player.position];
+        shield = [[Shield alloc] initWithDuration:3.0f andPosition:player.position];
 	}
 	return self;
 }

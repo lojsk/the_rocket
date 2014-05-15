@@ -83,7 +83,6 @@
         } else {
             continue;
         }
-        
         for(id item2 in moreCell) {
             if ([itemC1.setID containsObject:[item2 class]]) {
                 [Collision collisionBetween:item1 and:item2];
