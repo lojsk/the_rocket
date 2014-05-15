@@ -31,6 +31,7 @@
 		479E403618FC64E60007AB82 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479E403518FC64E60007AB82 /* Accounts.framework */; };
 		479E403818FC65D50007AB82 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479E403718FC65D50007AB82 /* FacebookSDK.framework */; };
 		47DAFA1119150CFE009F39BF /* LoadMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFA1019150CFE009F39BF /* LoadMonster.m */; };
+		47F7FD6A19255D47000826A5 /* HorizontalLineRemoveEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F7FD6919255D47000826A5 /* HorizontalLineRemoveEnemy.m */; };
 		5B15EA2F188C2C5E0061C811 /* AIMonsterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA2E188C2C5E0061C811 /* AIMonsterModel.m */; };
 		5B15EA33188C44760061C811 /* BulletScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA32188C44760061C811 /* BulletScene.m */; };
 		5B15EA36188C497D0061C811 /* BulletPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA35188C497D0061C811 /* BulletPoint.m */; };
@@ -180,6 +181,8 @@
 		479E403718FC65D50007AB82 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		47DAFA0F19150CFE009F39BF /* LoadMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMonster.h; sourceTree = "<group>"; };
 		47DAFA1019150CFE009F39BF /* LoadMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMonster.m; sourceTree = "<group>"; };
+		47F7FD6819255D47000826A5 /* HorizontalLineRemoveEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalLineRemoveEnemy.h; sourceTree = "<group>"; };
+		47F7FD6919255D47000826A5 /* HorizontalLineRemoveEnemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalLineRemoveEnemy.m; sourceTree = "<group>"; };
 		5B04481918882F8D00DACBEE /* IMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMoreCell.h; sourceTree = "<group>"; };
 		5B15EA2D188C2C5E0061C811 /* AIMonsterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMonsterModel.h; sourceTree = "<group>"; };
 		5B15EA2E188C2C5E0061C811 /* AIMonsterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMonsterModel.m; sourceTree = "<group>"; };
@@ -763,6 +766,8 @@
 				5B869A23186C811600E73EBA /* VerticalLine.m */,
 				5BA43D1F1879AE010022D421 /* HorizontalLine.h */,
 				5BA43D201879AE010022D421 /* HorizontalLine.m */,
+				47F7FD6819255D47000826A5 /* HorizontalLineRemoveEnemy.h */,
+				47F7FD6919255D47000826A5 /* HorizontalLineRemoveEnemy.m */,
 			);
 			name = lines;
 			sourceTree = "<group>";
@@ -1034,6 +1039,7 @@
 				5BAA539A18783AC000D114EA /* Bullet.m in Sources */,
 				5BFB99E618A1871E0038D022 /* Score.m in Sources */,
 				5BA43D211879AE010022D421 /* HorizontalLine.m in Sources */,
+				47F7FD6A19255D47000826A5 /* HorizontalLineRemoveEnemy.m in Sources */,
 				5B9B88B8187B2CEC000B4383 /* EnemyLevel.m in Sources */,
 				5B1A3BA818B168A40054C8D6 /* ShotMonster.m in Sources */,
 				5B9B88BB187B2D63000B4383 /* SimpleMonster.m in Sources */,

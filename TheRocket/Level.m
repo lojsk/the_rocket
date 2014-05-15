@@ -57,8 +57,7 @@
         // score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:-[Constants gameSpeed]] andLabel:scoreLabel];
         score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:0] andLabel:scoreLabel];
         
-        AAHalfPlane *ahp = [AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:[Constants bottomEnemyLimit]];
-        enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andBottomLimit:ahp andGame:gameplay.game];
+        enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andGame:gameplay.game];
         
         bulletScene = [[BulletScene alloc] initWithRocket:player andGame:theGame];
         
@@ -80,7 +79,10 @@
         bottomLimit = screenSize.height*2-50 + 10;
         
         // BulletLine
-        horTopLine = [[HorizontalLine alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:0]];
+        horTopLine = [[HorizontalLineRemoveEnemy alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:0] setID:[NSSet setWithObjects:[Bullet class], nil] andPosition:[[Vector2 alloc] initWithX:0 y:0]];
+        horBottomLine = [[HorizontalLineRemoveEnemy alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:screenSize.height*2] setID:[NSSet setWithObjects:[SimpleMonster class], [StateMonster class], nil] andPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2]];
+        // TODO: add all monster in one class because in this way you must listing ALLL!
+        ;
         
         shield = [[Shield alloc] initWithDuration:3.0f andPosition:player.position];
 	}
@@ -124,6 +126,7 @@
     
     // top line
     [scene addItem:horTopLine];
+    [scene addItem:horBottomLine];
     
     // adding start shield
     [scene addItem:shield];

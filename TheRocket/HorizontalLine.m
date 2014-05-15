@@ -6,7 +6,11 @@
 //  Copyright (c) 2014 OC. All rights reserved.
 //
 
-#import "HorizontalLine.h"
+#import <Foundation/Foundation.h>
+
+#import "Express.Scene.Objects.h"
+
+#import "Headers.TheRocket.h"
 
 @implementation HorizontalLine
 

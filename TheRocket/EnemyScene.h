@@ -13,7 +13,7 @@
 #import "Headers.TheRocket.h"
 
 
-@interface EnemyScene : VerticalLine<ISceneUser, ICustomUpdate, ICustomCollider> {
+@interface EnemyScene : NSObject<ISceneUser, ICustomUpdate> {
     id<IScene> scene;
     EnemyLevel *enemyLevel;
     float topLine;
@@ -21,7 +21,7 @@
     Game *game;
 }
 
-- (id) initWithScene:(id<IScene>)theScene topLimit:(float)tl andBottomLimit:(AAHalfPlane *)theLimit andGame:(Game*)theGame;
+- (id) initWithScene:(id<IScene>)theScene topLimit:(float)tl andGame:(Game*)theGame;
 
 @property EnemyLevel *enemyLevel;
 

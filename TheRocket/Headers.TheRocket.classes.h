@@ -16,6 +16,7 @@
 @class SwitchBackgorund;
 @class VerticalLine;
 @class HorizontalLine;
+@class HorizontalLineRemoveEnemy;
 @class EnemyLevel;
 @class Explosion;
 @class Shield;

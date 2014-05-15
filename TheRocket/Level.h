@@ -25,6 +25,7 @@
     //SwitchBackgorund *switchBg;
     float bottomLimit;
     HorizontalLine *horTopLine;
+    HorizontalLine *horBottomLine;
     
     EnemyScene *enemyScene;
     BulletScene *bulletScene;

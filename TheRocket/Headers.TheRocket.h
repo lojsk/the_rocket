@@ -15,6 +15,7 @@
 #import "SwitchBackgorund.h"
 #import "VerticalLine.h"
 #import "HorizontalLine.h"
+#import "HorizontalLineRemoveEnemy.h"
 #import "EnemyLevel.h"
 #import "Explosion.h"
 #import "Shield.h"

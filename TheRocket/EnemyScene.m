@@ -10,7 +10,7 @@
 
 @implementation EnemyScene
 
-- (id) initWithScene:(id<IScene>)theScene topLimit:(float)tl andBottomLimit:(AAHalfPlane *)theLimit andGame:(Game*)theGame
+- (id) initWithScene:(id<IScene>)theScene topLimit:(float)tl andGame:(Game*)theGame
 {
 	self = [super init];
 	if (self != nil) {
@@ -20,14 +20,12 @@
         [enemyLevel loadLevel:currentLevel];
         topLine = -tl;
         
-        limit = theLimit;
-        setID = [NSSet setWithObjects:[SimpleMonster class], nil];
         game = theGame;
 	}
 	return self;
 }
 
-@synthesize scene, setID, enemyLevel;
+@synthesize scene, enemyLevel;
 
 - (void) updateWithGameTime:(GameTime *)gameTime {    
     // adding enemy to scene
@@ -47,9 +45,8 @@
         }
     }
     
-    !!!!!Prestav Limite v svoj razred zarad boljšega delovana!!!! (limit, levelLimit)
+    //!!!!!Prestav Limite v svoj razred zarad boljšega delovana!!!! (limit, levelLimit)
     
-    limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:0 andTime:gameTime.elapsedGameTime]];
     topLine  = [Constants calculateMovment:topLine withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
     
    // limit = [AAHalfPlane aaHalfPlaneWithDirection:limit.direction distance:[Constants calculateMovment:limit.distance withV:0 andTime:gameTime.elapsedGameTime]];

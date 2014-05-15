@@ -20,7 +20,7 @@
         screenSize = [[UIScreen mainScreen] bounds].size;
         topScreen = 0;
         count = 20;
-        height = screenSize.height*2 / count;
+        height = screenSize.height*2 / (count-1);
         
         moreCell =  [[NSMutableArray alloc] init];
         grid = [[NSMutableArray alloc] init];
@@ -96,7 +96,7 @@
 
 -(void) getCurrentCordinate:(id<IGetCordinate>)item {
     for(int i=0;i<[grid count];i++) {
-        if(topScreen + height * i < item.position.y && item.position.y < topScreen + height * (i+1)) {
+        if(topScreen + height * i <= item.position.y && item.position.y < topScreen + height * (i+1)) {
             [[grid objectAtIndex:i] addObject:item];
         }
     }
