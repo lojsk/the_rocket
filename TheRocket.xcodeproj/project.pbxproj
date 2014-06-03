@@ -30,6 +30,9 @@
 		479E403418FC64DE0007AB82 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479E403318FC64DE0007AB82 /* Social.framework */; };
 		479E403618FC64E60007AB82 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479E403518FC64E60007AB82 /* Accounts.framework */; };
 		479E403818FC65D50007AB82 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479E403718FC65D50007AB82 /* FacebookSDK.framework */; };
+		47D700CB193D04A7009B8AD2 /* level01aT.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D700CA193D04A7009B8AD2 /* level01aT.png */; };
+		47D700CD193D08FD009B8AD2 /* bottomLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D700CC193D08FD009B8AD2 /* bottomLine.png */; };
+		47D700D7193E5AEB009B8AD2 /* Balls.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D700D6193E5AEB009B8AD2 /* Balls.m */; };
 		47DAFA1119150CFE009F39BF /* LoadMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFA1019150CFE009F39BF /* LoadMonster.m */; };
 		47F7FD6A19255D47000826A5 /* HorizontalLineRemoveEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F7FD6919255D47000826A5 /* HorizontalLineRemoveEnemy.m */; };
 		5B15EA2F188C2C5E0061C811 /* AIMonsterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15EA2E188C2C5E0061C811 /* AIMonsterModel.m */; };
@@ -179,6 +182,10 @@
 		479E403318FC64DE0007AB82 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		479E403518FC64E60007AB82 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		479E403718FC65D50007AB82 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		47D700CA193D04A7009B8AD2 /* level01aT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = level01aT.png; path = image/bg/level01aT.png; sourceTree = "<group>"; };
+		47D700CC193D08FD009B8AD2 /* bottomLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomLine.png; path = image/bg/bottomLine.png; sourceTree = "<group>"; };
+		47D700D5193E5AEB009B8AD2 /* Balls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balls.h; sourceTree = "<group>"; };
+		47D700D6193E5AEB009B8AD2 /* Balls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Balls.m; sourceTree = "<group>"; };
 		47DAFA0F19150CFE009F39BF /* LoadMonster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMonster.h; sourceTree = "<group>"; };
 		47DAFA1019150CFE009F39BF /* LoadMonster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMonster.m; sourceTree = "<group>"; };
 		47F7FD6819255D47000826A5 /* HorizontalLineRemoveEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalLineRemoveEnemy.h; sourceTree = "<group>"; };
@@ -385,6 +392,7 @@
 		47490EE719227F7400D6D27E /* bg */ = {
 			isa = PBXGroup;
 			children = (
+				47D700CA193D04A7009B8AD2 /* level01aT.png */,
 				47490F081922894D00D6D27E /* level01aa.png */,
 				47490EF41922803B00D6D27E /* level01a.png */,
 				47490EF51922803B00D6D27E /* level01b.png */,
@@ -392,6 +400,7 @@
 				47490EF71922803B00D6D27E /* level02a.png */,
 				47490EF81922803B00D6D27E /* level02b.png */,
 				47490EF91922803B00D6D27E /* level02c.png */,
+				47D700CC193D08FD009B8AD2 /* bottomLine.png */,
 			);
 			name = bg;
 			sourceTree = "<group>";
@@ -605,6 +614,8 @@
 			children = (
 				5B308DCC188C060700592A5D /* StatePoints.h */,
 				5B308DCD188C060700592A5D /* StatePoints.m */,
+				47D700D5193E5AEB009B8AD2 /* Balls.h */,
+				47D700D6193E5AEB009B8AD2 /* Balls.m */,
 			);
 			name = Object;
 			sourceTree = "<group>";
@@ -980,11 +991,13 @@
 				47490EFF1922803B00D6D27E /* level02c.png in Resources */,
 				5B823B3A18983BBD00BBC2E3 /* Retrotype.bmp in Resources */,
 				5B823B3C18983C2200BBC2E3 /* Button.png in Resources */,
+				47D700CD193D08FD009B8AD2 /* bottomLine.png in Resources */,
 				5B823B4218983D7C00BBC2E3 /* TablePlain.png in Resources */,
 				5BFD3C85189ABE9E00822D3E /* planet.png in Resources */,
 				5B64A745189AF78B0070E50D /* pause.png in Resources */,
 				47490F091922894D00D6D27E /* level01aa.png in Resources */,
 				5BDC987118AD72A4007A1108 /* chooseStaff.png in Resources */,
+				47D700CB193D04A7009B8AD2 /* level01aT.png in Resources */,
 				47490F071922822700D6D27E /* 01d.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1064,6 +1077,7 @@
 				5B823B29189830D900BBC2E3 /* GameState.m in Sources */,
 				5B823B2F189835F200BBC2E3 /* MainMenu.m in Sources */,
 				5B823B30189835F200BBC2E3 /* Menu.m in Sources */,
+				47D700D7193E5AEB009B8AD2 /* Balls.m in Sources */,
 				5B823B331898369F00BBC2E3 /* Button.m in Sources */,
 				5B823B36189838B400BBC2E3 /* GuiRenderer.m in Sources */,
 				5B64A748189AFDE80070E50D /* GameButton.m in Sources */,
@@ -1176,7 +1190,7 @@
 		5B4BE28C181D614400E0FEA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1192,6 +1206,7 @@
 					"\"$(SRCROOT)/XNI\"",
 					"\"$(SRCROOT)/Express/build/Release-iphonesimulator\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -1209,7 +1224,7 @@
 		5B4BE28D181D614400E0FEA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (

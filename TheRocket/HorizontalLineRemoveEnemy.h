@@ -12,7 +12,7 @@
 
 #import "Headers.TheRocket.classes.h"
 
-@interface HorizontalLineRemoveEnemy : HorizontalLine<IGetCordinate, ICustomCollider>
+@interface HorizontalLineRemoveEnemy : HorizontalLine<IGetCordinate, ICustomCollider, IMovable>
 
 //@property (nonatomic, retain) Vector2 *position;
 

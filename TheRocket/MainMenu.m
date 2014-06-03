@@ -63,33 +63,29 @@
 	
 	GameState *newState = nil;
 	
-    NSMutableDictionary *levelDict = [[NSMutableDictionary alloc] init];
+    
     
     if (planet.wasReleased) {
 		newState = [[Gameplay alloc] initWithGame:self.game];
     } else if(buy.wasReleased) {
         // PARSE CODE - Example
-        PFQuery *query = [PFQuery queryWithClassName:@"pointBase"];
-        [query whereKey:@"id_devices" equalTo:@"lojsk123"];
+        PFQuery *query = [PFQuery queryWithClassName:@"balls"];
+        [query whereKey:@"device_id" equalTo:@"lojsk"];
         query.limit = 1000;
         [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+            NSMutableArray *levelDict = [[NSMutableArray alloc] init];
             if (!error) {
                 // The find succeeded.
                 NSLog(@"Successfully retrieved %d scores.", objects.count);
                 // Do something with the found objects
                 for (PFObject *object in objects) {
-                    if(![levelDict objectForKey:object[@"id_rocket"]]) {
-                        [levelDict setObject:[[NSMutableArray alloc] initWithObjects:nil] forKey:object[@"id_rocket"]];
-                    }
-                    
                     float posY = [[NSString stringWithFormat:@"%@", object[@"pos_y"]] floatValue];
                     float posX = [[NSString stringWithFormat:@"%@", object[@"pos_x"]] floatValue];
-                    float speed = [[NSString stringWithFormat:@"%@", object[@"speed"]] floatValue];
+                    float distance = [[NSString stringWithFormat:@"%@", object[@"distance"]] floatValue];
                     
-                    StatePoints *point = [[StatePoints alloc] setX:posX Y:posY withTime:speed];
+                    Balls *point = [[Balls alloc] setX:posX andY:posY withDistance:distance];
                     
-                    [[levelDict objectForKey:object[@"id_rocket"]] addObject:point];
-                    
+                    [levelDict addObject:point];
                     
                 }
             } else {

@@ -28,7 +28,7 @@
 - (void) updateWithGameTime:(GameTime *)gameTime {
     // shot
     TouchCollection *touches = [TouchPanel getState];
-	if ([touches count] == 1 && lastShotTime + shotTime < gameTime.totalGameTime) {
+	if ([touches count] == 10 && lastShotTime + shotTime < gameTime.totalGameTime) {
         for(int i=0;i<[bullets count];i++) {
             [scene addItem:[[Bullet alloc] initWithBulletPoint:[bullets objectAtIndex:i] andPlayerPosition:player.position andGame:game]];
         }

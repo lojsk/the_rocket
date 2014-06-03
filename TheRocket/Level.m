@@ -35,12 +35,14 @@
         screenSize = screenBound.size;
         
         player.position.x = screenSize.width;
-        player.position.y = screenSize.height*2 - 200;
+        player.position.y = screenSize.height*2 - 500;
         
-        int startBg = 50;
+        int startBg = 100;
         int atPoint = 1;
         for(int i=0;i<[Constants numberOfBackgrounds];i++) {
-            [bgs addObject:[[Background alloc] initWithSpeed:i%3*40+startBg andLayer:i%3 withPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2 - [Constants backgourndHeight]*atPoint]]];
+            [bgs addObject:[[Background alloc] initWithSpeed:-i%3*40-startBg andLayer:i%3 withPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2 - [Constants backgourndHeight]*atPoint]]];
+            
+            //[bgs addObject:[[Background alloc] initWithSpeed:0 andLayer:i%3 withPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2 - [Constants backgourndHeight]*atPoint]]];
             if(i == 2) {
                 atPoint++;
             }
@@ -57,7 +59,7 @@
         // score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:-[Constants gameSpeed]] andLabel:scoreLabel];
         score = [[Score alloc] initWithVelocity:[Vector2 vectorWithX:0 y:0] andLabel:scoreLabel];
         
-        enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andGame:gameplay.game];
+     //   enemyScene = [[EnemyScene alloc] initWithScene:scene topLimit:[Constants topEnemyLimit] andGame:gameplay.game];
         
         bulletScene = [[BulletScene alloc] initWithRocket:player andGame:theGame];
         
@@ -80,7 +82,7 @@
         
         // BulletLine
         horTopLine = [[HorizontalLineRemoveEnemy alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionPositiveY distance:0] setID:[NSSet setWithObjects:[Bullet class], nil] andPosition:[[Vector2 alloc] initWithX:0 y:0]];
-        horBottomLine = [[HorizontalLineRemoveEnemy alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:screenSize.height*2] setID:[NSSet setWithObjects:[SimpleMonster class], [StateMonster class], nil] andPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2]];
+        horBottomLine = [[HorizontalLineRemoveEnemy alloc] initWithLimit:[AAHalfPlane aaHalfPlaneWithDirection:AxisDirectionNegativeY distance:screenSize.height*2] setID:[NSSet setWithObjects:[SimpleMonster class], [StateMonster class], [LoadMonster class], [FormationMonster class], [KamikazeMonster class], [ZMonster class], [ShotMonster class], [BasicAIMonster class], nil] andPosition:[[Vector2 alloc] initWithX:0 y:screenSize.height*2]];
         // TODO: add all monster in one class because in this way you must listing ALLL!
         ;
         
@@ -105,6 +107,13 @@
         [scene addItem: ((Background*)[bgs objectAtIndex:i])];
     }
     
+    // test - balls
+    NSMutableArray *elements = [[NSMutableArray alloc] initWithArray:[Constants loadCustomLevel]];
+    for(int j=0;j<[elements count];j++) {
+        Balls* ball = [elements objectAtIndex:j];
+        [scene addItem:[[SimpleMonster alloc] initWithX:ball.position.x Y:ball.position.y andVelocityY:0]];
+    } 
+    
     // switch bg
     //[scene addItem:switchBg];
     
@@ -112,7 +121,7 @@
     [scene addItem:player];
         
     // enemy
-    [scene addItem:enemyScene];
+    //[scene addItem:enemyScene];
     
     // bullet
     [scene addItem:bulletScene];
@@ -125,7 +134,7 @@
 	[scene addItem:score];
     
     // top line
-    [scene addItem:horTopLine];
+    //[scene addItem:horTopLine];
     [scene addItem:horBottomLine];
     
     // adding start shield
@@ -160,11 +169,11 @@
             stage.mSwitch += 1;
         }
     } */
-    for (int i=0;i<[bgs count];i++) {
+  /*  for (int i=0;i<[bgs count];i++) {
         if(((Background*)[bgs objectAtIndex:i]).position.y >= screenSize.height*2) {
             ((Background*)[bgs objectAtIndex:i]).position.y -= [Constants backgourndHeight]*2;
         }
-    }
+    } */
     
    
     // just for test mode

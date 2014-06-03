@@ -40,12 +40,12 @@
     */
 }
 
-@synthesize customLevel;
+@synthesize customLevel, lastPosition;
 
 - (void)loadCustomLevel {
-    for (NSString* key in [Constants loadCustomLevel]) {
-        NSMutableArray *value = [[Constants loadCustomLevel] objectForKey:key];
-        [levelArray addObject:[[LoadMonster alloc] initWithArray:value]];
+    NSMutableArray *allObject = [Constants loadCustomLevel];
+    for (NSMutableArray* value in allObject) {
+        [levelArray addObject:[[LoadMonster alloc] initWithArray:value andLastPosition:lastPosition]];
     }
 }
 

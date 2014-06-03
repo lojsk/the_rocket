@@ -14,6 +14,6 @@
     
 }
 
-- (id) initWithArray:(NSMutableArray*)array;
+- (id) initWithArray:(NSMutableArray*)array andLastPosition:(float)theLastPosition;
 
 @end

@@ -71,10 +71,16 @@
 */
     
     bgElSpriteA = [[Sprite alloc] init];
-    bgElSpriteA.texture = [self.game.content load:@"level01a"];
+    bgElSpriteA.texture = [self.game.content load:@"level01aT"];
     bgElSpriteA.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:160 height:640];
     bgElSpriteA.origin = [Vector2 vectorWithX:0 y:0];
     bgElSpriteA.scale = 4;
+    
+    bottomLine = [[Sprite alloc] init];
+    bottomLine.texture = [self.game.content load:@"bottomLine"];
+    bottomLine.sourceRectangle = [Rectangle rectangleWithX:0 y:0 width:160 height:47];
+    bottomLine.origin = [Vector2 vectorWithX:0 y:0];
+    bottomLine.scale = 4;
     
     bgElSpriteB = [[Sprite alloc] init];
     bgElSpriteB.texture = [self.game.content load:@"level01b"];
@@ -221,6 +227,8 @@
         } else if([item isKindOfClass:[SuperLabel class]]) {
             sprite = nil;
             label = ((SuperLabel*)item).label;
+        } else if([item isKindOfClass:[HorizontalLineRemoveEnemy class]]) {
+            sprite = bottomLine;
         }
 		
 		if (itemWithPosition && sprite) {

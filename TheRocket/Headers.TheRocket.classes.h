@@ -22,6 +22,7 @@
 @class Shield;
 @class EnemyScene;
 @class StatePoints;
+@class Balls;
 @class AIArea;
 
 @class SuperLabel;

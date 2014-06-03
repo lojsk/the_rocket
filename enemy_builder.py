@@ -134,6 +134,9 @@ start_position = 200
 speed = 200
 y_os = 50
 
+key_n = 0
+key_r = 0
+
 def button_click(area, last):
     if area[0] < last[0] and area[1] < last[1] and area[0]+area[2] > last[0] and area[1]+area[3] > last[1]:
         return True
@@ -282,9 +285,11 @@ while 1:
     screen.blit(label, (450, 68))
     
     # back button
-    if button_alloc((450, 618, 85, 20)," remove last"):
-        enemies[selected_object].remove(enemies[selected_object][len(enemies[selected_object])-1])
+    if button_alloc((450, 618, 85, 20)," remove last (R)") or (key_r == 1 and keys[K_r] == 0):
+        if enemies[selected_object]:
+            enemies[selected_object].remove(enemies[selected_object][len(enemies[selected_object])-1])
         
+    key_r = keys[K_r]
     # export
     if button_alloc((450, 648, 85, 20)," export"):
         # delete last one
@@ -300,7 +305,21 @@ while 1:
             else:
                 break
         
-        for rocket_num, one in enumerate(enemies):
+        # sort method
+        enemies_sort = []
+        sort_val = []
+        for sort_num, one in enumerate(enemies):
+            sort_val.append([one[0][0][1], sort_num])
+            enemies_sort.append(0)
+
+        sort_val.sort() 
+        
+        for sort_number, one_sort in enumerate(reversed(sort_val)):
+            #enemies_sort[one_sort[1]] = enemies[sort_number]
+            enemies_sort[sort_number] = enemies[one_sort[1]]
+            
+        
+        for rocket_num, one in enumerate(enemies_sort):
             # create new one
             rocket_id = str(time.time())
             pointts = []
@@ -308,19 +327,20 @@ while 1:
             batcher = ParseBatcher()
             save_limit = 0
             all_object = 0
+            
             for count in range(0, len(one)):
                 if count == 0:
-                    firstT = [(50, y_os), ['1', (70, 40, 0)]]
+                    firstT = [(50, 0), ['1', (70, 40, 0)]]
                 else:
                     firstT = one[count-1]
                 v1 = (one[count][0][0] - firstT[0][0])*2 #- one[count-1][0][0]
-                v2 = (one[count][0][1] - firstT[0][1]) #- one[count-1][0][1]
+                v2 = (one[count][0][1] - firstT[0][1])*2 #- one[count-1][0][1]
                 if one[count][1][0] == '0':
                     t = 0
                 else:
                     t = math.sqrt((v1)**2 + (v2)**2)/(float(one[count][1][0])*50)
-                
-                pointt = pointBase(id_line=count+1, id_rocket="Rocket"+str(rocket_num), pos_x=v1, pos_y=v2, speed=t, id_devices=device_ID)
+                    
+                pointt = pointBase(id_line=count+1, id_rocket="Rocket"+str(rocket_num), pos_x=v1, pos_y=v2, speed=t, id_devices=device_ID, priority=rocket_num)
                 pointts.append(pointt)
                 
                 save_limit += 1
@@ -331,9 +351,9 @@ while 1:
                 
                 all_object += 1
                 
-                
             if pointts:
                 batcher.batch_save(pointts)
+            
 
         exported = "sucesfully exported !!!"
         exported_time = time.time() + 3
@@ -344,12 +364,15 @@ while 1:
         label = myfont.render(exported, 1, (200,0,0))
         screen.blit(label, (450, 580))
     
-    # new rocket
-    if button_alloc((450, 100, 85, 20)," new rocket"):
+    
+    
+    if button_alloc((450, 100, 105, 20)," new rocket (N)") or (key_n == 1 and keys[K_n] == 0):
         selected_object += 1
         enemies.append([])
         enemies_name.append(e_count)
         e_count += 1
+        
+    key_n = keys[K_n]
     
     # edit button    
     if button_alloc((550, 618, 85, 20), label_edit):

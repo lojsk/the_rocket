@@ -21,6 +21,7 @@
 #import "Shield.h"
 #import "EnemyScene.h"
 #import "StatePoints.h"
+#import "Balls.h"
 #import "AIArea.h"
 
 #import "SuperLabel.h"

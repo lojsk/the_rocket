@@ -14,13 +14,13 @@
 
 @interface EnemyLevel : NSObject {
     NSMutableArray *levelArray;
-    float lastPosition;
 }
 
 @property (nonatomic, readonly) NSMutableArray *levelArray;
 @property int maxLevel;
 @property float time;
 @property NSMutableArray* customLevel;
+@property float lastPosition;
 
 - (void) loadLevel:(int)level;
 

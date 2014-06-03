@@ -25,6 +25,12 @@
     
     CGSize screenSize;
     
+	BOOL isDown;
+	BOOL wasPressed;
+	BOOL wasReleased;
+	int pressedID;
+    
+    Rectangle *inputArea;
 }
 
 @property (nonatomic, readonly) Rocket *rocket;

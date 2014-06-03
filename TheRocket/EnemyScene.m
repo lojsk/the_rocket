@@ -16,7 +16,7 @@
 	if (self != nil) {
         scene = theScene;
         enemyLevel = [[EnemyLevel alloc] init];
-        currentLevel = 6;
+        currentLevel = 0;
         [enemyLevel loadLevel:currentLevel];
         topLine = -tl;
         
@@ -29,14 +29,16 @@
 
 - (void) updateWithGameTime:(GameTime *)gameTime {    
     // adding enemy to scene
+   /* float lastPos = 0;
     while(true) {
         if([enemyLevel.levelArray count] > 0 && topLine <= ((SimpleMonster*)[enemyLevel.levelArray objectAtIndex:0]).position.y) {
             ShotMonster *item = [[enemyLevel.levelArray objectAtIndex:0] isKindOfClass:[ShotMonster class]] ? [enemyLevel.levelArray    objectAtIndex:0] : nil;
+            lastPos = ((SimpleMonster*)[enemyLevel.levelArray objectAtIndex:0]).position.y;
             if(item) {
                 [item setGame:game];
                 [scene addItem:item];
             } else {
-                ((StateMonster*)[enemyLevel.levelArray objectAtIndex:0]).position.y = 0;
+                ((StateMonster*)[enemyLevel.levelArray objectAtIndex:0]).velocity.y = 0;
                 [scene addItem:[enemyLevel.levelArray objectAtIndex:0]];
             }
             [enemyLevel.levelArray removeObject:[enemyLevel.levelArray objectAtIndex:0]];
@@ -44,8 +46,7 @@
             break;
         }
     }
-    
-    //!!!!!Prestav Limite v svoj razred zarad boljšega delovana!!!! (limit, levelLimit)
+     */
     
     topLine  = [Constants calculateMovment:topLine withV:[Constants gameSpeed] andTime:gameTime.elapsedGameTime];
     
@@ -53,12 +54,12 @@
    // topLine  = [Constants calculateMovment:topLine withV:0 andTime:gameTime.elapsedGameTime];
     
     // load new level if last is empty
-    if([enemyLevel.levelArray count] <= 0) {
+   /* if([enemyLevel.levelArray count] <= 0) {
         currentLevel++;
         if(currentLevel>enemyLevel.maxLevel)
             currentLevel = 6;
         [enemyLevel loadLevel:currentLevel];
-    }
+    } */
 }
 
 

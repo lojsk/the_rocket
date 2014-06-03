@@ -26,6 +26,7 @@
     Sprite *bgElSpriteB;
     Sprite *bgElSpriteC;
     Sprite *bgSwitchElSprite;
+    Sprite *bottomLine;
     
     Sprite *lineSprite;
     Sprite *verticalLineSprite;

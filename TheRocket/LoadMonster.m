@@ -10,10 +10,10 @@
 
 @implementation LoadMonster
 
-- (id) initWithArray:(NSMutableArray*)array
+- (id) initWithArray:(NSMutableArray*)array andLastPosition:(float)theLastPosition
 {
     Vector2 *xy = ((StatePoints*)[array objectAtIndex:array.count-1]).distance;
-	self = [super initWithX:xy.x andY:xy.y];
+	self = [super initWithX:xy.x andY:xy.y+theLastPosition];
 	if (self != nil) {
 		[self addPoints:array];
 	}

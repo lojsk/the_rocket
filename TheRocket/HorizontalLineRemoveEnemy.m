@@ -20,11 +20,12 @@
 	if (self != nil) {
 		limit = theLimit;
         position = thePosition;
+        velocity = [Vector2 vectorWithX:0 y:-200];
         setID = theSet; //[NSSet setWithObjects:[Bullet class], nil];
 	}
 	return self;
 }
 
-@synthesize setID, position;
+@synthesize setID, position, velocity;
 
 @end
